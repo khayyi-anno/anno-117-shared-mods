@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556208001</LineId><Text>牛奶</Text></Text>
+    <Text><LineId>1556208011</LineId><Text>在干燥的草地上饲养本地小型奶牛，早晚各挤一次奶。不可建在沼泽地上。</Text></Text>
+    <Text><LineId>1556208012</LineId><Text>奶牛牧场</Text></Text>
+    <Text><LineId>1556208051</LineId><Text>牛圈</Text></Text>
+  </ModOp>
+
+</ModOps>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556208001</LineId><Text>Leche</Text></Text>
+    <Text><LineId>1556208011</LineId><Text>Cría pequeñas vacas autóctonas en praderas secas y las ordeña mañana y tarde. No se construye en terreno pantanoso.</Text></Text>
+    <Text><LineId>1556208012</LineId><Text>Pasto de vacas</Text></Text>
+    <Text><LineId>1556208051</LineId><Text>Corral de vacas</Text></Text>
+  </ModOp>
+
+</ModOps>

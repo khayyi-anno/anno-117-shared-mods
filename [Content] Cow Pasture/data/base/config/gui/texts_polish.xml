@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556208001</LineId><Text>Mleko</Text></Text>
+    <Text><LineId>1556208011</LineId><Text>Wypasa małe miejscowe krowy na suchej łące i doi je rano i wieczorem. Nie można go budować na mokradłach.</Text></Text>
+    <Text><LineId>1556208012</LineId><Text>Pastwisko krów</Text></Text>
+    <Text><LineId>1556208051</LineId><Text>Zagroda krów</Text></Text>
+  </ModOp>
+
+</ModOps>

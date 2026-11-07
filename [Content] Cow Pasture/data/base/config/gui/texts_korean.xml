@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556208001</LineId><Text>우유</Text></Text>
+    <Text><LineId>1556208011</LineId><Text>마른 초원에서 작은 토종 소를 기르며 아침저녁으로 젖을 짠다. 습지에는 지을 수 없다.</Text></Text>
+    <Text><LineId>1556208012</LineId><Text>소 목초지</Text></Text>
+    <Text><LineId>1556208051</LineId><Text>소 우리</Text></Text>
+  </ModOp>
+
+</ModOps>

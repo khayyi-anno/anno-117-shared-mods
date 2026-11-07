@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556208001</LineId><Text>Latte</Text></Text>
+    <Text><LineId>1556208011</LineId><Text>Alleva piccole vacche locali su prati asciutti e le munge mattina e sera. Non si costruisce su terreno paludoso.</Text></Text>
+    <Text><LineId>1556208012</LineId><Text>Pascolo di vacche</Text></Text>
+    <Text><LineId>1556208051</LineId><Text>Recinto delle vacche</Text></Text>
+  </ModOp>
+
+</ModOps>

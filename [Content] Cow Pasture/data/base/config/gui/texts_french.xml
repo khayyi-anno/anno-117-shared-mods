@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556208001</LineId><Text>Lait</Text></Text>
+    <Text><LineId>1556208011</LineId><Text>Élève de petites vaches indigènes sur prairie sèche et les trait matin et soir. Ne se construit pas sur les marais.</Text></Text>
+    <Text><LineId>1556208012</LineId><Text>Pâturage de vaches</Text></Text>
+    <Text><LineId>1556208051</LineId><Text>Enclos à vaches</Text></Text>
+  </ModOp>
+
+</ModOps>

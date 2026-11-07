@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556208001</LineId><Text>Молоко</Text></Text>
+    <Text><LineId>1556208011</LineId><Text>Держит мелких местных коров на сухом лугу и доит их утром и вечером. На болотах не строится.</Text></Text>
+    <Text><LineId>1556208012</LineId><Text>Коровье пастбище</Text></Text>
+    <Text><LineId>1556208051</LineId><Text>Коровий загон</Text></Text>
+  </ModOp>
+
+</ModOps>

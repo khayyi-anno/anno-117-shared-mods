@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 1556208000 Milk, 010 Cow Pasture, 040 unlock (Aldermen/1), 050 Cow Pen module, 060 cattle -->
+<ModOps>
+
+  <ModOp Type="addNextSibling" GUID="2070">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1556208000</GUID>
+          <Name>Good Milk</Name>
+          <IconFilename>data/khayi/ui/rl/raw_milk.png</IconFilename>
+        </Standard>
+        <Text><OasisId>1556208001</OasisId></Text>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>-6904287318739488511</ProductCategory>
+          <BasePrice>4</BasePrice>
+          <AssociatedRegion>Celtic</AssociatedRegion>
+          <ProductionRegions><Item><RegionType>Celtic</RegionType></Item></ProductionRegions>
+          <TransportGoodsType>Raw</TransportGoodsType>
+        </Product>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID='8497' Path="/Values/ProductList/List/Item[Product='2137']"><Item><Product>1556208000</Product></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='28750' Path="/Values/ProductList/List/Item[Product='2137']"><Item><Product>1556208000</Product></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='29330' Path="/Values/ProductList/List/Item[Product='2132']"><Item><Product>1556208000</Product></Item></ModOp>
+  <ModOp Type="add" GUID='3409' Path="/Values/ProductList/List"><Item><Product>1556208000</Product></Item></ModOp>
+  <ModOp Type="add" GUID='29304' Path="/Values/ProductList/List"><Item><Product>1556208000</Product></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='37674' Path="/Values/ProductList/List/Item[Product='2132']"><Item><Product>1556208000</Product></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='91326' Path="/Values/AssetPool/AssetList/Item[Asset='2077']"><Item><Asset>1556208000</Asset></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='130659' Path="/Values/AssetPool/AssetList/Item[Asset='2077']"><Item><Asset>1556208000</Asset></Item></ModOp>
+
+  <ModOp Type="addNextSibling" GUID="3174">
+    <Asset>
+      <Template>Production Field</Template>
+      <Values>
+        <Standard>
+          <GUID>1556208010</GUID>
+          <Name>Production Pasture Celtic Cows</Name>
+          <IconFilename>data/khayi/ui/rl/cow_pasture.png</IconFilename>
+          <InfoDescription>1556208011</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>-6917119679186575445</BuildingCategoryName>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <AssociatedRegions>Celtic</AssociatedRegions>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item><Ingredient>1010017</Ingredient></Item>
+            <Item><Ingredient>2174</Ingredient><Amount>2</Amount></Item>
+            <Item><Ingredient>2169</Ingredient><Amount>1</Amount></Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations><Item><Filename>data/khayi/graphics/buildings/cow_pasture/cow_pasture.cfg</Filename></Item></Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <ParticipantMessageArcheType>27085</ParticipantMessageArcheType>
+          <Colors><WeakSelectionColorType>NoColor</WeakSelectionColorType></Colors>
+        </Selection>
+        <Text><OasisId>1556208012</OasisId></Text>
+        <Constructable />
+        <Locked />
+        <SoundEmitter><OBJ_Active><Item><Sound>36573</Sound></Item></OBJ_Active></SoundEmitter>
+        <FeedbackController />
+        <Infolayer />
+        <Factory7 />
+        <FactoryBase>
+          <FactoryOutputs>
+            <Item><Product>1556208000</Product><Amount>1</Amount><StorageAmount>6</StorageAmount></Item>
+          </FactoryOutputs>
+          <IsMainFactory>1</IsMainFactory>
+          <MaxTransporterRange>30</MaxTransporterRange>
+        </FactoryBase>
+        <LogisticNode />
+        <ModuleOwner>
+          <ModuleLimits><Main><Limit>3</Limit></Main></ModuleLimits>
+          <ConstructionOptions><Item><ModuleGUID>1556208050</ModuleGUID></Item></ConstructionOptions>
+          <AdditionalModule>77955</AdditionalModule>
+          <ModuleBuildRadius>8</ModuleBuildRadius>
+          <FarmType>AnimalFarm</FarmType>
+        </ModuleOwner>
+        <AmbientMoodProvider>
+          <Murmur>Farms</Murmur>
+          <DynamicEnvironmentType>BuildingIndustry</DynamicEnvironmentType>
+        </AmbientMoodProvider>
+        <Maintenance>
+          <Maintenances>
+            <Item><Product>1010017</Product><Amount>4</Amount></Item>
+            <Item><Product>2192</Product><Amount>3</Amount></Item>
+          </Maintenances>
+          <ConsumerPriority>5</ConsumerPriority>
+        </Maintenance>
+        <Health>
+          <BaseHealth>400</BaseHealth>
+          <SelfHealPerHealTick>1</SelfHealPerHealTick>
+          <PassiveRuinRepairTime>900000</PassiveRuinRepairTime>
+          <DestructionWarScore>25</DestructionWarScore>
+        </Health>
+        <Pausable />
+        <AqueductConsumer />
+        <IncidentInfectable><DestructionScore>100</DestructionScore></IncidentInfectable>
+        <Buffable />
+        <AttributeProvider><Population>1500</Population></AttributeProvider>
+        <EffectSource />
+        <Threatable />
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID='64413' Path="/Values/AssetPool/AssetList/Item[Asset='5973']"><Item><Asset>1556208010</Asset></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='38370' Path="/Values/AssetPool/AssetList/Item[Asset='5973']"><Item><Asset>1556208010</Asset></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='107521' Path="/Values/AssetPool/AssetList/Item[Asset='5973']"><Item><Asset>1556208010</Asset></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='77965' Path="/Values/AssetPool/AssetList/Item[Asset='5973']"><Item><Asset>1556208010</Asset></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='28185' Path="/Values/FeedbackBuildingGroup/Buildings/Item[Building='5973']"><Item><Building>1556208010</Building></Item></ModOp>
+
+  <ModOp Type="addNextSibling" GUID="8168">
+    <Asset>
+      <Template>ModuleField</Template>
+      <Values>
+        <Standard>
+          <GUID>1556208050</GUID>
+          <Name>Module Pasture Celtic Cows</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/infrastructure/icon_3d_animal_compound.png</IconFilename>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>-6916742540823900318</BuildingCategoryName>
+          <AssociatedRegions>Celtic</AssociatedRegions>
+          <VariationControl>ByPlayer</VariationControl>
+        </Building>
+        <Blocking>
+          <GroundPolygonAsset>87520</GroundPolygonAsset>
+          <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+        </Blocking>
+        <Cost>
+          <Costs>
+            <Item><Ingredient>1010017</Ingredient></Item>
+            <Item><Ingredient>2174</Ingredient><Amount>1</Amount></Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item><Filename>data/khayi/graphics/buildings/cow_pasture/cow_pasture_module_01.cfg</Filename></Item>
+            <Item><Filename>data/khayi/graphics/buildings/cow_pasture/cow_pasture_module_02.cfg</Filename></Item>
+            <Item><Filename>data/khayi/graphics/buildings/cow_pasture/cow_pasture_module_03.cfg</Filename></Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection />
+        <Text><OasisId>1556208051</OasisId></Text>
+        <Constructable />
+        <Locked />
+        <SoundEmitter><OBJ_Active><Item><Sound>36573</Sound></Item></OBJ_Active></SoundEmitter>
+        <FeedbackController />
+        <BuildingModule />
+        <AmbientMoodProvider>
+          <Murmur>Farms</Murmur>
+          <DynamicEnvironmentType>Meadow</DynamicEnvironmentType>
+        </AmbientMoodProvider>
+        <Health />
+        <Buffable />
+        <Infolayer />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="37744">
+    <Asset>
+      <Template>TriggerIntermediateLevel</Template>
+      <Values>
+        <Standard>
+          <GUID>1556208040</GUID>
+          <Name>Trigger Milk Unlock</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>1501</Context>
+                <CounterAmount>1</CounterAmount>
+              </ConditionPlayerCounter>
+              <ConditionLocationProps />
+              <ConditionCounterProps />
+              <ConditionPropsComparable />
+              <ConditionPropsExaminableObjects />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item><Asset>1556208000</Asset></Item>
+                      <Item><Asset>1556208010</Asset></Item>
+                      <Item><Asset>1556208050</Asset></Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup>
+          <AutoRegisterTrigger>1</AutoRegisterTrigger>
+          <AutoSelfUnlock>1</AutoSelfUnlock>
+          <UsedByFirstParties>1</UsedByFirstParties>
+          <UsedBySecondParties>1</UsedBySecondParties>
+          <UsedByThirdParties>0</UsedByThirdParties>
+        </TriggerSetup>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="add" GUID='80862' Path="/Values/AssetPool/AssetList">
+    <Item><Asset>1556208010</Asset></Item>
+  </ModOp>
+
+  <!-- Cheese on Milk lives in [Gameplay] Cheese from Milk (option rl_cheesemilk) -->
+
+  <!-- 1556208060 cows for the pasture: the vanilla cow wearing the old cattle's two coats (the old cattle model itself is not drawn by the game) -->
+  <ModOp Type="addNextSibling" GUID="29094">
+    <Asset>
+      <Template>LandAnimal</Template>
+      <Values>
+        <Standard>
+          <GUID>1556208060</GUID>
+          <Name>Cow Pasture Cattle</Name>
+        </Standard>
+        <Object>
+          <Variations>
+            <Item><Filename>data/khayi/graphics/buildings/cow_pasture/props/cow_coat_01.cfg</Filename></Item>
+            <Item><Filename>data/khayi/graphics/buildings/cow_pasture/props/cow_coat_02.cfg</Filename></Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Movement>
+          <Acceleration>1</Acceleration>
+          <TurnCornerRadius>0.15</TurnCornerRadius>
+          <TurnDecelerationFactor>0</TurnDecelerationFactor>
+          <RotationSpeed>45</RotationSpeed>
+          <SpotTurnRotationSpeed>25</SpotTurnRotationSpeed>
+        </Movement>
+        <DayNightReaction />
+        <MovementFeedback />
+        <SoundEmitter><OBJ_Active><Item><Sound>78001</Sound></Item></OBJ_Active></SoundEmitter>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- BEGIN khayi-pools: generated by .CLAUDE/tools/romanlife/pool_register.py -->
+  <ModOp Type="add" GUID='50224' Path="/Values/AssetPool/AssetList"><Item><Asset>1556208010</Asset></Item></ModOp>
+  <!-- END khayi-pools -->
+</ModOps>

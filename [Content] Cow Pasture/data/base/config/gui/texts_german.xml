@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556208001</LineId><Text>Milch</Text></Text>
+    <Text><LineId>1556208011</LineId><Text>Hält kleine einheimische Kühe auf trockener Weide und melkt sie morgens und abends. Nicht auf Sumpfland baubar.</Text></Text>
+    <Text><LineId>1556208012</LineId><Text>Kuhweide</Text></Text>
+    <Text><LineId>1556208051</LineId><Text>Kuhgehege</Text></Text>
+  </ModOp>
+
+</ModOps>

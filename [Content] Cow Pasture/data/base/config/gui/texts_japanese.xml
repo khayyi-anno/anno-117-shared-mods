@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556208001</LineId><Text>牛乳</Text></Text>
+    <Text><LineId>1556208011</LineId><Text>乾いた草地で小柄な在来種の牛を飼い、朝夕に乳を搾る。湿地には建設できない。</Text></Text>
+    <Text><LineId>1556208012</LineId><Text>乳牛の牧草地</Text></Text>
+    <Text><LineId>1556208051</LineId><Text>牛の囲い</Text></Text>
+  </ModOp>
+
+</ModOps>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556208001</LineId><Text>Milk</Text></Text>
+    <Text><LineId>1556208011</LineId><Text>Keeps small native cows on dry meadow and milks them morning and evening. Not built on marshland.</Text></Text>
+    <Text><LineId>1556208012</LineId><Text>Cow Pasture</Text></Text>
+    <Text><LineId>1556208051</LineId><Text>Cow Pen</Text></Text>
+  </ModOp>
+
+</ModOps>

@@ -1,0 +1,36 @@
+{
+  "Version": "1.0",
+  "Anno": 8,
+  "ModID": "rl-cheesemilk-khayi",
+  "Difficulty": "unchanged",
+  "GameSetup": {
+    "RequiresNewGame": false,
+    "SafeToRemove": true,
+    "Multiplayer": true,
+    "Campaign": true
+  },
+  "Dependencies": {
+    "Require": [
+      "rl-cowpasture-khayi"
+    ],
+    "Optional": [],
+    "LoadAfter": [
+      "rl-cowpasture-khayi"
+    ],
+    "Deprecate": []
+  },
+  "Category": {
+    "English": "Gameplay"
+  },
+  "ModName": {
+    "English": "Cheese from Milk"
+  },
+  "Description": {
+    "English": "Cheese is made from Cow Pasture Milk instead of Aurochs."
+  },
+  "KnownIssues": [],
+  "DLCDependencies": [],
+  "CreatorName": "Khayi",
+  "CreatorContact": "",
+  "Image": null
+}

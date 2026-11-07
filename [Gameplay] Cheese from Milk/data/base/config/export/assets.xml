@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+  <!-- switch: rl_cheesemilk in the Albion collection modinfo Options -->
+  <Group>
+  <!-- vanilla Cheese runs on Milk instead of Aurochs; Milk joins the Roman Cheese unlock pool -->
+  <ModOp Type="Replace" GUID="6586" Path="/Values/FactoryBase/FactoryInputs/Item[Product='2105']/Product">
+    <Product>1556208000</Product>
+  </ModOp>
+  <ModOp Type="Replace" GUID="6587" Path="/Values/ProductionChain/Tier1/Item[Building='5847']/Building">
+    <Building>1556208010</Building>
+  </ModOp>
+  <ModOp Type="Replace" GUID="8894" Path="/Values/ProductionChain/Tier1/Item[Building='5847']/Building">
+    <Building>1556208010</Building>
+  </ModOp>
+  <ModOp Type="add" GUID="8968" Path="/Values/AssetPool/AssetList">
+    <Item><Asset>1556208000</Asset></Item>
+  </ModOp>
+  </Group>
+</ModOps>
