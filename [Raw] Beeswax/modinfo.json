@@ -1,0 +1,32 @@
+{
+  "Version": "0.1",
+  "Anno": 8,
+  "ModID": "rl-raw-beeswax-khayi",
+  "Difficulty": "unchanged",
+  "GameSetup": {
+    "RequiresNewGame": false,
+    "SafeToRemove": true,
+    "Multiplayer": true,
+    "Campaign": true
+  },
+  "Dependencies": {
+    "Require": [],
+    "Optional": [],
+    "LoadAfter": [],
+    "Deprecate": []
+  },
+  "Category": {
+    "English": "Content"
+  },
+  "ModName": {
+    "English": "Beeswax"
+  },
+  "Description": {
+    "English": "Adds Beeswax as an extra output of the Wax Press. Used by Cold Cream and Encaustic Portraits."
+  },
+  "KnownIssues": [],
+  "DLCDependencies": [],
+  "CreatorName": "Khayi",
+  "CreatorContact": "",
+  "Image": null
+}

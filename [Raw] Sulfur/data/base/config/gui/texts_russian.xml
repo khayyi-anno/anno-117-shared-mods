@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556064001</LineId><Text>Сера</Text></Text>
+    <Text><LineId>1556064011</LineId><Text>Добывает серу из вулканических трещин. Пахнет тухлыми яйцами, а платит жёлтым.</Text></Text>
+    <Text><LineId>1556064012</LineId><Text>Сольфатарная яма</Text></Text>
+    <Text><LineId>1556064071</LineId><Text>Залежи серы</Text></Text>
+    <Text><LineId>1556064901</LineId><Text>Фумоз с Флегрейских полей, Серный Нос</Text></Text>
+    <Text><LineId>1556064902</LineId><Text>Он идёт за своим носом прямо к сере. За ним самим не идёт никто и никуда.</Text></Text>
+  </ModOp>
+
+</ModOps>

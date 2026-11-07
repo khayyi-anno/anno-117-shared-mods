@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts" Condition="!#applecider-khayi">
+    <Text><LineId>1556023051</LineId><Text>사과</Text></Text>
+    <Text><LineId>1556023053</LineId><Text>사과나무</Text></Text>
+    <Text><LineId>1556023055</LineId><Text>사과주를 만들기 위해 사과나무를 심으세요</Text></Text>
+    <Text><LineId>1556023056</LineId><Text>과수원</Text></Text>
+  </ModOp>
+</ModOps>

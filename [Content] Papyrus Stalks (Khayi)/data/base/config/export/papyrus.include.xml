@@ -1,0 +1,128 @@
+<ModOps>
+
+  <!--  Registry (own GUIDs)
+        1556231000  Product  Papyrus Stalks (replaces Reeds 2103 in Aegyptus)
+        1556231001  Text     Papyrus Stalks name
+        1556231011  Text     Papyrus Gatherer name (vanilla Reed Gatherer 151997)
+        1556231012  Text     Papyrus Gatherer description
+        1556231013  Text     Papyrus Patch name (vanilla Reed Patch 152002)
+  -->
+
+  <ModOp Type="addNextSibling" GUID="2103">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1556231000</GUID>
+          <Name>Good Egyptian Papyrus Stalks</Name>
+          <IconFilename>data/base/ui/icons/papyrus_stalks.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1556231001</OasisId>
+        </Text>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>-6900221455007057044</ProductCategory>
+          <BasePrice>2</BasePrice>
+          <AssociatedRegion>Egyptian</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Egyptian</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Reeds stay an Albion good only -->
+  <ModOp Type="Replace" GUID="2103" Path="/Values/Product/AssociatedRegion">
+    <AssociatedRegion>Celtic</AssociatedRegion>
+  </ModOp>
+  <ModOp Type="remove" GUID="2103" Path="/Values/Product/ProductionRegions/Item[RegionType='Egyptian']" />
+
+
+  <!-- Global lists: added next to Reeds -->
+  <ModOp Type="addNextSibling" GUID="28750" Path="/Values/ProductList/List/Item[Product='2103']">
+    <Item><Product>1556231000</Product></Item>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="37673" Path="/Values/ProductList/List/Item[Product='2103']">
+    <Item><Product>1556231000</Product></Item>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="149304" Path="/Values/AssetPool/AssetList/Item[Asset='2103']">
+    <Item><Asset>1556231000</Asset></Item>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="91326" Path="/Values/AssetPool/AssetList/Item[Asset='2103']">
+    <Item><Asset>1556231000</Asset></Item>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="130659" Path="/Values/AssetPool/AssetList/Item[Asset='2103']">
+    <Item><Asset>1556231000</Asset></Item>
+  </ModOp>
+
+  <!-- Aegyptus lists, mud brick unlock pool, Scribing Set chain pools: Reeds swapped for Papyrus Stalks -->
+  <ModOp Type="Replace" GUID="152695" Path="/Values/ProductList/List/Item[Product='2103']/Product">
+    <Product>1556231000</Product>
+  </ModOp>
+  <ModOp Type="Replace" GUID="152699" Path="/Values/ProductList/List/Item[Product='2103']/Product">
+    <Product>1556231000</Product>
+  </ModOp>
+  <ModOp Type="Replace" GUID="152970" Path="/Values/ProductStorageList/ProductList/Item[Product='2103']/Product">
+    <Product>1556231000</Product>
+  </ModOp>
+  <ModOp Type="Replace" GUID="152603" Path="/Values/AssetPool/AssetList/Item[Asset='2103']/Asset">
+    <Asset>1556231000</Asset>
+  </ModOp>
+  <ModOp Type="Replace" GUID="153182" Path="/Values/AssetPool/AssetList/Item[Asset='2103']/Asset">
+    <Asset>1556231000</Asset>
+  </ModOp>
+  <ModOp Type="Replace" GUID="157194" Path="/Values/AssetPool/AssetList/Item[Asset='2103']/Asset">
+    <Asset>1556231000</Asset>
+  </ModOp>
+  <ModOp Type="Replace" GUID="157214" Path="/Values/AssetPool/AssetList/Item[Asset='2103']/Asset">
+    <Asset>1556231000</Asset>
+  </ModOp>
+
+  <!-- Gatherer output, Mud Stacker and Papyrus Maker inputs -->
+  <ModOp Type="Replace" GUID="151997" Path="/Values/FactoryBase/FactoryOutputs/Item[Product='2103']/Product">
+    <Product>1556231000</Product>
+  </ModOp>
+  <ModOp Type="Replace" GUID="152788" Path="/Values/FactoryBase/FactoryInputs/Item[Product='2103']/Product">
+    <Product>1556231000</Product>
+  </ModOp>
+  <ModOp Type="Replace" GUID="152371" Path="/Values/FactoryBase/FactoryInputs/Item[Product='2103']/Product">
+    <Product>1556231000</Product>
+  </ModOp>
+
+  <!-- Nile boats (Felucca, Dahabiya, Aegyptus quest ships) cost Papyrus Stalks -->
+  <ModOp Type="Replace" GUID="154038" Path="/Values/Cost/Costs/Item[Ingredient='2103']/Ingredient">
+    <Ingredient>1556231000</Ingredient>
+  </ModOp>
+  <ModOp Type="Replace" GUID="157051" Path="/Values/Cost/Costs/Item[Ingredient='2103']/Ingredient">
+    <Ingredient>1556231000</Ingredient>
+  </ModOp>
+  <ModOp Type="Replace" GUID="184948" Path="/Values/Cost/Costs/Item[Ingredient='2103']/Ingredient">
+    <Ingredient>1556231000</Ingredient>
+  </ModOp>
+  <ModOp Type="Replace" GUID="184949" Path="/Values/Cost/Costs/Item[Ingredient='2103']/Ingredient">
+    <Ingredient>1556231000</Ingredient>
+  </ModOp>
+  <ModOp Type="Replace" GUID="184950" Path="/Values/Cost/Costs/Item[Ingredient='2103']/Ingredient">
+    <Ingredient>1556231000</Ingredient>
+  </ModOp>
+
+  <!-- Names and icon of the gatherer and its field -->
+  <ModOp Type="Replace" GUID="151997" Path="/Values/Standard/IconFilename">
+    <IconFilename>data/base/ui/icons/papyrus_stalks.png</IconFilename>
+  </ModOp>
+  <ModOp Type="Replace" GUID="151997" Path="/Values/Standard/InfoDescription">
+    <InfoDescription>1556231012</InfoDescription>
+  </ModOp>
+  <ModOp Type="Replace" GUID="151997" Path="/Values/Text/OasisId">
+    <OasisId>1556231011</OasisId>
+  </ModOp>
+  <ModOp Type="Replace" GUID="152002" Path="/Values/Text/OasisId">
+    <OasisId>1556231013</OasisId>
+  </ModOp>
+
+</ModOps>

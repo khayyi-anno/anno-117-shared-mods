@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--     Galena Ore good (own GUID, extracted from Lead, Lamps and Silverware by Kydiaz)
+     1780117000  Product  Galena Ore (Albion/Celtic only, mountain slot; raw)
+     Vanilla Gold Ore 31697 opened to Celtic (merge AssociatedRegion, add ProductionRegion), needed for the mines' gold byproduct.
+     Silver is NOT touched here (that belongs to the Cupellation Furnace chain, not the mine). -->
+<ModOps>
+
+  <Asset>
+    <Template>Product</Template>
+    <Values>
+      <Standard>
+        <GUID>1780117000</GUID>
+        <Name>Good Lead Ore</Name>
+        <IconFilename>data/shared-galena-mine/ui/icon_galenaoreb.png</IconFilename>
+      </Standard>
+      <Text>
+        <OasisId>1780117010</OasisId>
+      </Text>
+      <Locked />
+      <Product>
+        <StorageLevel>Building</StorageLevel>
+        <ProductCategory>-6904287318739488511</ProductCategory>
+        <BasePrice>5</BasePrice>
+        <AssociatedRegion>Roman;Celtic</AssociatedRegion>
+        <ProductionRegions><Item><RegionType>Celtic</RegionType></Item></ProductionRegions>
+      </Product>
+    </Values>
+  </Asset>
+
+  <!-- Gold Ore (vanilla 31697) is Roman/Egyptian-only fertility mining. The lead mines yield it as a rare
+       byproduct in Albion (Celtic), so it must be opened to Celtic the same way Silver was opened to Roman. -->
+  <ModOp Type="merge" GUID="31697" Path="/Values/Product">
+    <AssociatedRegion>Roman;Egyptian;Celtic</AssociatedRegion>
+  </ModOp>
+
+  <ModOp Type="add" GUID="31697" Path="/Values/Product/ProductionRegions">
+    <Item><RegionType>Celtic</RegionType></Item>
+  </ModOp>
+
+  <!-- Register Galena Ore in the Meta/Roman/Celtic product lists -->
+  <ModOp Type="add" GUID="28750" Path="/Values/ProductList/List">
+    <Item><Product>1780117000</Product></Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="3409" Path="/Values/ProductList/List">
+    <Item><Product>1780117000</Product></Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="8497" Path="/Values/ProductList/List">
+    <Item><Product>1780117000</Product></Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="37672" Path="/Values/ProductList/List">
+    <Item><Product>1780117000</Product></Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="28754" Path="/Values/ProductList/List">
+    <Item><Product>1780117000</Product></Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="29328" Path="/Values/ProductList/List">
+    <Item><Product>1780117000</Product></Item>
+  </ModOp>
+  <!-- Buy Goods / Sell Goods trade pools -->
+  <ModOp Type="add" GUID="91326" Path="/Values/AssetPool/AssetList">
+    <Item><Asset>1780117000</Asset></Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="130659" Path="/Values/AssetPool/AssetList">
+    <Item><Asset>1780117000</Asset></Item>
+  </ModOp>
+
+</ModOps>

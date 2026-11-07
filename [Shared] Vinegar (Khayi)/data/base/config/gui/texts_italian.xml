@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts" Condition="!#poscaoxymel-khayi">
+    <Text><LineId>1556008101</LineId><Text>Aceto</Text></Text>
+    <Text><LineId>1556008103</LineId><Text>Trasforma il vino in aceto acido.</Text></Text>
+    <Text><LineId>1556008104</LineId><Text>Acetaria</Text></Text>
+    <Text><LineId>1556008301</LineId><Text>Acetaria (Syrah)</Text></Text>
+    <Text><LineId>1556008302</LineId><Text>Tegole scure per un vino che comunque è già andato a male.</Text></Text>
+  </ModOp>
+</ModOps>

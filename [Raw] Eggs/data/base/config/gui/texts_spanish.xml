@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556045001</LineId><Text>Huevos</Text></Text>
+    <Text><LineId>1556045011</LineId><Text>Cría gallinas ponedoras por sus huevos. Cuando una gallina deja de poner, acaba en la olla.</Text></Text>
+  </ModOp>
+
+</ModOps>

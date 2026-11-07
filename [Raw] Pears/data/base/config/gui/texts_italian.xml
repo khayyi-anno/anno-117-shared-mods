@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556054001</LineId><Text>Pere</Text></Text>
+    <Text><LineId>1556054011</LineId><Text>Coltiva pere per patine e conserve, e da mangiare direttamente dall'albero.</Text></Text>
+    <Text><LineId>1556054012</LineId><Text>Frutteto di peri</Text></Text>
+    <Text><LineId>1556054051</LineId><Text>Filare di peri</Text></Text>
+    <Text><LineId>1556054301</LineId><Text>Frutteto di peri (Syrah)</Text></Text>
+    <Text><LineId>1556054302</LineId><Text>Tegole scure su pere che maturano quando pare a loro.</Text></Text>
+  </ModOp>
+
+</ModOps>

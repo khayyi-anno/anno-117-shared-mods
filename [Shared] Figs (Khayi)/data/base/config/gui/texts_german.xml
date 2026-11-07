@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts" Condition="!#driedfigs-khayi">
+    <Text><LineId>1556006051</LineId><Text>Feigen</Text></Text>
+    <Text><LineId>1556006053</LineId><Text>Feigenbäume</Text></Text>
+    <Text><LineId>1556006055</LineId><Text>Erbringt Feigen. Kann auf jedem Boden in Latium angebaut werden – keine besonderen Bodenanforderungen.</Text></Text>
+    <Text><LineId>1556006056</LineId><Text>Feigenhain</Text></Text>
+    <Text><LineId>1556006311</LineId><Text>Feigenhain (Syrah)</Text></Text>
+    <Text><LineId>1556006312</LineId><Text>Spaliere in der Farbe einer überreifen Feige.</Text></Text>
+  </ModOp>
+</ModOps>

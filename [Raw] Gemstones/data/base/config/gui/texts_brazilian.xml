@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556047001</LineId><Text>Pedras preciosas</Text></Text>
+    <Text><LineId>1556047011</LineId><Text>Extrai pedras preciosas dos minerais brutos. Quase toda pedra é só pedra; o resto é fortuna.</Text></Text>
+    <Text><LineId>1556047012</LineId><Text>Extrator de minerais</Text></Text>
+    <Text><LineId>1556047301</LineId><Text>Extrator de minerais (Syrah)</Text></Text>
+    <Text><LineId>1556047302</LineId><Text>Telhas escuras sobre um poço cheio de pedras que cintilam.</Text></Text>
+  </ModOp>
+
+</ModOps>

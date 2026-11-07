@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts" Condition="!#driedfigs-khayi">
+    <Text><LineId>1556006051</LineId><Text>Figos</Text></Text>
+    <Text><LineId>1556006053</LineId><Text>Figueiras</Text></Text>
+    <Text><LineId>1556006055</LineId><Text>Produz figos. Pode ser construída em qualquer terreno do Lácio — não há exigências quanto ao tipo de solo.</Text></Text>
+    <Text><LineId>1556006056</LineId><Text>Pomar de figueiras</Text></Text>
+    <Text><LineId>1556006311</LineId><Text>Pomar de figueiras (Syrah)</Text></Text>
+    <Text><LineId>1556006312</LineId><Text>Treliças da cor de um figo maduro demais.</Text></Text>
+  </ModOp>
+</ModOps>

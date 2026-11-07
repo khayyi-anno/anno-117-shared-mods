@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556065001</LineId><Text>채소</Text></Text>
+    <Text><LineId>1556065011</LineId><Text>가지런한 이랑에서 채소를 기른다. 꽃대가 올라온 포기에서 받은 씨앗은 덤이다.</Text></Text>
+    <Text><LineId>1556065012</LineId><Text>텃밭</Text></Text>
+    <Text><LineId>1556065051</LineId><Text>텃밭 이랑</Text></Text>
+  </ModOp>
+
+</ModOps>

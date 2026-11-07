@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556053001</LineId><Text>クジャク</Text></Text>
+    <Text><LineId>1556053011</LineId><Text>クジャクを育てる。ヴィラで飼える鳥のうち、もっともやかましく、もっとも誇り高い。</Text></Text>
+    <Text><LineId>1556053012</LineId><Text>クジャク園</Text></Text>
+    <Text><LineId>1556053051</LineId><Text>クジャクの囲い</Text></Text>
+    <Text><LineId>1556053301</LineId><Text>クジャク園（シラー）</Text></Text>
+    <Text><LineId>1556053302</LineId><Text>屋根は控えめな黒。見せびらかすのは孔雀の仕事。</Text></Text>
+  </ModOp>
+
+</ModOps>

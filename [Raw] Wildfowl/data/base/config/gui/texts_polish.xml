@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556066001</LineId><Text>Dzikie ptactwo</Text></Text>
+    <Text><LineId>1556066011</LineId><Text>Produces Wildfowl.</Text></Text>
+    <Text><LineId>1556066012</LineId><Text>Ptasznik bagienny</Text></Text>
+  </ModOp>
+
+</ModOps>

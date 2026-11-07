@@ -1,0 +1,10 @@
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556231001</LineId><Text>Papyrus Stalks</Text></Text>
+    <Text><LineId>1556231011</LineId><Text>Papyrus Gatherer</Text></Text>
+    <Text><LineId>1556231012</LineId><Text>Harvests Papyrus Stalks</Text></Text>
+    <Text><LineId>1556231013</LineId><Text>Papyrus Patch</Text></Text>
+  </ModOp>
+
+</ModOps>

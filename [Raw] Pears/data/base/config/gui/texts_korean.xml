@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556054001</LineId><Text>배</Text></Text>
+    <Text><LineId>1556054011</LineId><Text>파티나와 저장 식품에 쓸 배를 기르고, 나무에서 바로 따 먹기도 한다.</Text></Text>
+    <Text><LineId>1556054012</LineId><Text>배 과수원</Text></Text>
+    <Text><LineId>1556054051</LineId><Text>배나무</Text></Text>
+    <Text><LineId>1556054301</LineId><Text>배 과수원 (시라)</Text></Text>
+    <Text><LineId>1556054302</LineId><Text>제멋대로 익는 배 위로 어두운 기와.</Text></Text>
+  </ModOp>
+
+</ModOps>

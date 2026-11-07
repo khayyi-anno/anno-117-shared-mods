@@ -1,0 +1,10 @@
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556231001</LineId><Text>파피루스 줄기</Text></Text>
+    <Text><LineId>1556231011</LineId><Text>파피루스 채집장</Text></Text>
+    <Text><LineId>1556231012</LineId><Text>파피루스 줄기를 수확합니다.</Text></Text>
+    <Text><LineId>1556231013</LineId><Text>파피루스 재배지</Text></Text>
+  </ModOp>
+
+</ModOps>

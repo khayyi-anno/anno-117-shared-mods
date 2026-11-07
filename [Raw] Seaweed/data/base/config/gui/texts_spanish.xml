@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556061001</LineId><Text>Algas</Text></Text>
+    <Text><LineId>1556061011</LineId><Text>Rastrilla algas en la orilla después de cada marea. El mar las echa; el recolector las recoge.</Text></Text>
+    <Text><LineId>1556061012</LineId><Text>Recolectoría de algas</Text></Text>
+  </ModOp>
+
+</ModOps>

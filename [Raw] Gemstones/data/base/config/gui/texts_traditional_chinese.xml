@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556047001</LineId><Text>寶石</Text></Text>
+    <Text><LineId>1556047011</LineId><Text>從原礦中切出寶石。大部分石頭只是石頭，剩下的才是財富。</Text></Text>
+    <Text><LineId>1556047012</LineId><Text>礦物提取廠</Text></Text>
+    <Text><LineId>1556047301</LineId><Text>礦物提取廠（西拉）</Text></Text>
+    <Text><LineId>1556047302</LineId><Text>黑瓦下的礦坑，滿是閃閃發亮的石頭。</Text></Text>
+  </ModOp>
+
+</ModOps>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556053001</LineId><Text>孔雀</Text></Text>
+    <Text><LineId>1556053011</LineId><Text>飼養孔雀，莊園裡能養的最吵鬧也最驕傲的鳥。</Text></Text>
+    <Text><LineId>1556053012</LineId><Text>孔雀園</Text></Text>
+    <Text><LineId>1556053051</LineId><Text>孔雀圍欄</Text></Text>
+    <Text><LineId>1556053301</LineId><Text>孔雀園（西拉）</Text></Text>
+    <Text><LineId>1556053302</LineId><Text>屋頂低調黝黑，炫耀的事全交給孔雀。</Text></Text>
+  </ModOp>
+
+</ModOps>

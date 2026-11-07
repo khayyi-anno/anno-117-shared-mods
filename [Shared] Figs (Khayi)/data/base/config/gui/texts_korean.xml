@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts" Condition="!#driedfigs-khayi">
+    <Text><LineId>1556006051</LineId><Text>무화과</Text></Text>
+    <Text><LineId>1556006053</LineId><Text>무화과나무</Text></Text>
+    <Text><LineId>1556006055</LineId><Text>무화과를 재배합니다. 라티움 지역의 어떤 땅에나 지을 수 있으며, 토양 조건에 구애받지 않습니다.</Text></Text>
+    <Text><LineId>1556006056</LineId><Text>무화과 과수원</Text></Text>
+    <Text><LineId>1556006311</LineId><Text>무화과 과수원 (시라)</Text></Text>
+    <Text><LineId>1556006312</LineId><Text>너무 익은 무화과 빛으로 물든 격자 시렁.</Text></Text>
+  </ModOp>
+</ModOps>

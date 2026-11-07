@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556043001</LineId><Text>닭</Text></Text>
+    <Text><LineId>1556043011</LineId><Text>냄비에 넣을 닭을 키운다. 아직 냄비에 들어가지 않은 녀석들에게서는 덤으로 달걀도 얻는다.</Text></Text>
+    <Text><LineId>1556043012</LineId><Text>양계장</Text></Text>
+    <Text><LineId>1556043051</LineId><Text>닭 방사장</Text></Text>
+    <Text><LineId>1556043301</LineId><Text>양계장 (시라)</Text></Text>
+    <Text><LineId>1556043302</LineId><Text>마당의 암탉이 한 마리도 빠짐없이 올라서 본 어두운 기와.</Text></Text>
+  </ModOp>
+
+</ModOps>

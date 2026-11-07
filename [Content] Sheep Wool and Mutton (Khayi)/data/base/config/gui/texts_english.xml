@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556226001</LineId><Text>Sheep Wool</Text></Text>
+    <Text><LineId>1556226003</LineId><Text>Lamb and Mutton</Text></Text>
+    <Text><LineId>1556226012</LineId><Text>Shearing Shed</Text></Text>
+    <Text><LineId>1556226011</LineId><Text>Shears the sheep from the pastures. The fleece goes to the weavers, tailors and sailmakers as Sheep Wool; where a kitchen cooks lamb, each sheep also gives Lamb and Mutton.</Text></Text>
+  </ModOp>
+
+</ModOps>

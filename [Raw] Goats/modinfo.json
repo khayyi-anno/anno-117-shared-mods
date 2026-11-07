@@ -1,0 +1,32 @@
+{
+  "Version": "0.1",
+  "Anno": 8,
+  "ModID": "rl-raw-goats-khayi",
+  "Difficulty": "unchanged",
+  "GameSetup": {
+    "RequiresNewGame": false,
+    "SafeToRemove": true,
+    "Multiplayer": true,
+    "Campaign": true
+  },
+  "Dependencies": {
+    "Require": [],
+    "Optional": [],
+    "LoadAfter": [],
+    "Deprecate": []
+  },
+  "Category": {
+    "English": "Content"
+  },
+  "ModName": {
+    "English": "Goats"
+  },
+  "Description": {
+    "English": "Adds the Goat Pasture, which makes Goat Milk for Melca, with Goats for Ofellae as a by-product."
+  },
+  "KnownIssues": [],
+  "DLCDependencies": [],
+  "CreatorName": "Khayi",
+  "CreatorContact": "",
+  "Image": null
+}

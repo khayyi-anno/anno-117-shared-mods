@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556053001</LineId><Text>공작</Text></Text>
+    <Text><LineId>1556053011</LineId><Text>공작을 기른다. 빌라에서 기를 수 있는 새 중 가장 시끄럽고 가장 도도한 새다.</Text></Text>
+    <Text><LineId>1556053012</LineId><Text>공작 정원</Text></Text>
+    <Text><LineId>1556053051</LineId><Text>공작 우리</Text></Text>
+    <Text><LineId>1556053301</LineId><Text>공작 정원 (시라)</Text></Text>
+    <Text><LineId>1556053302</LineId><Text>지붕은 수수하게 어둡게. 뽐내는 건 공작들 몫이다.</Text></Text>
+  </ModOp>
+
+</ModOps>

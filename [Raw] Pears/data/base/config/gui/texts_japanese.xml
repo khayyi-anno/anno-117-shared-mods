@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556054001</LineId><Text>洋梨</Text></Text>
+    <Text><LineId>1556054011</LineId><Text>パティナや保存食のために洋梨を育てる。木からもいでそのままかじるためにも。</Text></Text>
+    <Text><LineId>1556054012</LineId><Text>洋梨園</Text></Text>
+    <Text><LineId>1556054051</LineId><Text>洋梨の木</Text></Text>
+    <Text><LineId>1556054301</LineId><Text>洋梨園（シラー）</Text></Text>
+    <Text><LineId>1556054302</LineId><Text>自分のペースで熟す梨の上に、暗い瓦。</Text></Text>
+  </ModOp>
+
+</ModOps>

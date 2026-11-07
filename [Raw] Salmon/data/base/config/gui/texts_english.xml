@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556060001</LineId><Text>Salmon</Text></Text>
+    <Text><LineId>1556060011</LineId><Text>Builds a weir across the river and catches salmon heading upstream.</Text></Text>
+    <Text><LineId>1556060012</LineId><Text>Salmon Weir</Text></Text>
+  </ModOp>
+
+</ModOps>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts" Condition="!#driedfigs-khayi">
+    <Text><LineId>1556006051</LineId><Text>Figi</Text></Text>
+    <Text><LineId>1556006053</LineId><Text>Drzewa figowe</Text></Text>
+    <Text><LineId>1556006055</LineId><Text>Uprawia figi. Można ją zbudować na dowolnym terenie w Lacjum – nie ma wymagań dotyczących gleby.</Text></Text>
+    <Text><LineId>1556006056</LineId><Text>Sad figowy</Text></Text>
+    <Text><LineId>1556006311</LineId><Text>Sad figowy (Syrah)</Text></Text>
+    <Text><LineId>1556006312</LineId><Text>Treliaże w kolorze przejrzałej figi.</Text></Text>
+  </ModOp>
+</ModOps>

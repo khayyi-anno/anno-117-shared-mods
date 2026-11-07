@@ -1,0 +1,32 @@
+{
+  "Version": "1.0",
+  "Anno": 8,
+  "ModID": "rl-raw-wildfowl-khayi",
+  "Difficulty": "unchanged",
+  "GameSetup": {
+    "RequiresNewGame": false,
+    "SafeToRemove": true,
+    "Multiplayer": true,
+    "Campaign": true
+  },
+  "Dependencies": {
+    "Require": [],
+    "Optional": [],
+    "LoadAfter": [],
+    "Deprecate": []
+  },
+  "Category": {
+    "English": "Content"
+  },
+  "ModName": {
+    "English": "Wildfowl"
+  },
+  "Description": {
+    "English": "Adds the Marsh Fowler, which nets Wildfowl for Feast Fowl, Roast Duck and Feather Hair Ornaments."
+  },
+  "KnownIssues": [],
+  "DLCDependencies": [],
+  "CreatorName": "Khayi",
+  "CreatorContact": "",
+  "Image": null
+}

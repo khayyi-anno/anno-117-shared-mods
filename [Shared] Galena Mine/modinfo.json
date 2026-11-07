@@ -1,0 +1,33 @@
+{
+  "Version": "1.0.0",
+  "Anno": 8,
+  "ModID": "shared-galena-mine",
+  "Difficulty": "unchanged",
+  "GameSetup": {
+    "RequiresNewGame": false,
+    "SafeToRemove": false,
+    "Multiplayer": true,
+    "Campaign": true
+  },
+  "Dependencies": {
+    "Require": [],
+    "Optional": [],
+    "LoadAfter": [],
+    "Deprecate": [],
+    "Incompatible": []
+  },
+  "Category": {
+    "English": "Shared"
+  },
+  "ModName": {
+    "English": "Shared Galena Mine"
+  },
+  "Description": {
+    "English": "Shared sub-mod. Adds Galena Ore (Celtic/Albion raw good) and two Albion galena mines (Merchant and Smith variants, mountain slot), each occasionally yielding a little Gold Ore as a byproduct. Everything ships locked: the mod that uses it decides how the mines and the ore are unlocked. Extracted from Lead, Lamps and Silverware by Kydiaz. Do not modify; include as is."
+  },
+  "KnownIssues": [],
+  "DLCDependencies": [],
+  "CreatorName": "Kydiaz",
+  "CreatorContact": "",
+  "Image": null
+}

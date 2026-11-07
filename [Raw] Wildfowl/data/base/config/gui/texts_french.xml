@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556066001</LineId><Text>Gibier d'eau</Text></Text>
+    <Text><LineId>1556066011</LineId><Text>Prend au filet canards et autres gibiers d'eau dans les marais à l'aube, quand les oiseaux sont encore endormis.</Text></Text>
+    <Text><LineId>1556066012</LineId><Text>Oiseleur des marais</Text></Text>
+  </ModOp>
+
+</ModOps>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556226001</LineId><Text>양모</Text></Text>
+    <Text><LineId>1556226003</LineId><Text>어린 양고기와 양고기</Text></Text>
+    <Text><LineId>1556226012</LineId><Text>양털 깎는 헛간</Text></Text>
+    <Text><LineId>1556226011</LineId><Text>목장의 양털을 깎습니다. 깎은 털은 양모가 되어 직조공, 재단사, 돛 제작자에게 갑니다. 어린 양을 요리하는 주방이 있으면 양 한 마리마다 어린 양고기와 양고기도 얻습니다.</Text></Text>
+  </ModOp>
+
+</ModOps>

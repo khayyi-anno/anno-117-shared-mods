@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556047001</LineId><Text>Gemme</Text></Text>
+    <Text><LineId>1556047011</LineId><Text>Ricava gemme dai minerali grezzi. Quasi tutta la roccia è solo roccia; il resto è una fortuna.</Text></Text>
+    <Text><LineId>1556047012</LineId><Text>Estrattore di minerali</Text></Text>
+    <Text><LineId>1556047301</LineId><Text>Estrattore di minerali (Syrah)</Text></Text>
+    <Text><LineId>1556047302</LineId><Text>Tegole scure su una fossa piena di pietre scintillanti.</Text></Text>
+  </ModOp>
+
+</ModOps>

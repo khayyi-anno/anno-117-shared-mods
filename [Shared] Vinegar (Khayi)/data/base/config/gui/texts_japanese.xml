@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts" Condition="!#poscaoxymel-khayi">
+    <Text><LineId>1556008101</LineId><Text>酢</Text></Text>
+    <Text><LineId>1556008103</LineId><Text>ワインを酸っぱい酢に熟成させる。</Text></Text>
+    <Text><LineId>1556008104</LineId><Text>アセタリア</Text></Text>
+    <Text><LineId>1556008301</LineId><Text>アセタリア（シラー）</Text></Text>
+    <Text><LineId>1556008302</LineId><Text>どうせもう酸っぱくなったワインのための暗い瓦。</Text></Text>
+  </ModOp>
+</ModOps>

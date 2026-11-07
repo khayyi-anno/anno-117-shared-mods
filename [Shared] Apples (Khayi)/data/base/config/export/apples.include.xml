@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Extracted from [Content] Apple Cider (Khayi), same GUIDs. Skipped when applecider-khayi is active.
+     No unlock trigger: a consuming mod unlocks 1556023050, 1556023052, 1556023054 and lists the building in its chain Tier1. -->
+<ModOps>
+
+  <ModOp Type="addNextSibling" GUID="2070">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1556023050</GUID>
+          <Name>Good Apples</Name>
+          <IconFilename>data/khayi/ui/icon_apples.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1556023051</OasisId>
+        </Text>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>-6904287318739488511</ProductCategory>
+          <BasePrice>6</BasePrice>
+          <AssociatedRegion>Celtic</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Celtic</RegionType>
+            </Item>
+          </ProductionRegions>
+          <TransportGoodsType>Needs</TransportGoodsType>
+        </Product>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="28750" Path="/Values/ProductList/List/Item[Product='2070']">
+    <Item>
+      <Product>1556023050</Product>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="91326" Path="/Values/AssetPool/AssetList/Item[Asset='2070']">
+    <Item>
+      <Asset>1556023050</Asset>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="130659" Path="/Values/AssetPool/AssetList/Item[Asset='2070']">
+    <Item>
+      <Asset>1556023050</Asset>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="8497" Path="/Values/ProductList/List/Item[Product='2149']">
+    <Item>
+      <Product>1556023050</Product>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="37673" Path="/Values/ProductList/List/Item[Product='2105']">
+    <Item>
+      <Product>1556023050</Product>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="29329" Path="/Values/ProductList/List/Item[Product='2105']">
+    <Item>
+      <Product>1556023050</Product>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="2743">
+    <Asset>
+      <Template>ModulePolygonField</Template>
+      <Values>
+        <Standard>
+          <GUID>1556023052</GUID>
+          <Name>Module Field Celtic Apples</Name>
+          <IconFilename>data/khayi/ui/icon_apples.png</IconFilename>
+        </Standard>
+        <Building>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <AssociatedRegions>Celtic</AssociatedRegions>
+          <VariationControl>ByPlayer</VariationControl>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>4</Amount>
+            </Item>
+            <Item>
+              <Ingredient>2174</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Text>
+          <OasisId>1556023053</OasisId>
+        </Text>
+        <Constructable />
+        <Locked />
+        <BuildingModule>
+          <PlazaSize>20</PlazaSize>
+        </BuildingModule>
+        <AmbientMoodProvider>
+          <Murmur>Farms</Murmur>
+        </AmbientMoodProvider>
+
+        <Polygon>
+          <Path>data/base/modgraphics/roman/buildings/production/field/apples/modules/</Path>
+          <FencePath>data/base/graphics/library/props/fences/polygon_field_fence_albion/</FencePath>
+          <Category>Field</Category>
+        </Polygon>
+        <ModuleIrrigation />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="2699">
+    <Asset>
+      <Template>Production Field</Template>
+      <Values>
+        <Standard>
+          <GUID>1556023054</GUID>
+          <Name>Production Field Celtic Orchard</Name>
+          <IconFilename>data/khayi/ui/icon_apples.png</IconFilename>
+          <InfoDescription>1556023055</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>-6908408657842733452</BuildingCategoryName>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <AssociatedRegions>Celtic</AssociatedRegions>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item><Ingredient>1010017</Ingredient></Item>
+            <Item><Ingredient>2174</Ingredient><Amount>1</Amount></Item>
+            <Item><Ingredient>2176</Ingredient><Amount>1</Amount></Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+
+              <Filename>data/base/graphics/roman_celtic/buildings/production/field/herbs/field_herbs.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Text>
+          <OasisId>1556023056</OasisId>
+        </Text>
+        <Constructable />
+        <Locked />
+        <FeedbackController />
+        <Infolayer />
+        <Factory7 />
+        <FactoryBase>
+          <FactoryOutputs>
+            <Item>
+              <Product>1556023050</Product>
+              <Amount>2</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>90</CycleTime>
+          <IsMainFactory>1</IsMainFactory>
+          <MaxTransporterRange>45</MaxTransporterRange>
+        </FactoryBase>
+        <LogisticNode />
+        <ModuleOwner>
+          <ModuleLimits>
+            <Main>
+              <Limit>100</Limit>
+            </Main>
+          </ModuleLimits>
+          <ConstructionOptions>
+            <Item>
+              <ModuleGUID>1556023052</ModuleGUID>
+            </Item>
+          </ConstructionOptions>
+          <FarmType>PlantFarm</FarmType>
+        </ModuleOwner>
+        <AmbientMoodProvider>
+          <Murmur>Farms</Murmur>
+          <DynamicEnvironmentType>BuildingIndustry</DynamicEnvironmentType>
+        </AmbientMoodProvider>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>6</Amount>
+            </Item>
+            <Item>
+              <Product>2192</Product>
+              <Amount>3</Amount>
+            </Item>
+          </Maintenances>
+          <ConsumerPriority>5</ConsumerPriority>
+        </Maintenance>
+        <Health>
+          <BaseHealth>520</BaseHealth>
+          <SelfHealPerHealTick>1</SelfHealPerHealTick>
+          <PassiveRuinRepairTime>900000</PassiveRuinRepairTime>
+          <DestructionWarScore>50</DestructionWarScore>
+        </Health>
+        <Pausable />
+        <AqueductConsumer>
+          <AqueductConsumptionType>Optional</AqueductConsumptionType>
+          <AqueductConsumedWaterSupply>5</AqueductConsumedWaterSupply>
+          <AqueductConsumptionBuffEffect>
+            <Item>
+              <ProductivityBuff>28480</ProductivityBuff>
+            </Item>
+          </AqueductConsumptionBuffEffect>
+          <UnlockToActivateConsumption>38551</UnlockToActivateConsumption>
+        </AqueductConsumer>
+        <IncidentInfectable>
+          <DestructionScore>100</DestructionScore>
+        </IncidentInfectable>
+        <Buffable />
+        <EffectSource />
+        <Threatable />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID='64413' Path="/Values/AssetPool/AssetList/Item[Asset='2800']">
+    <Item>
+      <Asset>1556023054</Asset>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="38370" Path="/Values/AssetPool/AssetList/Item[Asset='2800']">
+    <Item>
+      <Asset>1556023054</Asset>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="107521" Path="/Values/AssetPool/AssetList/Item[Asset='2800']">
+    <Item>
+      <Asset>1556023054</Asset>
+    </Item>
+  </ModOp>
+
+
+  <ModOp Type="addNextSibling" GUID="27539" Path="/Values/FeedbackSessionDescription/FarmFieldConfig/FarmFieldBuildings/Item[Building='2800']">
+    <Item>
+      <Building>1556023054</Building>
+      <PersonSpawners>
+        <Item><UnitClass>178616</UnitClass><Amount_Default>5</Amount_Default></Item>
+        <Item><UnitClass>179709</UnitClass><Amount_Default>5</Amount_Default></Item>
+      </PersonSpawners>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID='43602' Path="/Values/AssetPool/AssetList">
+    <Item><Asset>1556023054</Asset></Item>
+  </ModOp>
+
+    <ModOp Type="addNextSibling" GUID='71200' Path="/Values/AssetPool/AssetList/Item[Asset='2800']">
+    <Item>
+      <Asset>1556023054</Asset>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID='106634' Path="/Values/Effect/Targets/Item[GUID='31764']">
+    <Item>
+      <GUID>1556023054</GUID>
+    </Item>
+  </ModOp>
+
+  <!-- BEGIN khayi-pools: generated by .CLAUDE/tools/romanlife/pool_register.py -->
+  <ModOp Type="add" GUID='51905' Path="/Values/AssetPool/AssetList"><Item><Asset>1556023054</Asset></Item></ModOp>
+  <!-- END khayi-pools -->
+</ModOps>

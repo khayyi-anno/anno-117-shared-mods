@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556048001</LineId><Text>Capre</Text></Text>
+    <Text><LineId>1556048101</LineId><Text>Latte di capra</Text></Text>
+    <Text><LineId>1556048011</LineId><Text>Alleva capre per latte e carne. Si mangiano anche il recinto, quindi il recinto si cambia spesso.</Text></Text>
+    <Text><LineId>1556048012</LineId><Text>Pascolo di capre</Text></Text>
+    <Text><LineId>1556048051</LineId><Text>Recinto delle capre</Text></Text>
+  </ModOp>
+
+</ModOps>

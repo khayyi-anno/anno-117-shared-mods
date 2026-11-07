@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556065001</LineId><Text>Gemüse</Text></Text>
+    <Text><LineId>1556065011</LineId><Text>Baut Gemüse in ordentlichen Beeten an. Samen von geschossenen Pflanzen gibt es gratis dazu.</Text></Text>
+    <Text><LineId>1556065012</LineId><Text>Küchengarten</Text></Text>
+    <Text><LineId>1556065051</LineId><Text>Küchengartenbeet</Text></Text>
+  </ModOp>
+
+</ModOps>

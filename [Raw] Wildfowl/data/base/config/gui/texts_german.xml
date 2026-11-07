@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556066001</LineId><Text>Wildgeflügel</Text></Text>
+    <Text><LineId>1556066011</LineId><Text>Fängt im Morgengrauen Enten und anderes Wildgeflügel mit Netzen im Sumpf, wenn die Vögel noch verschlafen sind.</Text></Text>
+    <Text><LineId>1556066012</LineId><Text>Sumpfvogelfänger</Text></Text>
+  </ModOp>
+
+</ModOps>

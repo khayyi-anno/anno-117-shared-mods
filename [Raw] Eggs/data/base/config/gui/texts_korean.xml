@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556045001</LineId><Text>달걀</Text></Text>
+    <Text><LineId>1556045011</LineId><Text>달걀을 얻으려고 산란계를 기른다. 알을 더 낳지 않는 닭은 냄비로 간다.</Text></Text>
+  </ModOp>
+
+</ModOps>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556051001</LineId><Text>Legumi</Text></Text>
+    <Text><LineId>1556051011</LineId><Text>Coltiva ceci, lenticchie e fave. Colture umili che sfamano mezzo impero.</Text></Text>
+    <Text><LineId>1556051012</LineId><Text>Podere dei legumi</Text></Text>
+    <Text><LineId>1556051051</LineId><Text>Campo di legumi</Text></Text>
+  </ModOp>
+
+</ModOps>

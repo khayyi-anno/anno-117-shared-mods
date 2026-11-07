@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556048001</LineId><Text>山羊</Text></Text>
+    <Text><LineId>1556048101</LineId><Text>山羊奶</Text></Text>
+    <Text><LineId>1556048011</LineId><Text>飼養山羊取奶取肉。牠們連圍欄也吃，所以圍欄得經常換。</Text></Text>
+    <Text><LineId>1556048012</LineId><Text>山羊牧場</Text></Text>
+    <Text><LineId>1556048051</LineId><Text>山羊圈</Text></Text>
+  </ModOp>
+
+</ModOps>

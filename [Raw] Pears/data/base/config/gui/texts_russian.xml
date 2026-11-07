@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556054001</LineId><Text>Груши</Text></Text>
+    <Text><LineId>1556054011</LineId><Text>Выращивает груши для патин и заготовок, а заодно чтобы есть прямо с дерева.</Text></Text>
+    <Text><LineId>1556054012</LineId><Text>Грушевый сад</Text></Text>
+    <Text><LineId>1556054051</LineId><Text>Ряд груш</Text></Text>
+    <Text><LineId>1556054301</LineId><Text>Грушевый сад (Сира)</Text></Text>
+    <Text><LineId>1556054302</LineId><Text>Тёмная черепица над грушами, которые зреют, когда им вздумается.</Text></Text>
+  </ModOp>
+
+</ModOps>

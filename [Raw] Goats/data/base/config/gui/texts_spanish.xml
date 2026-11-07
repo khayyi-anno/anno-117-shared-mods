@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556048001</LineId><Text>Cabras</Text></Text>
+    <Text><LineId>1556048101</LineId><Text>Leche de cabra</Text></Text>
+    <Text><LineId>1556048011</LineId><Text>Cría cabras para leche y carne. También se comen la valla, así que la valla se cambia a menudo.</Text></Text>
+    <Text><LineId>1556048012</LineId><Text>Pasto de cabras</Text></Text>
+    <Text><LineId>1556048051</LineId><Text>Corral de cabras</Text></Text>
+  </ModOp>
+
+</ModOps>

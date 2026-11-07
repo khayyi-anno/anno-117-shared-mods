@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556226001</LineId><Text>Laine de mouton</Text></Text>
+    <Text><LineId>1556226003</LineId><Text>Agneau et mouton</Text></Text>
+    <Text><LineId>1556226012</LineId><Text>Bergerie de tonte</Text></Text>
+    <Text><LineId>1556226011</LineId><Text>Tond les moutons des pâturages. La toison part chez les tisserands, les tailleurs et les voiliers sous forme de Laine de mouton ; là où une cuisine prépare l'agneau, chaque mouton donne aussi de l'Agneau et mouton.</Text></Text>
+  </ModOp>
+
+</ModOps>

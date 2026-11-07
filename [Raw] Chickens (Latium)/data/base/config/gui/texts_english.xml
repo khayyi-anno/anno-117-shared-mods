@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556043001</LineId><Text>Chickens</Text></Text>
+    <Text><LineId>1556043011</LineId><Text>Raises chickens for the pot, with eggs as a bonus from the birds that haven't gone in yet.</Text></Text>
+    <Text><LineId>1556043012</LineId><Text>Chicken Yard</Text></Text>
+    <Text><LineId>1556043051</LineId><Text>Chicken Run</Text></Text>
+    <Text><LineId>1556043301</LineId><Text>Chicken Yard (Syrah)</Text></Text>
+    <Text><LineId>1556043302</LineId><Text>Dark tiles that every hen in the yard has stood on.</Text></Text>
+  </ModOp>
+
+</ModOps>

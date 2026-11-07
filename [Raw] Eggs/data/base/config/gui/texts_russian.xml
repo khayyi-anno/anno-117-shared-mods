@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556045001</LineId><Text>Яйца</Text></Text>
+    <Text><LineId>1556045011</LineId><Text>Здесь держат кур-несушек ради яиц. Курица, что перестала нестись, отправляется в котёл.</Text></Text>
+  </ModOp>
+
+</ModOps>

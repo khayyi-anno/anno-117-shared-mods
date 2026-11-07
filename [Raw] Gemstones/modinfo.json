@@ -1,0 +1,32 @@
+{
+  "Version": "0.1",
+  "Anno": 8,
+  "ModID": "rl-raw-gemstones-khayi",
+  "Difficulty": "unchanged",
+  "GameSetup": {
+    "RequiresNewGame": false,
+    "SafeToRemove": true,
+    "Multiplayer": true,
+    "Campaign": true
+  },
+  "Dependencies": {
+    "Require": [],
+    "Optional": [],
+    "LoadAfter": [],
+    "Deprecate": []
+  },
+  "Category": {
+    "English": "Content"
+  },
+  "ModName": {
+    "English": "Gemstones"
+  },
+  "Description": {
+    "English": "Adds the Mineral Extractor, which cuts Gemstones for Cameos and Signet Rings."
+  },
+  "KnownIssues": [],
+  "DLCDependencies": [],
+  "CreatorName": "Khayi",
+  "CreatorContact": "",
+  "Image": null
+}

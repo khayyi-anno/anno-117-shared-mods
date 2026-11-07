@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556066001</LineId><Text>Wildfowl</Text></Text>
+    <Text><LineId>1556066011</LineId><Text>Nets ducks and other wildfowl in the marsh at dawn, when the birds are still sleepy.</Text></Text>
+    <Text><LineId>1556066012</LineId><Text>Marsh Fowler</Text></Text>
+  </ModOp>
+
+</ModOps>

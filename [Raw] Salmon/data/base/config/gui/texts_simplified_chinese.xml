@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556060001</LineId><Text>鲑鱼</Text></Text>
+    <Text><LineId>1556060011</LineId><Text>在河上筑起鱼梁，捕捉逆流而上的鲑鱼。</Text></Text>
+    <Text><LineId>1556060012</LineId><Text>鲑鱼鱼梁</Text></Text>
+  </ModOp>
+
+</ModOps>

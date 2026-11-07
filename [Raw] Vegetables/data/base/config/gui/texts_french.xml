@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556065001</LineId><Text>Légumes</Text></Text>
+    <Text><LineId>1556065011</LineId><Text>Cultive des légumes en planches bien nettes. Les graines des plants montés en graine sont offertes en prime.</Text></Text>
+    <Text><LineId>1556065012</LineId><Text>Potager</Text></Text>
+    <Text><LineId>1556065051</LineId><Text>Planche de potager</Text></Text>
+  </ModOp>
+
+</ModOps>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556060001</LineId><Text>Лосось</Text></Text>
+    <Text><LineId>1556060011</LineId><Text>Перегораживает реку запрудой и ловит лосося, идущего вверх по течению.</Text></Text>
+    <Text><LineId>1556060012</LineId><Text>Лососёвая запруда</Text></Text>
+  </ModOp>
+
+</ModOps>

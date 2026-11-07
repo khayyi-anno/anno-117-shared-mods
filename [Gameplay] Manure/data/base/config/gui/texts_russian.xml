@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556209001</LineId><Text>Навоз</Text></Text>
+    <Text><LineId>1556209021</LineId><Text>Здесь навоз с пастбищ перепревает, прежде чем его вывозят на поля. Пока в куче есть Навоз, ближайшие фермы и плантации работают вдвое быстрее.</Text></Text>
+    <Text><LineId>1556209022</LineId><Text>Навозная куча</Text></Text>
+    <Text><LineId>1556209026</LineId><Text>Унавоженные поля</Text></Text>
+    <Text><LineId>1556209074</LineId><Text>Сельхозпродукция</Text></Text>
+    <Text><LineId>1556209075</LineId><Text>Открывает силосные амбары, Навоз и Навозную кучу. Пастбища попутно дают Навоз.</Text></Text>
+  </ModOp>
+
+</ModOps>

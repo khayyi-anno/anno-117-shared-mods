@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556045001</LineId><Text>雞蛋</Text></Text>
+    <Text><LineId>1556045011</LineId><Text>飼養蛋雞取蛋。母雞一旦不再下蛋，就會被送進鍋裡。</Text></Text>
+  </ModOp>
+
+</ModOps>

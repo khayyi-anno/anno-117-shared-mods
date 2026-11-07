@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556063001</LineId><Text>Soda</Text></Text>
+    <Text><LineId>1556063011</LineId><Text>Produces Soda Ash.</Text></Text>
+    <Text><LineId>1556063012</LineId><Text>Popielarnia</Text></Text>
+  </ModOp>
+
+</ModOps>

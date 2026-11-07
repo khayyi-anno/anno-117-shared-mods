@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556226001</LineId><Text>绵羊毛</Text></Text>
+    <Text><LineId>1556226003</LineId><Text>羔羊肉与羊肉</Text></Text>
+    <Text><LineId>1556226012</LineId><Text>剪毛棚</Text></Text>
+    <Text><LineId>1556226011</LineId><Text>为牧场的绵羊剪毛。剪下的羊毛作为绵羊毛送往织工、裁缝和制帆匠；若有烹制羔羊的厨房，每只绵羊还会产出羔羊肉与羊肉。</Text></Text>
+  </ModOp>
+
+</ModOps>

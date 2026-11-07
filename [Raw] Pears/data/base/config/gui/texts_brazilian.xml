@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556054001</LineId><Text>Peras</Text></Text>
+    <Text><LineId>1556054011</LineId><Text>Cultiva peras para patinas e conservas, e para comer direto do pé.</Text></Text>
+    <Text><LineId>1556054012</LineId><Text>Pomar de pereiras</Text></Text>
+    <Text><LineId>1556054051</LineId><Text>Fileira de pereiras</Text></Text>
+    <Text><LineId>1556054301</LineId><Text>Pomar de pereiras (Syrah)</Text></Text>
+    <Text><LineId>1556054302</LineId><Text>Telhas escuras sobre peras que amadurecem no seu próprio tempo.</Text></Text>
+  </ModOp>
+
+</ModOps>

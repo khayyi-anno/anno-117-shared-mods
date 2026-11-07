@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556048001</LineId><Text>Goats</Text></Text>
+    <Text><LineId>1556048101</LineId><Text>Goat Milk</Text></Text>
+    <Text><LineId>1556048011</LineId><Text>Keeps goats for milk and meat. They also eat the fence, so the fence is replaced often.</Text></Text>
+    <Text><LineId>1556048012</LineId><Text>Goat Pasture</Text></Text>
+    <Text><LineId>1556048051</LineId><Text>Goat Pen</Text></Text>
+  </ModOp>
+
+</ModOps>

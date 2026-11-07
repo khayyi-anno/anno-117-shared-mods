@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556046001</LineId><Text>Kwiaty</Text></Text>
+    <Text><LineId>1556046011</LineId><Text>Uprawia róże, fiołki i irysy na girlandy, perfumy i przeprosiny.</Text></Text>
+    <Text><LineId>1556046012</LineId><Text>Ogród kwiatowy</Text></Text>
+    <Text><LineId>1556046051</LineId><Text>Rabatka z kwiatami</Text></Text>
+    <Text><LineId>1556046301</LineId><Text>Ogród kwiatowy (Syrah)</Text></Text>
+    <Text><LineId>1556046302</LineId><Text>Ciemny dach, żeby nic nie przyćmiło kwiatów.</Text></Text>
+  </ModOp>
+
+</ModOps>

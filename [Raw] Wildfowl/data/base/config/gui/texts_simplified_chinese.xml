@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556066001</LineId><Text>野禽</Text></Text>
+    <Text><LineId>1556066011</LineId><Text>趁黎明时分鸟儿还睡眼惺忪，在沼泽里张网捕捉野鸭和其他野禽。</Text></Text>
+    <Text><LineId>1556066012</LineId><Text>沼泽捕鸟人</Text></Text>
+  </ModOp>
+
+</ModOps>

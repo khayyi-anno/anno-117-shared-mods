@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1780117010</LineId><Text>Galena Ore</Text></Text>
+    <Text><LineId>1780117021</LineId><Text>Galena Mine</Text></Text>
+    <Text><LineId>1780117022</LineId><Text>Mines Galena</Text></Text>
+    <Text><LineId>1780117024</LineId><Text>The Celtic build of the galena mine: raised with wattle and daub, no aqueduct, and served by the Mealhouse like the other Celtic mines. Every so often a vein turns up a little gold besides. Any mountain slot will do, no fertile deposit needed.</Text></Text>
+    <Text><LineId>1780117065</LineId><Text>Gold Ore Byproduct</Text></Text>
+  </ModOp>
+
+</ModOps>

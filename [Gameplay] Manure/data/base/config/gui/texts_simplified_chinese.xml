@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556209001</LineId><Text>粪肥</Text></Text>
+    <Text><LineId>1556209021</LineId><Text>牧场的粪便在这里腐熟，再运到田里。粪堆有粪肥期间，附近农场和种植园的效率翻倍。</Text></Text>
+    <Text><LineId>1556209022</LineId><Text>粪堆</Text></Text>
+    <Text><LineId>1556209026</LineId><Text>施肥的田地</Text></Text>
+    <Text><LineId>1556209074</LineId><Text>农产品</Text></Text>
+    <Text><LineId>1556209075</LineId><Text>解锁筒仓、粪肥和粪堆。牧场会额外产出粪肥。</Text></Text>
+  </ModOp>
+
+</ModOps>

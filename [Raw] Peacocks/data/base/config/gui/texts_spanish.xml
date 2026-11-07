@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556053001</LineId><Text>Pavos reales</Text></Text>
+    <Text><LineId>1556053011</LineId><Text>Cría pavos reales, las aves más ruidosas y orgullosas que puede tener una villa.</Text></Text>
+    <Text><LineId>1556053012</LineId><Text>Jardín de pavos reales</Text></Text>
+    <Text><LineId>1556053051</LineId><Text>Recinto de pavos reales</Text></Text>
+    <Text><LineId>1556053301</LineId><Text>Jardín de pavos reales (Syrah)</Text></Text>
+    <Text><LineId>1556053302</LineId><Text>Un tejado oscuro y modesto. Ya presumen los pavos reales por él.</Text></Text>
+  </ModOp>
+
+</ModOps>

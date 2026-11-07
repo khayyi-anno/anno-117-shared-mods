@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556057001</LineId><Text>マルメロ</Text></Text>
+    <Text><LineId>1556057011</LineId><Text>マルメロを育てる。生で食べるには硬すぎ、放っておくには香りがよすぎる。</Text></Text>
+    <Text><LineId>1556057012</LineId><Text>マルメロ園</Text></Text>
+    <Text><LineId>1556057051</LineId><Text>マルメロの木</Text></Text>
+    <Text><LineId>1556057301</LineId><Text>マルメロ園（シラー）</Text></Text>
+    <Text><LineId>1556057302</LineId><Text>窓辺に置き忘れたマルメロの色まで、風雨に染まった瓦。</Text></Text>
+  </ModOp>
+
+</ModOps>

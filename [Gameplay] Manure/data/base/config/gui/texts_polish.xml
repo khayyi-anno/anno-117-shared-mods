@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556209001</LineId><Text>Obornik</Text></Text>
+    <Text><LineId>1556209021</LineId><Text>Tu gnije obornik z pastwisk, zanim trafi na pola. Dopóki gnojowisko ma Obornik, pobliskie gospodarstwa i plantacje pracują dwa razy szybciej.</Text></Text>
+    <Text><LineId>1556209022</LineId><Text>Gnojowisko</Text></Text>
+    <Text><LineId>1556209026</LineId><Text>Nawożone pola</Text></Text>
+    <Text><LineId>1556209074</LineId><Text>Produkty rolne</Text></Text>
+    <Text><LineId>1556209075</LineId><Text>Odblokowuje silosy, Obornik i Gnojowisko. Pastwiska dają przy okazji Obornik.</Text></Text>
+  </ModOp>
+
+</ModOps>

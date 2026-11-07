@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556043001</LineId><Text>Kury</Text></Text>
+    <Text><LineId>1556043011</LineId><Text>Hoduje kury do garnka, a jaja to premia od tych, które jeszcze do niego nie trafiły.</Text></Text>
+    <Text><LineId>1556043012</LineId><Text>Kurnik</Text></Text>
+    <Text><LineId>1556043051</LineId><Text>Wybieg dla kur</Text></Text>
+    <Text><LineId>1556043301</LineId><Text>Kurnik (Syrah)</Text></Text>
+    <Text><LineId>1556043302</LineId><Text>Ciemne dachówki, po których deptała już każda kura z podwórka.</Text></Text>
+  </ModOp>
+
+</ModOps>

@@ -1,0 +1,32 @@
+{
+  "Version": "0.1",
+  "Anno": 8,
+  "ModID": "rl-raw-legumes-khayi",
+  "Difficulty": "unchanged",
+  "GameSetup": {
+    "RequiresNewGame": false,
+    "SafeToRemove": true,
+    "Multiplayer": true,
+    "Campaign": true
+  },
+  "Dependencies": {
+    "Require": [],
+    "Optional": [],
+    "LoadAfter": [],
+    "Deprecate": []
+  },
+  "Category": {
+    "English": "Content"
+  },
+  "ModName": {
+    "English": "Legumes"
+  },
+  "Description": {
+    "English": "Adds the Legume Plot, which grows Legumes for Roasted Vegetables and Seeds."
+  },
+  "KnownIssues": [],
+  "DLCDependencies": [],
+  "CreatorName": "Khayi",
+  "CreatorContact": "",
+  "Image": null
+}

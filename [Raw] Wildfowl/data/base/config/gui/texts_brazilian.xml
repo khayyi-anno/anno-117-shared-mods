@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556066001</LineId><Text>Aves selvagens</Text></Text>
+    <Text><LineId>1556066011</LineId><Text>Captura com redes patos e outras aves selvagens no pântano ao amanhecer, quando as aves ainda estão sonolentas.</Text></Text>
+    <Text><LineId>1556066012</LineId><Text>Caçador de aves do pântano</Text></Text>
+  </ModOp>
+
+</ModOps>

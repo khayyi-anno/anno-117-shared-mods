@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556064001</LineId><Text>Schwefel</Text></Text>
+    <Text><LineId>1556064011</LineId><Text>Gräbt Schwefel aus vulkanischen Schloten. Riecht nach faulen Eiern; zahlt in Gelb.</Text></Text>
+    <Text><LineId>1556064012</LineId><Text>Solfatara-Grube</Text></Text>
+    <Text><LineId>1556064071</LineId><Text>Schwefelvorkommen</Text></Text>
+    <Text><LineId>1556064901</LineId><Text>Fumosus von den Phlegräischen Feldern, die Schwefelnase</Text></Text>
+    <Text><LineId>1556064902</LineId><Text>Er folgt seiner Nase bis zum Schwefel. Ihm folgt niemand, nirgendwohin.</Text></Text>
+  </ModOp>
+
+</ModOps>

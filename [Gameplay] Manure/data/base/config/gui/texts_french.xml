@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556209001</LineId><Text>Fumier</Text></Text>
+    <Text><LineId>1556209021</LineId><Text>Le fumier des pâturages mûrit ici avant d'être charrié vers les champs. Tant que le tas a du Fumier, les fermes et plantations voisines travaillent deux fois plus vite.</Text></Text>
+    <Text><LineId>1556209022</LineId><Text>Tas de fumier</Text></Text>
+    <Text><LineId>1556209026</LineId><Text>Champs fumés</Text></Text>
+    <Text><LineId>1556209074</LineId><Text>Produits agricoles</Text></Text>
+    <Text><LineId>1556209075</LineId><Text>Débloque les silos, le Fumier et le Tas de fumier. Les pâturages produisent aussi du Fumier.</Text></Text>
+  </ModOp>
+
+</ModOps>

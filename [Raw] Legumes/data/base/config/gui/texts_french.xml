@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556051001</LineId><Text>Légumineuses</Text></Text>
+    <Text><LineId>1556051011</LineId><Text>Cultive pois chiches, lentilles et fèves. D'humbles cultures qui nourrissent la moitié de l'empire.</Text></Text>
+    <Text><LineId>1556051012</LineId><Text>Ferme de légumineuses</Text></Text>
+    <Text><LineId>1556051051</LineId><Text>Champ de légumineuses</Text></Text>
+  </ModOp>
+
+</ModOps>

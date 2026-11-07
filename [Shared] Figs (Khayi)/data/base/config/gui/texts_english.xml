@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts" Condition="!#driedfigs-khayi">
+    <Text><LineId>1556006051</LineId><Text>Figs</Text></Text>
+    <Text><LineId>1556006053</LineId><Text>Fig Trees</Text></Text>
+    <Text><LineId>1556006055</LineId><Text>Grows figs. Can be built on any Latium ground - no soil requirement.</Text></Text>
+    <Text><LineId>1556006056</LineId><Text>Fig Orchard</Text></Text>
+    <Text><LineId>1556006311</LineId><Text>Fig Orchard (Syrah)</Text></Text>
+    <Text><LineId>1556006312</LineId><Text>Trellises gone the color of an overripe fig.</Text></Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="addNextSibling" GUID="2070">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1556040000</GUID>
+          <Name>Good Beeswax</Name>
+          <IconFilename>data/khayi/ui/rl/raw_beeswax.png</IconFilename>
+        </Standard>
+        <Text><OasisId>1556040001</OasisId></Text>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>-6904287318739488511</ProductCategory>
+          <BasePrice>8</BasePrice>
+          <AssociatedRegion>Roman</AssociatedRegion>
+          <ProductionRegions><Item><RegionType>Roman</RegionType></Item></ProductionRegions>
+          <TransportGoodsType>Raw</TransportGoodsType>
+        </Product>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID='3409' Path="/Values/ProductList/List/Item[Product='2137']"><Item><Product>1556040000</Product></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='28750' Path="/Values/ProductList/List/Item[Product='2137']"><Item><Product>1556040000</Product></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='29304' Path="/Values/ProductList/List/Item[Product='2132']"><Item><Product>1556040000</Product></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='37674' Path="/Values/ProductList/List/Item[Product='2132']"><Item><Product>1556040000</Product></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='91326' Path="/Values/AssetPool/AssetList/Item[Asset='2077']"><Item><Asset>1556040000</Asset></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='130659' Path="/Values/AssetPool/AssetList/Item[Asset='2077']"><Item><Asset>1556040000</Asset></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID="37744">
+    <Asset>
+      <Template>TriggerIntermediateLevel</Template>
+      <Values>
+        <Standard>
+          <GUID>1556040040</GUID>
+          <Name>Trigger Beeswax Unlock</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>1497</Context>
+                <CounterAmount>500</CounterAmount>
+              </ConditionPlayerCounter>
+              <ConditionLocationProps />
+              <ConditionCounterProps />
+              <ConditionPropsComparable />
+              <ConditionPropsExaminableObjects />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item><Asset>1556040000</Asset></Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup>
+          <AutoRegisterTrigger>1</AutoRegisterTrigger>
+          <AutoSelfUnlock>1</AutoSelfUnlock>
+          <UsedByFirstParties>1</UsedByFirstParties>
+          <UsedBySecondParties>1</UsedBySecondParties>
+          <UsedByThirdParties>0</UsedByThirdParties>
+        </TriggerSetup>
+      </Values>
+    </Asset>
+  </ModOp>
+
+
+  <ModOp Type="addNextSibling" GUID="37744">
+    <Asset>
+      <Template>Effect</Template>
+      <Values>
+        <Standard><GUID>1556040085</GUID><Name>Effect Byproduct 1556040000</Name><IconFilename>data/khayi/ui/rl/raw_beeswax.png</IconFilename></Standard>
+        <Effect>
+          <EffectScope>ObjectsInMeta</EffectScope>
+          <SourceCategory>Adjacency</SourceCategory>
+          <Buffs><Item><GUID>1556040086</GUID></Item></Buffs>
+          <Targets><Item><GUID>2795</GUID></Item></Targets>
+          <EffectIconCategory>Positive</EffectIconCategory>
+          <HideInGovernorsBar>1</HideInGovernorsBar>
+        </Effect>
+        <Text><OasisId>1556040001</OasisId></Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="37744">
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard><GUID>1556040086</GUID><Name>Buff Byproduct 1556040000</Name><IconFilename>data/khayi/ui/rl/raw_beeswax.png</IconFilename></Standard>
+        <Text><OasisId>1556040001</OasisId></Text>
+        <Buff><SourceCategory>Adjacency</SourceCategory></Buff>
+        <FactoryUpgrade>
+          <AdditionalOutput>
+            <Item><Product>1556040000</Product><AdditionalOutputCycle>1</AdditionalOutputCycle><Amount>1</Amount></Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="add" GUID="2795" Path="/Values/Building"><FunctionalEffects><Item><FunctionalEffect>1556040085</FunctionalEffect></Item></FunctionalEffects></ModOp>
+
+
+  <!-- ===== BEGIN khayi-rl-specialists: generated by .CLAUDE/tools/specialists/gen_rl_specialists.py ===== -->
+  <ModOp Type="addNextSibling" GUID="166504"><Asset><Template>Effect</Template><Values>
+    <Standard><GUID>1556040924</GUID><Name>Specialist Melissa Favaria (Legendary) Area Effect</Name><IconFilename>data/khayi/graphics/icons/specialists/beeswax_legendary_melissa.png</IconFilename></Standard>
+    <Effect><EffectScope>Radius</EffectScope><SourceCategory>Adjacency</SourceCategory><Buffs><Item><GUID>1556040925</GUID></Item></Buffs>
+      <Targets><Item><GUID>43097</GUID></Item></Targets><ExcludeEffectSourceGUID>1</ExcludeEffectSourceGUID><HideInGovernorsBar>1</HideInGovernorsBar></Effect>
+    <Text><OasisId>1556040921</OasisId></Text>
+  </Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="80193"><Asset><Template>BuildingBuff</Template><Values>
+    <Standard><GUID>1556040925</GUID><Name>Specialist Melissa Favaria (Legendary) Area Buff</Name><IconFilename>data/khayi/graphics/icons/specialists/beeswax_legendary_melissa.png</IconFilename></Standard>
+    <Text><OasisId>1556040921</OasisId></Text>
+    <HealthUpgrade /><BuildingUpgrade><AdditionalAttributes><Health><AmountOrPercent><Value>1</Value><Percental>0</Percental></AmountOrPercent></Health></AdditionalAttributes></BuildingUpgrade><DistributionUpgrade /><Buff><SourceCategory>Adjacency</SourceCategory></Buff><ResidenceUpgrade />
+    <FactoryUpgrade /><ModuleOwnerUpgrade />
+    <MaintenanceUpgrade />
+    <CityInstitutionUpgrade /><IncidentInfectableUpgrade /><RecruitmentUpgrade /><AqueductUpgrade /><WarehouseUpgrade /><IrrigationUpgrade />
+  </Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="80193"><Asset><Template>BuildingBuff</Template><Values>
+    <Standard><GUID>1556040923</GUID><Name>Specialist Melissa Favaria (Legendary) Buff</Name><IconFilename>data/khayi/graphics/icons/specialists/beeswax_legendary_melissa.png</IconFilename></Standard>
+    <Text><OasisId>1556040921</OasisId></Text>
+    <HealthUpgrade /><BuildingUpgrade><AdditionalFunctionalEffect>1556040924</AdditionalFunctionalEffect></BuildingUpgrade><DistributionUpgrade /><Buff><SourceCategory>Item</SourceCategory></Buff><ResidenceUpgrade />
+    <FactoryUpgrade><ProductivityUpgrade><Value>40</Value><Percental>0</Percental></ProductivityUpgrade><NeededAreaUpgrade><Value>-30</Value><Percental>1</Percental></NeededAreaUpgrade></FactoryUpgrade><ModuleOwnerUpgrade />
+    <MaintenanceUpgrade />
+    <CityInstitutionUpgrade /><IncidentInfectableUpgrade /><RecruitmentUpgrade /><AqueductUpgrade /><WarehouseUpgrade /><IrrigationUpgrade />
+  </Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="106410"><Asset><Template>Item</Template><Values>
+    <Standard><GUID>1556040920</GUID><Name>Specialist Melissa Favaria (Legendary)</Name><IconFilename>data/khayi/graphics/icons/specialists/beeswax_legendary_melissa.png</IconFilename><InfoDescription>1556040922</InfoDescription></Standard>
+    <Effect><EffectScope>Radius</EffectScope><SourceCategory>Item</SourceCategory><Buffs><Item><GUID>1556040923</GUID></Item></Buffs><Targets><Item><GUID>2795</GUID></Item><Item><GUID>8427</GUID></Item></Targets><HideInGovernorsBar>1</HideInGovernorsBar></Effect>
+    <Item><Niche>Agriculture</Niche><TradePrice>650000</TradePrice><BarkPool>80249</BarkPool><Rarity>Legendary</Rarity></Item>
+    <Locked><DefaultLockedState>0</DefaultLockedState></Locked>
+    <Text><OasisId>1556040921</OasisId></Text>
+  </Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="166504"><Asset><Template>Effect</Template><Values>
+    <Standard><GUID>1556040935</GUID><Name>Specialist Proculus Mellarius (Heroic) Area Effect</Name><IconFilename>data/khayi/graphics/icons/specialists/beeswax_heroic_proculus.png</IconFilename></Standard>
+    <Effect><EffectScope>Radius</EffectScope><SourceCategory>Adjacency</SourceCategory><Buffs><Item><GUID>1556040936</GUID></Item></Buffs>
+      <Targets><Item><GUID>43097</GUID></Item></Targets><ExcludeEffectSourceGUID>1</ExcludeEffectSourceGUID><HideInGovernorsBar>1</HideInGovernorsBar></Effect>
+    <Text><OasisId>1556040931</OasisId></Text>
+  </Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="80193"><Asset><Template>BuildingBuff</Template><Values>
+    <Standard><GUID>1556040936</GUID><Name>Specialist Proculus Mellarius (Heroic) Area Buff</Name><IconFilename>data/khayi/graphics/icons/specialists/beeswax_heroic_proculus.png</IconFilename></Standard>
+    <Text><OasisId>1556040931</OasisId></Text>
+    <HealthUpgrade /><BuildingUpgrade><AdditionalAttributes><Health><AmountOrPercent><Value>2</Value><Percental>0</Percental></AmountOrPercent></Health><Happiness><AmountOrPercent><Value>1</Value><Percental>0</Percental></AmountOrPercent></Happiness></AdditionalAttributes></BuildingUpgrade><DistributionUpgrade /><Buff><SourceCategory>Adjacency</SourceCategory></Buff><ResidenceUpgrade><GoodConsumptionUpgrade><Item><ProvidedNeedProduct>2150</ProvidedNeedProduct><AmountInPercent>-20</AmountInPercent></Item></GoodConsumptionUpgrade></ResidenceUpgrade>
+    <FactoryUpgrade /><ModuleOwnerUpgrade />
+    <MaintenanceUpgrade />
+    <CityInstitutionUpgrade /><IncidentInfectableUpgrade /><RecruitmentUpgrade /><AqueductUpgrade /><WarehouseUpgrade /><IrrigationUpgrade />
+  </Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="166504"><Asset><Template>Effect</Template><Values>
+    <Standard><GUID>1556040937</GUID><Name>Specialist Proculus Mellarius (Heroic) Area Effect Boosted</Name><IconFilename>data/khayi/graphics/icons/specialists/beeswax_heroic_proculus.png</IconFilename></Standard>
+    <Effect><EffectScope>Radius</EffectScope><SourceCategory>Adjacency</SourceCategory><Buffs><Item><GUID>1556040938</GUID></Item></Buffs>
+      <Targets><Item><GUID>43097</GUID></Item></Targets><ExcludeEffectSourceGUID>1</ExcludeEffectSourceGUID><HideInGovernorsBar>1</HideInGovernorsBar></Effect>
+    <Text><OasisId>1556040931</OasisId></Text>
+  </Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="80193"><Asset><Template>BuildingBuff</Template><Values>
+    <Standard><GUID>1556040938</GUID><Name>Specialist Proculus Mellarius (Heroic) Area Buff Boosted</Name><IconFilename>data/khayi/graphics/icons/specialists/beeswax_heroic_proculus.png</IconFilename></Standard>
+    <Text><OasisId>1556040931</OasisId></Text>
+    <HealthUpgrade /><BuildingUpgrade><AdditionalAttributes><Health><AmountOrPercent><Value>3</Value><Percental>0</Percental></AmountOrPercent></Health><Happiness><AmountOrPercent><Value>2</Value><Percental>0</Percental></AmountOrPercent></Happiness></AdditionalAttributes></BuildingUpgrade><DistributionUpgrade /><Buff><SourceCategory>Adjacency</SourceCategory></Buff><ResidenceUpgrade><GoodConsumptionUpgrade><Item><ProvidedNeedProduct>2150</ProvidedNeedProduct><AmountInPercent>-30</AmountInPercent></Item></GoodConsumptionUpgrade></ResidenceUpgrade>
+    <FactoryUpgrade /><ModuleOwnerUpgrade />
+    <MaintenanceUpgrade />
+    <CityInstitutionUpgrade /><IncidentInfectableUpgrade /><RecruitmentUpgrade /><AqueductUpgrade /><WarehouseUpgrade /><IrrigationUpgrade />
+  </Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="80193"><Asset><Template>BuildingBuff</Template><Values>
+    <Standard><GUID>1556040933</GUID><Name>Specialist Proculus Mellarius (Heroic) Buff</Name><IconFilename>data/khayi/graphics/icons/specialists/beeswax_heroic_proculus.png</IconFilename></Standard>
+    <Text><OasisId>1556040931</OasisId></Text>
+    <HealthUpgrade /><BuildingUpgrade><AdditionalFunctionalEffect>1556040935</AdditionalFunctionalEffect></BuildingUpgrade><DistributionUpgrade /><Buff><SourceCategory>Item</SourceCategory></Buff><ResidenceUpgrade />
+    <FactoryUpgrade><ProductivityUpgrade><Value>40</Value><Percental>0</Percental></ProductivityUpgrade><AdditionalOutput><Item><Product>2076</Product><AdditionalOutputCycle>3</AdditionalOutputCycle><Amount>1</Amount></Item></AdditionalOutput></FactoryUpgrade><ModuleOwnerUpgrade />
+    <MaintenanceUpgrade><WorkforceMaintenanceFactorUpgrade><Value>25</Value><Percental>1</Percental></WorkforceMaintenanceFactorUpgrade></MaintenanceUpgrade>
+    <CityInstitutionUpgrade /><IncidentInfectableUpgrade /><RecruitmentUpgrade /><AqueductUpgrade /><WarehouseUpgrade /><IrrigationUpgrade />
+  </Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="80193"><Asset><Template>BuildingBuff</Template><Values>
+    <Standard><GUID>1556040934</GUID><Name>Specialist Proculus Mellarius (Heroic) Buff Boosted</Name><IconFilename>data/khayi/graphics/icons/specialists/beeswax_heroic_proculus.png</IconFilename></Standard>
+    <Text><OasisId>1556040931</OasisId></Text>
+    <HealthUpgrade /><BuildingUpgrade><AdditionalFunctionalEffect>1556040937</AdditionalFunctionalEffect></BuildingUpgrade><DistributionUpgrade /><Buff><SourceCategory>Item</SourceCategory></Buff><ResidenceUpgrade />
+    <FactoryUpgrade><ProductivityUpgrade><Value>55</Value><Percental>0</Percental></ProductivityUpgrade><AdditionalOutput><Item><Product>2076</Product><AdditionalOutputCycle>3</AdditionalOutputCycle><Amount>1</Amount></Item></AdditionalOutput></FactoryUpgrade><ModuleOwnerUpgrade />
+    <MaintenanceUpgrade><WorkforceMaintenanceFactorUpgrade><Value>12</Value><Percental>1</Percental></WorkforceMaintenanceFactorUpgrade></MaintenanceUpgrade>
+    <CityInstitutionUpgrade /><IncidentInfectableUpgrade /><RecruitmentUpgrade /><AqueductUpgrade /><WarehouseUpgrade /><IrrigationUpgrade />
+  </Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="160048"><Asset><Template>ItemWithBoost</Template><Values>
+    <Standard><GUID>1556040930</GUID><Name>Specialist Proculus Mellarius (Heroic)</Name><IconFilename>data/khayi/graphics/icons/specialists/beeswax_heroic_proculus.png</IconFilename><InfoDescription>1556040932</InfoDescription></Standard>
+    <Effect><EffectScope>Radius</EffectScope><SourceCategory>Item</SourceCategory><Buffs><Item><GUID>1556040933</GUID></Item></Buffs><Targets><Item><GUID>2795</GUID></Item><Item><GUID>8427</GUID></Item></Targets><HideInGovernorsBar>1</HideInGovernorsBar></Effect>
+    <Item><Niche>Agriculture</Niche><Rarity>Mythic</Rarity><BarkPool>83313</BarkPool><NeededPrestige>10000</NeededPrestige><MythicEffect>1556040940</MythicEffect></Item>
+    <Locked><DefaultLockedState>0</DefaultLockedState></Locked>
+    <Text><OasisId>1556040931</OasisId></Text>
+    <ItemWithBoost><BoostCondition><IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset><Values><PreConditionList><Condition><Template>ConditionObjectCount</Template><Values>
+        <Condition /><ConditionObjectCount><Amount>12</Amount></ConditionObjectCount>
+        <ObjectFilter><ObjectGUID>2795</ObjectGUID><ObjectLocations><Template>LocationFilter</Template><Values><LocationFilter><ObjectLocations><ObjectFilter><Template>ObjectFilter</Template><Values><ObjectFilter><UseContextObjects>1</UseContextObjects></ObjectFilter></Values></ObjectFilter></ObjectLocations></LocationFilter></Values></ObjectLocations></ObjectFilter>
+        <ConditionPropsComparable /></Values></Condition></PreConditionList></Values></BoostCondition><BoostBuffs><Item><GUID>1556040934</GUID></Item></BoostBuffs><BoostHint>1556040939</BoostHint></ItemWithBoost>
+  </Values></Asset></ModOp>
+  <ModOp Type="add" GUID="113059" Path="/Values/AssetPool/AssetList"><Item><Asset>1556040920</Asset></Item><Item><Asset>1556040930</Asset></Item></ModOp>
+  <ModOp Type="add" GUID="43037,82598" Path="/Values/RewardPool/ItemsPool"><Item><ItemLink>1556040920</ItemLink></Item><Item><ItemLink>1556040930</ItemLink></Item></ModOp>
+  <!-- ===== END khayi-rl-specialists ===== -->
+  <!-- BEGIN khayi-vendor-pools: generated by .CLAUDE/tools/specialists/vendor_pools.py -->
+  <ModOp Type="add" GUID="83463,83467,83471,83455,83475,83483,83479,83459,83451,173300" Path="/Values/RewardPool/ItemsPool"><Item><ItemLink>1556040920</ItemLink></Item></ModOp>
+  <ModOp Type="add" GUID="173301" Path="/Values/RewardPool/ItemsPool"><Item><ItemLink>1556040930</ItemLink></Item></ModOp>
+  <!-- END khayi-vendor-pools -->
+  <!-- ===== BEGIN khayi-rl-heroic-effects: generated by .CLAUDE/tools/specialists/gen_heroic_effects.py ===== -->
+  <ModOp Type="addNextSibling" GUID="166504"><Asset><Template>Effect</Template><Values>
+    <Standard><GUID>1556040940</GUID><Name>Specialist Proculus Mellarius (Heroic) Heroic Effect</Name><IconFilename>data/khayi/graphics/icons/specialists/beeswax_heroic_proculus.png</IconFilename><InfoDescription>-6915596903965800039</InfoDescription></Standard>
+    <Effect><EffectScope>ObjectsInArea</EffectScope><SourceCategory>Item</SourceCategory><Buffs><Item><GUID>1556040941</GUID></Item></Buffs><Targets><Item><GUID>2795</GUID></Item><Item><GUID>8427</GUID></Item></Targets><HideInGovernorsBar>1</HideInGovernorsBar></Effect>
+    <Text><OasisId>1556040945</OasisId></Text>
+  </Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="80193"><Asset><Template>BuildingBuff</Template><Values>
+    <Standard><GUID>1556040941</GUID><Name>Specialist Proculus Mellarius (Heroic) Heroic Effect Buff</Name><IconFilename>data/khayi/graphics/icons/specialists/beeswax_heroic_proculus.png</IconFilename></Standard>
+    <Text><OasisId>1556040945</OasisId></Text>
+    <Buff><SourceCategory>Item</SourceCategory></Buff><BuildingUpgrade><AdditionalFunctionalEffect>1556040942</AdditionalFunctionalEffect></BuildingUpgrade>
+  </Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="166504"><Asset><Template>Effect</Template><Values>
+    <Standard><GUID>1556040942</GUID><Name>Specialist Proculus Mellarius (Heroic) Heroic Effect Area</Name><IconFilename>data/khayi/graphics/icons/specialists/beeswax_heroic_proculus.png</IconFilename></Standard>
+    <Effect><EffectScope>Radius</EffectScope><SourceCategory>Adjacency</SourceCategory><Buffs><Item><GUID>1556040943</GUID></Item></Buffs><Targets><Item><GUID>3141</GUID></Item></Targets><ExcludeEffectSourceGUID>1</ExcludeEffectSourceGUID><HideInGovernorsBar>1</HideInGovernorsBar></Effect>
+    <Text><OasisId>1556040945</OasisId></Text>
+  </Values></Asset></ModOp>
+  <ModOp Type="addNextSibling" GUID="80193"><Asset><Template>BuildingBuff</Template><Values>
+    <Standard><GUID>1556040943</GUID><Name>Specialist Proculus Mellarius (Heroic) Heroic Effect Area Buff</Name><IconFilename>data/khayi/graphics/icons/specialists/beeswax_heroic_proculus.png</IconFilename></Standard>
+    <Text><OasisId>1556040945</OasisId></Text>
+    <Buff><SourceCategory>Adjacency</SourceCategory></Buff><BuildingUpgrade><AdditionalAttributes><Population><AmountOrPercent><Value>1</Value><Percental>0</Percental></AmountOrPercent></Population><Money><AmountOrPercent><Value>1</Value><Percental>0</Percental></AmountOrPercent></Money></AdditionalAttributes></BuildingUpgrade>
+  </Values></Asset></ModOp>
+  <!-- ===== END khayi-rl-heroic-effects ===== -->
+</ModOps>

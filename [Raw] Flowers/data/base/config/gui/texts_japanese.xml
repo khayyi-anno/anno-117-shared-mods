@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556046001</LineId><Text>様々な花</Text></Text>
+    <Text><LineId>1556046011</LineId><Text>バラ、スミレ、アイリスを育てる。花輪に、香水に、そして謝罪のために。</Text></Text>
+    <Text><LineId>1556046012</LineId><Text>花園</Text></Text>
+    <Text><LineId>1556046051</LineId><Text>花壇</Text></Text>
+    <Text><LineId>1556046301</LineId><Text>花園（シラー）</Text></Text>
+    <Text><LineId>1556046302</LineId><Text>花の主役を奪わないよう、屋根は控えめな黒。</Text></Text>
+  </ModOp>
+
+</ModOps>

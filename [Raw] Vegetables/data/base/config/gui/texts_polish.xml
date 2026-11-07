@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556065001</LineId><Text>Warzywa</Text></Text>
+    <Text><LineId>1556065011</LineId><Text>Uprawia warzywa na równych grządkach. Nasiona z roślin, które wybiły w pędy, dostaje się gratis.</Text></Text>
+    <Text><LineId>1556065012</LineId><Text>Ogród warzywny</Text></Text>
+    <Text><LineId>1556065051</LineId><Text>Grządka warzywna</Text></Text>
+  </ModOp>
+
+</ModOps>

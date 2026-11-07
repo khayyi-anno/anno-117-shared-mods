@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556064001</LineId><Text>硫磺</Text></Text>
+    <Text><LineId>1556064011</LineId><Text>從火山噴氣孔中挖掘硫磺。聞著像臭雞蛋，賺來的卻是一片金黃。</Text></Text>
+    <Text><LineId>1556064012</LineId><Text>硫氣孔礦坑</Text></Text>
+    <Text><LineId>1556064071</LineId><Text>硫磺礦床</Text></Text>
+    <Text><LineId>1556064901</LineId><Text>弗萊格瑞原野的弗莫蘇斯，硫磺鼻</Text></Text>
+    <Text><LineId>1556064902</LineId><Text>他跟著鼻子找到硫磺。至於跟著他的人，一個也沒有。</Text></Text>
+  </ModOp>
+
+</ModOps>

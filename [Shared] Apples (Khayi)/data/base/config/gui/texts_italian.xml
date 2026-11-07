@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts" Condition="!#applecider-khayi">
+    <Text><LineId>1556023051</LineId><Text>Mele</Text></Text>
+    <Text><LineId>1556023053</LineId><Text>Filare di meli</Text></Text>
+    <Text><LineId>1556023055</LineId><Text>Piantate dei meli per ricavarne sidro</Text></Text>
+    <Text><LineId>1556023056</LineId><Text>Frutteto</Text></Text>
+  </ModOp>
+</ModOps>

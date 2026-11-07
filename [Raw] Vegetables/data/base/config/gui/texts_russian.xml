@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556065001</LineId><Text>Овощи</Text></Text>
+    <Text><LineId>1556065011</LineId><Text>Выращивает овощи на аккуратных грядках. Семена с растений, пустивших стрелку, идут в придачу.</Text></Text>
+    <Text><LineId>1556065012</LineId><Text>Огород</Text></Text>
+    <Text><LineId>1556065051</LineId><Text>Огородная грядка</Text></Text>
+  </ModOp>
+
+</ModOps>

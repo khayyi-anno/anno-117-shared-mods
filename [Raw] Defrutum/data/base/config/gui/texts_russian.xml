@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556044001</LineId><Text>Дефрутум</Text></Text>
+    <Text><LineId>1556044011</LineId><Text>Уваривает виноградное сусло в дефрутум, густой сироп, который подслащивает всё, к чему прикоснётся.</Text></Text>
+    <Text><LineId>1556044012</LineId><Text>Сусловарня</Text></Text>
+    <Text><LineId>1556044301</LineId><Text>Сусловарня (Сира)</Text></Text>
+    <Text><LineId>1556044302</LineId><Text>Черепица уварилась до черноты, как сусло.</Text></Text>
+  </ModOp>
+
+</ModOps>

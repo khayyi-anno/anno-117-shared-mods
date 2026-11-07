@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556057001</LineId><Text>Quinces</Text></Text>
+    <Text><LineId>1556057011</LineId><Text>Grows quinces, too hard to eat raw and too fragrant to ignore.</Text></Text>
+    <Text><LineId>1556057012</LineId><Text>Quince Orchard</Text></Text>
+    <Text><LineId>1556057051</LineId><Text>Quince Orchard Field</Text></Text>
+    <Text><LineId>1556057301</LineId><Text>Quince Orchard (Syrah)</Text></Text>
+    <Text><LineId>1556057302</LineId><Text>Tiles weathered to the colour of a quince left on the windowsill.</Text></Text>
+  </ModOp>
+
+</ModOps>

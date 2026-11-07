@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts" Condition="!#driedfigs-khayi">
+    <Text><LineId>1556006051</LineId><Text>Higos</Text></Text>
+    <Text><LineId>1556006053</LineId><Text>Higueras</Text></Text>
+    <Text><LineId>1556006055</LineId><Text>Produce higos. Se puede plantar en cualquier terreno del Lacio; no hay requisitos específicos en cuanto al suelo.</Text></Text>
+    <Text><LineId>1556006056</LineId><Text>Huerto de higueras</Text></Text>
+    <Text><LineId>1556006311</LineId><Text>Huerto de higueras (Syrah)</Text></Text>
+    <Text><LineId>1556006312</LineId><Text>Espalderas del color de un higo demasiado maduro.</Text></Text>
+  </ModOp>
+</ModOps>

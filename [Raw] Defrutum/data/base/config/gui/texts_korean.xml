@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556044001</LineId><Text>데프루툼</Text></Text>
+    <Text><LineId>1556044011</LineId><Text>포도즙을 졸여 데프루툼을 만든다. 닿는 것마다 달콤하게 만드는 걸쭉한 시럽이다.</Text></Text>
+    <Text><LineId>1556044012</LineId><Text>포도즙 졸임장</Text></Text>
+    <Text><LineId>1556044301</LineId><Text>포도즙 졸임장 (시라)</Text></Text>
+    <Text><LineId>1556044302</LineId><Text>포도즙처럼 기와도 검게 졸아들었다.</Text></Text>
+  </ModOp>
+
+</ModOps>

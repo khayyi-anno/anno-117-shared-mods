@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556065001</LineId><Text>Verdure</Text></Text>
+    <Text><LineId>1556065011</LineId><Text>Coltiva verdure in aiuole ordinate. I semi delle piante andate a seme arrivano in omaggio.</Text></Text>
+    <Text><LineId>1556065012</LineId><Text>Orto</Text></Text>
+    <Text><LineId>1556065051</LineId><Text>Aiuola dell'orto</Text></Text>
+  </ModOp>
+
+</ModOps>

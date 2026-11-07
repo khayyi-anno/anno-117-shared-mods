@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556048001</LineId><Text>염소</Text></Text>
+    <Text><LineId>1556048101</LineId><Text>염소젖</Text></Text>
+    <Text><LineId>1556048011</LineId><Text>젖과 고기를 얻으려고 염소를 기른다. 염소들이 울타리까지 먹어 치워서 울타리를 자주 갈아야 한다.</Text></Text>
+    <Text><LineId>1556048012</LineId><Text>염소 목초지</Text></Text>
+    <Text><LineId>1556048051</LineId><Text>염소 우리</Text></Text>
+  </ModOp>
+
+</ModOps>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556051001</LineId><Text>豆類</Text></Text>
+    <Text><LineId>1556051011</LineId><Text>種植鷹嘴豆、小扁豆和蠶豆。不起眼的作物，卻養活了半個帝國。</Text></Text>
+    <Text><LineId>1556051012</LineId><Text>豆類農場</Text></Text>
+    <Text><LineId>1556051051</LineId><Text>豆田</Text></Text>
+  </ModOp>
+
+</ModOps>

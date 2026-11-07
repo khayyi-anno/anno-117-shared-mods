@@ -1,0 +1,36 @@
+{
+  "Version": "0.1",
+  "Anno": 8,
+  "ModID": "rl-raw-seeds-khayi",
+  "Difficulty": "unchanged",
+  "GameSetup": {
+    "RequiresNewGame": false,
+    "SafeToRemove": true,
+    "Multiplayer": true,
+    "Campaign": true
+  },
+  "Dependencies": {
+    "Require": [
+      "rl-raw-vegetables-khayi"
+    ],
+    "Optional": [],
+    "LoadAfter": [
+      "rl-raw-vegetables-khayi"
+    ],
+    "Deprecate": []
+  },
+  "Category": {
+    "English": "Content"
+  },
+  "ModName": {
+    "English": "Seeds"
+  },
+  "Description": {
+    "English": "Adds Seeds as a by-product of the Kitchen Garden. Used by Gastris, Roasted Vegetables and Seeds and Theriac."
+  },
+  "KnownIssues": [],
+  "DLCDependencies": [],
+  "CreatorName": "Khayi",
+  "CreatorContact": "",
+  "Image": null
+}

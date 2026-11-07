@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556057001</LineId><Text>Айва</Text></Text>
+    <Text><LineId>1556057011</LineId><Text>Выращивает айву: слишком твёрдую, чтобы есть сырой, и слишком душистую, чтобы пройти мимо.</Text></Text>
+    <Text><LineId>1556057012</LineId><Text>Айвовый сад</Text></Text>
+    <Text><LineId>1556057051</LineId><Text>Ряд айвы</Text></Text>
+    <Text><LineId>1556057301</LineId><Text>Айвовый сад (Сира)</Text></Text>
+    <Text><LineId>1556057302</LineId><Text>Черепица выцвела до цвета айвы, забытой на подоконнике.</Text></Text>
+  </ModOp>
+
+</ModOps>

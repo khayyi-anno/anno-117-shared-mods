@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts" Condition="!#driedfigs-khayi">
+    <Text><LineId>1556006051</LineId><Text>Fichi</Text></Text>
+    <Text><LineId>1556006053</LineId><Text>Alberi di fico</Text></Text>
+    <Text><LineId>1556006055</LineId><Text>Coltiva fichi. Può essere costruita su qualsiasi terreno del Lazio: non ci sono requisiti specifici riguardo al tipo di terreno.</Text></Text>
+    <Text><LineId>1556006056</LineId><Text>Frutteto di fichi</Text></Text>
+    <Text><LineId>1556006311</LineId><Text>Frutteto di fichi (Syrah)</Text></Text>
+    <Text><LineId>1556006312</LineId><Text>Pergolati del colore di un fico troppo maturo.</Text></Text>
+  </ModOp>
+</ModOps>

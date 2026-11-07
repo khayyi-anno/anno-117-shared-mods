@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556044001</LineId><Text>Defrutum</Text></Text>
+    <Text><LineId>1556044011</LineId><Text>Odparowuje moszcz winogronowy na defrutum, gęsty syrop, który osładza wszystko, czego dotknie.</Text></Text>
+    <Text><LineId>1556044012</LineId><Text>Warzelnia moszczu</Text></Text>
+    <Text><LineId>1556044301</LineId><Text>Warzelnia moszczu (Syrah)</Text></Text>
+    <Text><LineId>1556044302</LineId><Text>Dachówki wygotowane na ciemno jak moszcz w kotle.</Text></Text>
+  </ModOp>
+
+</ModOps>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- With Celtic Independence Overhaul: its Fertiliser system is switched off; Albion runs on our Manure, Ox Stable and Manure Heap. -->
+<ModOps>
+
+  <!-- Unlock never fires: Fertiliser, Fertiliser Pit and Fertiliser Silo stay locked -->
+  <ModOp Type="merge" GUID="1400300627" Path="/Values/Trigger/TriggerCondition/Values/ConditionPlayerCounter">
+    <CounterAmount>999999999</CounterAmount>
+  </ModOp>
+
+  <!-- Aurochs by-product: no Fertiliser even where the effect already runs -->
+  <ModOp Type="remove" GUID="1400300623" Path="/Values/FactoryUpgrade/AdditionalOutput" />
+
+  <!-- Fertiliser out of warehouses, Fertiliser Pit out of the build menu and pools -->
+  <ModOp Type="remove" GUID="28750" Path="/Values/ProductList/List/Item[Product='1400300620']" />
+  <ModOp Type="remove" GUID="37672" Path="/Values/ProductList/List/Item[Product='1400300620']" />
+  <ModOp Type="remove" GUID="3409" Path="/Values/ProductList/List/Item[Product='1400300620']" />
+  <ModOp Type="remove" GUID="28754" Path="/Values/ProductList/List/Item[Product='1400300620']" />
+  <ModOp Type="remove" GUID="8497" Path="/Values/ProductList/List/Item[Product='1400300620']" />
+  <ModOp Type="remove" GUID="29328" Path="/Values/ProductList/List/Item[Product='1400300620']" />
+  <ModOp Type="remove" GUID="41331" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1400300621']" />
+  <ModOp Type="remove" GUID="38370" Path="/Values/AssetPool/AssetList/Item[Asset='1400300621']" />
+  <ModOp Type="remove" GUID="50605" Path="/Values/AssetPool/AssetList/Item[Asset='1400300621']" />
+  <ModOp Type="remove" GUID="64413" Path="/Values/AssetPool/AssetList/Item[Asset='1400300621']" />
+
+  <!-- Silo slot: Ox Stable on the CIO crop farms (Hemp, Rye), none on Grapes; Barley and Weld are in manure_albion.include.xml -->
+  <ModOp Type="remove" GUID="1400300700" Path="/Values/ModuleOwner/AdditionalModule" />
+  <ModOp Type="add" GUID='1556209031' Path="/Values/AssetPool/AssetList"><Item><Asset>1400300643</Asset></Item><Item><Asset>1400300650</Asset></Item><Item><Asset>1400300700</Asset></Item></ModOp>
+
+</ModOps>

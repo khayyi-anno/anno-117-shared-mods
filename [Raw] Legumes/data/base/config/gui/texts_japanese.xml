@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556051001</LineId><Text>豆類</Text></Text>
+    <Text><LineId>1556051011</LineId><Text>ひよこ豆、レンズ豆、ソラマメを育てる。地味な作物だが、帝国の半分を養っている。</Text></Text>
+    <Text><LineId>1556051012</LineId><Text>豆農場</Text></Text>
+    <Text><LineId>1556051051</LineId><Text>豆畑</Text></Text>
+  </ModOp>
+
+</ModOps>

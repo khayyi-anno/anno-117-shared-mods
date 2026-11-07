@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556060001</LineId><Text>鮭</Text></Text>
+    <Text><LineId>1556060011</LineId><Text>川に簗を仕掛け、遡上する鮭を捕らえる。</Text></Text>
+    <Text><LineId>1556060012</LineId><Text>鮭の簗</Text></Text>
+  </ModOp>
+
+</ModOps>

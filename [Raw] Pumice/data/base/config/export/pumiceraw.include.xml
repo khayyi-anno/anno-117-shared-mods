@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="addNextSibling" GUID="2070">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1556056000</GUID>
+          <Name>Good Pumice</Name>
+          <IconFilename>data/khayi/ui/rl/raw_pumice.png</IconFilename>
+        </Standard>
+        <Text><OasisId>1556056001</OasisId></Text>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>-6904287318739488511</ProductCategory>
+          <BasePrice>6</BasePrice>
+          <AssociatedRegion>Roman</AssociatedRegion>
+          <ProductionRegions><Item><RegionType>Roman</RegionType></Item></ProductionRegions>
+          <TransportGoodsType>Raw</TransportGoodsType>
+        </Product>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID='3409' Path="/Values/ProductList/List/Item[Product='2137']"><Item><Product>1556056000</Product></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='28750' Path="/Values/ProductList/List/Item[Product='2137']"><Item><Product>1556056000</Product></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='28754' Path="/Values/ProductList/List/Item[Product='2077']"><Item><Product>1556056000</Product></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='37672' Path="/Values/ProductList/List/Item[Product='2077']"><Item><Product>1556056000</Product></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='91326' Path="/Values/AssetPool/AssetList/Item[Asset='2077']"><Item><Asset>1556056000</Asset></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='130659' Path="/Values/AssetPool/AssetList/Item[Asset='2077']"><Item><Asset>1556056000</Asset></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID="37744">
+    <Asset>
+      <Template>TriggerIntermediateLevel</Template>
+      <Values>
+        <Standard>
+          <GUID>1556056040</GUID>
+          <Name>Trigger Pumice Unlock</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>1497</Context>
+                <CounterAmount>150</CounterAmount>
+              </ConditionPlayerCounter>
+              <ConditionLocationProps />
+              <ConditionCounterProps />
+              <ConditionPropsComparable />
+              <ConditionPropsExaminableObjects />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item><Asset>1556056000</Asset></Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup>
+          <AutoRegisterTrigger>1</AutoRegisterTrigger>
+          <AutoSelfUnlock>1</AutoSelfUnlock>
+          <UsedByFirstParties>1</UsedByFirstParties>
+          <UsedBySecondParties>1</UsedBySecondParties>
+          <UsedByThirdParties>0</UsedByThirdParties>
+        </TriggerSetup>
+      </Values>
+    </Asset>
+  </ModOp>
+
+
+  <ModOp Type="addNextSibling" GUID="37744">
+    <Asset>
+      <Template>Effect</Template>
+      <Values>
+        <Standard><GUID>1556056080</GUID><Name>Effect Byproduct 1556056000</Name><IconFilename>data/khayi/ui/rl/raw_pumice.png</IconFilename></Standard>
+        <Effect>
+          <EffectScope>ObjectsInMeta</EffectScope>
+          <SourceCategory>Adjacency</SourceCategory>
+          <Buffs><Item><GUID>1556056081</GUID></Item></Buffs>
+          <Targets><Item><GUID>2916</GUID></Item><Item><GUID>2954</GUID></Item></Targets>
+          <EffectIconCategory>Positive</EffectIconCategory>
+          <HideInGovernorsBar>1</HideInGovernorsBar>
+        </Effect>
+        <Text><OasisId>1556056001</OasisId></Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="37744">
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard><GUID>1556056081</GUID><Name>Buff Byproduct 1556056000</Name><IconFilename>data/khayi/ui/rl/raw_pumice.png</IconFilename></Standard>
+        <Text><OasisId>1556056001</OasisId></Text>
+        <Buff><SourceCategory>Adjacency</SourceCategory></Buff>
+        <FactoryUpgrade>
+          <AdditionalOutput>
+            <Item><Product>1556056000</Product><AdditionalOutputCycle>1</AdditionalOutputCycle><Amount>1</Amount></Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addPrevSibling" GUID="2916" Path="/Values/Building/FunctionalEffects/Item[FunctionalEffect='99103']"><Item><FunctionalEffect>1556056080</FunctionalEffect></Item></ModOp>
+  <ModOp Type="addPrevSibling" GUID="2954" Path="/Values/Building/FunctionalEffects/Item[FunctionalEffect='99104']"><Item><FunctionalEffect>1556056080</FunctionalEffect></Item></ModOp>
+
+
+</ModOps>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556066001</LineId><Text>野鳥</Text></Text>
+    <Text><LineId>1556066011</LineId><Text>夜明けの湿地で、まだ寝ぼけているカモなどの野鳥を網で捕らえる。</Text></Text>
+    <Text><LineId>1556066012</LineId><Text>湿地の鳥猟師</Text></Text>
+  </ModOp>
+
+</ModOps>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556047001</LineId><Text>Piedras preciosas</Text></Text>
+    <Text><LineId>1556047011</LineId><Text>Talla piedras preciosas a partir de minerales en bruto. Casi toda la roca es solo roca; lo demás es una fortuna.</Text></Text>
+    <Text><LineId>1556047012</LineId><Text>Extractoría de minerales</Text></Text>
+    <Text><LineId>1556047301</LineId><Text>Extractoría de minerales (Syrah)</Text></Text>
+    <Text><LineId>1556047302</LineId><Text>Tejas oscuras sobre un pozo lleno de piedras que centellean.</Text></Text>
+  </ModOp>
+
+</ModOps>

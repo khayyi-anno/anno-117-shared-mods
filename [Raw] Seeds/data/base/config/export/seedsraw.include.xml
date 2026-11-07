@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="addNextSibling" GUID="2070">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1556062000</GUID>
+          <Name>Good Seeds</Name>
+          <IconFilename>data/khayi/ui/rl/raw_seeds.png</IconFilename>
+        </Standard>
+        <Text><OasisId>1556062001</OasisId></Text>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>-6904287318739488511</ProductCategory>
+          <BasePrice>3</BasePrice>
+          <AssociatedRegion>Roman</AssociatedRegion>
+          <ProductionRegions><Item><RegionType>Roman</RegionType></Item></ProductionRegions>
+          <TransportGoodsType>Raw</TransportGoodsType>
+        </Product>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID='3409' Path="/Values/ProductList/List/Item[Product='2137']"><Item><Product>1556062000</Product></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='28750' Path="/Values/ProductList/List/Item[Product='2137']"><Item><Product>1556062000</Product></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='29303' Path="/Values/ProductList/List/Item[Product='2069']"><Item><Product>1556062000</Product></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='37673' Path="/Values/ProductList/List/Item[Product='2069']"><Item><Product>1556062000</Product></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='91326' Path="/Values/AssetPool/AssetList/Item[Asset='2077']"><Item><Asset>1556062000</Asset></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='130659' Path="/Values/AssetPool/AssetList/Item[Asset='2077']"><Item><Asset>1556062000</Asset></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID="37744">
+    <Asset>
+      <Template>TriggerIntermediateLevel</Template>
+      <Values>
+        <Standard>
+          <GUID>1556062040</GUID>
+          <Name>Trigger Seeds Unlock</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>1499</Context>
+                <CounterAmount>50</CounterAmount>
+              </ConditionPlayerCounter>
+              <ConditionLocationProps />
+              <ConditionCounterProps />
+              <ConditionPropsComparable />
+              <ConditionPropsExaminableObjects />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item><Asset>1556062000</Asset></Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup>
+          <AutoRegisterTrigger>1</AutoRegisterTrigger>
+          <AutoSelfUnlock>1</AutoSelfUnlock>
+          <UsedByFirstParties>1</UsedByFirstParties>
+          <UsedBySecondParties>1</UsedBySecondParties>
+          <UsedByThirdParties>0</UsedByThirdParties>
+        </TriggerSetup>
+      </Values>
+    </Asset>
+  </ModOp>
+
+
+
+  <ModOp Type="addNextSibling" GUID="37744">
+    <Asset>
+      <Template>Effect</Template>
+      <Values>
+        <Standard><GUID>1556062080</GUID><Name>Effect Byproduct 1556062000</Name><IconFilename>data/khayi/ui/rl/raw_seeds.png</IconFilename></Standard>
+        <Effect>
+          <EffectScope>ObjectsInMeta</EffectScope>
+          <SourceCategory>Adjacency</SourceCategory>
+          <Buffs><Item><GUID>1556062081</GUID></Item></Buffs>
+          <Targets><Item><GUID>1556065010</GUID></Item></Targets>
+          <EffectIconCategory>Positive</EffectIconCategory>
+          <HideInGovernorsBar>1</HideInGovernorsBar>
+        </Effect>
+        <Text><OasisId>1556062001</OasisId></Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="37744">
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard><GUID>1556062081</GUID><Name>Buff Byproduct 1556062000</Name><IconFilename>data/khayi/ui/rl/raw_seeds.png</IconFilename></Standard>
+        <Text><OasisId>1556062001</OasisId></Text>
+        <Buff><SourceCategory>Adjacency</SourceCategory></Buff>
+        <FactoryUpgrade>
+          <AdditionalOutput>
+            <Item><Product>1556062000</Product><AdditionalOutputCycle>1</AdditionalOutputCycle><Amount>2</Amount></Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addPrevSibling" GUID="1556065010" Path="/Values/Building/FunctionalEffects/Item[FunctionalEffect='1556065090']"><Item><FunctionalEffect>1556062080</FunctionalEffect></Item></ModOp>
+
+
+</ModOps>

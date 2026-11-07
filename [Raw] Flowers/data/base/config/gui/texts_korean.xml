@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556046001</LineId><Text>꽃</Text></Text>
+    <Text><LineId>1556046011</LineId><Text>화환과 향수, 그리고 사과할 때 쓸 장미, 제비꽃, 붓꽃을 기른다.</Text></Text>
+    <Text><LineId>1556046012</LineId><Text>화원</Text></Text>
+    <Text><LineId>1556046051</LineId><Text>화단</Text></Text>
+    <Text><LineId>1556046301</LineId><Text>화원 (시라)</Text></Text>
+    <Text><LineId>1556046302</LineId><Text>꽃의 주인공 자리를 빼앗지 않도록 지붕은 어둡게.</Text></Text>
+  </ModOp>
+
+</ModOps>

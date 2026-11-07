@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556048001</LineId><Text>ヤギ</Text></Text>
+    <Text><LineId>1556048101</LineId><Text>ヤギの乳</Text></Text>
+    <Text><LineId>1556048011</LineId><Text>乳と肉のためにヤギを飼う。ヤギは柵まで食べるので、柵はしょっちゅう取り替えられる。</Text></Text>
+    <Text><LineId>1556048012</LineId><Text>ヤギの牧草地</Text></Text>
+    <Text><LineId>1556048051</LineId><Text>ヤギの囲い</Text></Text>
+  </ModOp>
+
+</ModOps>

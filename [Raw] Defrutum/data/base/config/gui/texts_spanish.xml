@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556044001</LineId><Text>Defrutum</Text></Text>
+    <Text><LineId>1556044011</LineId><Text>Reduce el mosto de uva hasta convertirlo en defrutum, un jarabe espeso que endulza todo lo que toca.</Text></Text>
+    <Text><LineId>1556044012</LineId><Text>Caldera de mosto</Text></Text>
+    <Text><LineId>1556044301</LineId><Text>Caldera de mosto (Syrah)</Text></Text>
+    <Text><LineId>1556044302</LineId><Text>Tejas reducidas al fuego hasta quedar tan oscuras como el mosto.</Text></Text>
+  </ModOp>
+
+</ModOps>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556048001</LineId><Text>Ziegen</Text></Text>
+    <Text><LineId>1556048101</LineId><Text>Ziegenmilch</Text></Text>
+    <Text><LineId>1556048011</LineId><Text>Hält Ziegen für Milch und Fleisch. Sie fressen auch den Zaun, also wird der Zaun oft erneuert.</Text></Text>
+    <Text><LineId>1556048012</LineId><Text>Ziegenweide</Text></Text>
+    <Text><LineId>1556048051</LineId><Text>Ziegengehege</Text></Text>
+  </ModOp>
+
+</ModOps>

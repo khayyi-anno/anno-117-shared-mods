@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1780117010</LineId><Text>Ruda galeny</Text></Text>
+    <Text><LineId>1780117021</LineId><Text>Kopalnia galeny</Text></Text>
+    <Text><LineId>1780117022</LineId><Text>Wydobywa galenę</Text></Text>
+    <Text><LineId>1780117024</LineId><Text>Celtycka wersja kopalni galeny: stawiana z plecionki oblepionej gliną, bez akweduktu, obsługiwana przez Jadłodajnię jak inne celtyckie kopalnie. Co jakiś czas żyła daje przy okazji odrobinę złota. Nada się każde miejsce w górach, złoże nie jest potrzebne.</Text></Text>
+    <Text><LineId>1780117065</LineId><Text>Produkt uboczny: ruda złota</Text></Text>
+  </ModOp>
+
+</ModOps>

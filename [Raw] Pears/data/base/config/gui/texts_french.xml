@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556054001</LineId><Text>Poires</Text></Text>
+    <Text><LineId>1556054011</LineId><Text>Cultive des poires pour les patinas et les conserves, et pour les croquer à même l'arbre.</Text></Text>
+    <Text><LineId>1556054012</LineId><Text>Verger de poiriers</Text></Text>
+    <Text><LineId>1556054051</LineId><Text>Rangée de poiriers</Text></Text>
+    <Text><LineId>1556054301</LineId><Text>Verger de poiriers (Syrah)</Text></Text>
+    <Text><LineId>1556054302</LineId><Text>Des tuiles sombres sur des poires qui mûrissent à leur rythme.</Text></Text>
+  </ModOp>
+
+</ModOps>

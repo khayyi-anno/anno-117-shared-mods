@@ -1,0 +1,32 @@
+{
+  "Version": "1.0",
+  "Anno": 8,
+  "ModID": "rl-raw-seaweed-khayi",
+  "Difficulty": "unchanged",
+  "GameSetup": {
+    "RequiresNewGame": false,
+    "SafeToRemove": true,
+    "Multiplayer": true,
+    "Campaign": true
+  },
+  "Dependencies": {
+    "Require": [],
+    "Optional": [],
+    "LoadAfter": [],
+    "Deprecate": []
+  },
+  "Category": {
+    "English": "Content"
+  },
+  "ModName": {
+    "English": "Seaweed"
+  },
+  "Description": {
+    "English": "Adds the Seaweed Gatherer, which rakes Seaweed from the shore for Laverbread, Sapo Pomade and Soda Ash."
+  },
+  "KnownIssues": [],
+  "DLCDependencies": [],
+  "CreatorName": "Khayi",
+  "CreatorContact": "",
+  "Image": null
+}

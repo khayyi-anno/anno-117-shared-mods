@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556209001</LineId><Text>Mist</Text></Text>
+    <Text><LineId>1556209021</LineId><Text>Hier verrottet der Dung von den Weiden, bevor er auf die Felder gefahren wird. Solange der Haufen Mist hat, arbeiten Höfe und Plantagen in der Nähe doppelt so schnell.</Text></Text>
+    <Text><LineId>1556209022</LineId><Text>Misthaufen</Text></Text>
+    <Text><LineId>1556209026</LineId><Text>Gedüngte Felder</Text></Text>
+    <Text><LineId>1556209074</LineId><Text>Landwirtschaftliche Erzeugnisse</Text></Text>
+    <Text><LineId>1556209075</LineId><Text>Schaltet Silos, Mist und den Misthaufen frei. Tierweiden erzeugen nebenbei Mist.</Text></Text>
+  </ModOp>
+
+</ModOps>

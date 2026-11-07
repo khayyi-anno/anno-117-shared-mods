@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556226001</LineId><Text>Овечья шерсть</Text></Text>
+    <Text><LineId>1556226003</LineId><Text>Ягнятина и баранина</Text></Text>
+    <Text><LineId>1556226012</LineId><Text>Стригальня</Text></Text>
+    <Text><LineId>1556226011</LineId><Text>Стрижёт овец с пастбищ. Руно идёт ткачам, портным и парусникам как овечья шерсть; там, где кухня готовит ягнятину, каждая овца даёт ещё ягнятину и баранину.</Text></Text>
+  </ModOp>
+
+</ModOps>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556044001</LineId><Text>デフルトゥム</Text></Text>
+    <Text><LineId>1556044011</LineId><Text>ブドウのモストを煮詰めてデフルトゥムにする。触れるものすべてを甘くする濃厚なシロップだ。</Text></Text>
+    <Text><LineId>1556044012</LineId><Text>モスト煮詰め所</Text></Text>
+    <Text><LineId>1556044301</LineId><Text>モスト煮詰め所（シラー）</Text></Text>
+    <Text><LineId>1556044302</LineId><Text>ブドウ果汁と一緒に、瓦まで黒く煮詰まった。</Text></Text>
+  </ModOp>
+
+</ModOps>

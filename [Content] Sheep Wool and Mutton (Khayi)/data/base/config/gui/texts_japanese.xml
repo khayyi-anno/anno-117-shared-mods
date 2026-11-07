@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556226001</LineId><Text>羊毛</Text></Text>
+    <Text><LineId>1556226003</LineId><Text>子羊肉と羊肉</Text></Text>
+    <Text><LineId>1556226012</LineId><Text>毛刈り小屋</Text></Text>
+    <Text><LineId>1556226011</LineId><Text>牧場の羊の毛を刈ります。刈った毛は羊毛として織工、仕立屋、帆職人に送られます。子羊を料理する厨房があれば、羊1頭ごとに子羊肉と羊肉も得られます。</Text></Text>
+  </ModOp>
+
+</ModOps>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Aegyptus: Ox Stable 018 (unlock 019), Manure Heap 027, Agricultural Products section 076, pasture Manure effect/buff 054/055, one-shot unlock for older saves 067. Latium models. -->
+<ModOps>
+
+  <ModOp Type="add" GUID='152695' Path="/Values/ProductList/List"><Item><Product>1556209000</Product></Item></ModOp>
+  <ModOp Type="add" GUID='152699' Path="/Values/ProductList/List"><Item><Product>1556209000</Product></Item></ModOp>
+
+
+  <!-- Manure Heap: the crop farms above plus Vineyard, Lavender, Olives, Pomegranates, Blue Lotus -->
+  <ModOp Type="add" GUID='1556209031' Path="/Values/AssetPool/AssetList">
+    <Item><Asset>152143</Asset></Item><Item><Asset>155407</Asset></Item>
+    <Item><Asset>152151</Asset></Item><Item><Asset>155409</Asset></Item>
+    <Item><Asset>152142</Asset></Item><Item><Asset>155405</Asset></Item>
+    <Item><Asset>152144</Asset></Item><Item><Asset>155408</Asset></Item>
+    <Item><Asset>151993</Asset></Item><Item><Asset>155404</Asset></Item>
+    <Item><Asset>151994</Asset></Item><Item><Asset>155406</Asset></Item>
+    <Item><Asset>152141</Asset></Item><Item><Asset>152152</Asset></Item>
+    <Item><Asset>152153</Asset></Item><Item><Asset>152145</Asset></Item>
+    <Item><Asset>152107</Asset></Item>
+  </ModOp>
+
+
+  <!-- Manure Heap (Aegyptus) -->
+  <ModOp Type="addNextSibling" GUID="1556209025">
+    <Asset>
+      <Template>ProductionModuleSilo</Template>
+      <Values>
+        <Standard>
+          <GUID>1556209027</GUID>
+          <Name>Production Manure Heap Egyptian</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/production_goods/icon_3d_mud_goods.png</IconFilename>
+          <InfoDescription>1556209021</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>-6913619028388886843</BuildingCategoryName>
+          <AssociatedRegions>Egyptian</AssociatedRegions>
+          <FunctionalEffects><Item><FunctionalEffect>1556209023</FunctionalEffect></Item></FunctionalEffects>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item><Ingredient>1010017</Ingredient><Amount>500</Amount></Item>
+            <Item><Ingredient>151704</Ingredient><Amount>5</Amount></Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item><Filename>data/khayi/graphics/buildings/manure_heap_latium/manure_heap_latium.cfg</Filename></Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Text><OasisId>1556209022</OasisId></Text>
+        <Constructable />
+        <FeedbackController />
+        <Infolayer />
+        <Factory7 />
+        <FactoryBase>
+          <FactoryInputs>
+            <Item><Product>1556209000</Product><Amount>1</Amount><StorageAmount>5</StorageAmount></Item>
+          </FactoryInputs>
+          <CycleTime>60</CycleTime>
+          <MaxTransporterRange>30</MaxTransporterRange>
+        </FactoryBase>
+        <LogisticNode />
+        <AmbientMoodProvider>
+          <Murmur>Farms</Murmur>
+          <DynamicEnvironmentType>BuildingIndustry</DynamicEnvironmentType>
+        </AmbientMoodProvider>
+        <Maintenance>
+          <Maintenances>
+            <Item><Product>1010017</Product><Amount>10</Amount></Item>
+            <Item><Product>149685</Product><Amount>2</Amount></Item>
+          </Maintenances>
+          <ConsumerPriority>5</ConsumerPriority>
+        </Maintenance>
+        <Selection>
+          <GUIType>Production</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values><ActionList /></Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>153070</ParticipantMessageArcheType>
+        </Selection>
+        <Locked />
+        <SoundEmitter />
+        <Health />
+        <Pausable><CanPauseManually>1</CanPauseManually></Pausable>
+        <Buffable />
+        <EffectSource>
+          <RadiusDistance>20</RadiusDistance>
+          <StreetDistance>24</StreetDistance>
+        </EffectSource>
+        <Threatable />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="1556209073">
+    <Asset>
+      <Template>ConstructionCategory</Template>
+      <Values>
+        <Standard>
+          <GUID>1556209076</GUID>
+          <Name>Egyptian Agricultural Products</Name>
+          <IconFilename>data/khayi/ui/oxteams/agricultural_products.png</IconFilename>
+        </Standard>
+        <ConstructionCategory>
+          <BuildingList><Item><Building>1556209027</Building></Item></BuildingList>
+        </ConstructionCategory>
+        <Text><OasisId>1556209074</OasisId></Text>
+        <Locked />
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addPrevSibling" GUID='149687' Path="/Values/ConstructionCategory/BuildingList/Item[Building='152979']"><Item><Building>1556209076</Building></Item></ModOp>
+
+  <!-- Sanga Cattle, Sheep, Kamels and Horses make Manure (1 per 3 cycles) while Epona's devotion holds -->
+  <ModOp Type="addNextSibling" GUID="1556209052">
+    <Asset>
+      <Template>Effect</Template>
+      <Values>
+        <Standard>
+          <GUID>1556209054</GUID>
+          <Name>Effect Manure Egyptian Pastures</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/production_goods/icon_3d_mud_goods.png</IconFilename>
+        </Standard>
+        <Effect>
+          <EffectScope>ObjectsInMeta</EffectScope>
+          <SourceCategory>Generic</SourceCategory>
+          <Buffs><Item><GUID>1556209055</GUID></Item></Buffs>
+          <Targets>
+            <Item><GUID>152257</GUID></Item>
+            <Item><GUID>152256</GUID></Item>
+            <Item><GUID>152012</GUID></Item>
+            <Item><GUID>152259</GUID></Item>
+          </Targets>
+          <HideInGovernorsBar>1</HideInGovernorsBar>
+        </Effect>
+        <Text><OasisId>1556209001</OasisId></Text>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="1556209053">
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1556209055</GUID>
+          <Name>BuildingBuff Manure Egyptian</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/production_goods/icon_3d_mud_goods.png</IconFilename>
+        </Standard>
+        <Text><OasisId>1556209001</OasisId></Text>
+        <HealthUpgrade />
+        <BuildingUpgrade />
+        <DistributionUpgrade />
+        <Buff><SourceCategory>Generic</SourceCategory></Buff>
+        <ResidenceUpgrade />
+        <FactoryUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>1556209000</Product>
+              <AdditionalOutputCycle>3</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade />
+        <MaintenanceUpgrade />
+        <CityInstitutionUpgrade />
+        <IncidentInfectableUpgrade />
+        <RecruitmentUpgrade />
+        <AqueductUpgrade />
+        <WarehouseUpgrade />
+        <IrrigationUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- One-shot for saves where 1556209060 already fired -->
+  <ModOp Type="addNextSibling" GUID="1556209066">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1556209067</GUID>
+          <Name>Trigger Manure Aegyptus Unlock</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PatronDevotion</PlayerCounter>
+                <Context>80861</Context>
+                <ComparisonOp>MoreThan</ComparisonOp>
+                <CounterAmount>3999</CounterAmount>
+              </ConditionPlayerCounter>
+              <ConditionLocationProps />
+              <ConditionCounterProps />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item><Asset>1556209027</Asset></Item>
+                      <Item><Asset>1556209076</Asset></Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionEffect</Template>
+                <Values>
+                  <Action />
+                  <ActionEffect>
+                    <EffectAsset>1556209054</EffectAsset>
+                    <StartEffect>0</StartEffect>
+                  </ActionEffect>
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionEffect</Template>
+                <Values>
+                  <Action />
+                  <ActionEffect>
+                    <EffectAsset>1556209054</EffectAsset>
+                    <StartEffect>1</StartEffect>
+                  </ActionEffect>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup>
+          <AutoRegisterTrigger>1</AutoRegisterTrigger>
+          <UsedByFirstParties>1</UsedByFirstParties>
+        </TriggerSetup>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Roman Life Aegyptus field farms (and flood-land twins) take the Manure Heap -->
+  <ModOp Type="add" GUID='1556209031' Path="/Values/AssetPool/AssetList" Condition="#rl-aegyptus-khayi">
+    <Item><Asset>1556233010</Asset></Item><Item><Asset>1556233015</Asset></Item>
+    <Item><Asset>1556234010</Asset></Item><Item><Asset>1556234015</Asset></Item>
+    <Item><Asset>1556242010</Asset></Item><Item><Asset>1556242015</Asset></Item>
+    <Item><Asset>1556257060</Asset></Item><Item><Asset>1556257065</Asset></Item>
+    <Item><Asset>1556252010</Asset></Item>
+  </ModOp>
+
+</ModOps>

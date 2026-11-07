@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556047001</LineId><Text>宝石</Text></Text>
+    <Text><LineId>1556047011</LineId><Text>从原矿中切出宝石。大部分石头只是石头，剩下的才是财富。</Text></Text>
+    <Text><LineId>1556047012</LineId><Text>矿物提取厂</Text></Text>
+    <Text><LineId>1556047301</LineId><Text>矿物提取厂（西拉）</Text></Text>
+    <Text><LineId>1556047302</LineId><Text>黑瓦下的矿坑，满是闪闪发亮的石头。</Text></Text>
+  </ModOp>
+
+</ModOps>

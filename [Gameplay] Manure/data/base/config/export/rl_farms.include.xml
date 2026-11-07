@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Khayi orchards and gardens: Manure Heap radius targets all. Khayi animal farms make Manure. -->
+<ModOps>
+
+  <!-- Roman Life - Latium -->
+  <Group Condition="#rl-latium-khayi">
+    <ModOp Type="add" GUID='1556209031' Path="/Values/AssetPool/AssetList"><Item><Asset>1556137010</Asset></Item></ModOp>
+    <ModOp Type="add" GUID='1556209031' Path="/Values/AssetPool/AssetList"><Item><Asset>1556205010</Asset></Item></ModOp>
+    <ModOp Type="add" GUID='1556209031' Path="/Values/AssetPool/AssetList"><Item><Asset>1556136010</Asset></Item></ModOp>
+    <ModOp Type="add" GUID='1556209031' Path="/Values/AssetPool/AssetList"><Item><Asset>1556046010</Asset></Item></ModOp>
+    <ModOp Type="add" GUID='1556209031' Path="/Values/AssetPool/AssetList"><Item><Asset>1556051010</Asset></Item></ModOp>
+    <ModOp Type="add" GUID='1556209031' Path="/Values/AssetPool/AssetList"><Item><Asset>1556054010</Asset></Item></ModOp>
+    <ModOp Type="add" GUID='1556209031' Path="/Values/AssetPool/AssetList"><Item><Asset>1556057010</Asset></Item></ModOp>
+    <ModOp Type="add" GUID='1556209031' Path="/Values/AssetPool/AssetList"><Item><Asset>1556065010</Asset></Item></ModOp>
+    <ModOp Type="add" GUID='1556209031' Path="/Values/AssetPool/AssetList"><Item><Asset>1556006054</Asset></Item></ModOp>
+    <ModOp Type="add" GUID='1556209031' Path="/Values/AssetPool/AssetList"><Item><Asset>1556010102</Asset></Item></ModOp>
+    <!-- Goats and donkeys make Manure -->
+    <ModOp Type="add" GUID='1556209050' Path="/Values/Effect/Targets"><Item><GUID>1556048010</GUID></Item><Item><GUID>1556139010</GUID></Item></ModOp>
+  </Group>
+
+  <!-- Roman Life - Albion -->
+  <Group Condition="#rl-albion-khayi">
+    <ModOp Type="add" GUID='1556209031' Path="/Values/AssetPool/AssetList"><Item><Asset>1556021054</Asset></Item></ModOp>
+    <ModOp Type="add" GUID='1556209031' Path="/Values/AssetPool/AssetList"><Item><Asset>1556023054</Asset></Item></ModOp>
+    <ModOp Type="add" GUID='1556209052' Path="/Values/Effect/Targets"><Item><GUID>1556208010</GUID></Item></ModOp>
+  </Group>
+
+  <!-- Bog Butter: cows make Manure -->
+  <Group Condition="#bogbutter-khayi">
+    <ModOp Type="add" GUID='1556209052' Path="/Values/Effect/Targets"><Item><GUID>1556208010</GUID></Item></ModOp>
+  </Group>
+
+  <!-- Dried Figs -->
+  <Group Condition="#driedfigs-khayi">
+    <ModOp Type="add" GUID='1556209031' Path="/Values/AssetPool/AssetList"><Item><Asset>1556006054</Asset></Item></ModOp>
+  </Group>
+
+  <!-- Roman Herbs -->
+  <Group Condition="#romanherbs-khayi">
+    <ModOp Type="add" GUID='1556209031' Path="/Values/AssetPool/AssetList"><Item><Asset>1556010102</Asset></Item></ModOp>
+  </Group>
+
+  <!-- Apple Cider -->
+  <Group Condition="#applecider-khayi">
+    <ModOp Type="add" GUID='1556209031' Path="/Values/AssetPool/AssetList"><Item><Asset>1556023054</Asset></Item></ModOp>
+  </Group>
+
+  <!-- Cabbage and Leek Pottage -->
+  <Group Condition="#cabbageleekpottage-khayi">
+    <ModOp Type="add" GUID='1556209031' Path="/Values/AssetPool/AssetList"><Item><Asset>1556021054</Asset></Item></ModOp>
+  </Group>
+
+</ModOps>

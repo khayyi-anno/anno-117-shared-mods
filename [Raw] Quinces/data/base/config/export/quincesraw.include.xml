@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="addNextSibling" GUID="2070">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1556057000</GUID>
+          <Name>Good Quinces</Name>
+          <IconFilename>data/khayi/ui/rl/raw_quinces.png</IconFilename>
+        </Standard>
+        <Text><OasisId>1556057001</OasisId></Text>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>-6904287318739488511</ProductCategory>
+          <BasePrice>8</BasePrice>
+          <AssociatedRegion>Roman</AssociatedRegion>
+          <ProductionRegions><Item><RegionType>Roman</RegionType></Item></ProductionRegions>
+          <TransportGoodsType>Raw</TransportGoodsType>
+        </Product>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID='3409' Path="/Values/ProductList/List/Item[Product='2137']"><Item><Product>1556057000</Product></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='28750' Path="/Values/ProductList/List/Item[Product='2137']"><Item><Product>1556057000</Product></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='29303' Path="/Values/ProductList/List/Item[Product='2069']"><Item><Product>1556057000</Product></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='37673' Path="/Values/ProductList/List/Item[Product='2069']"><Item><Product>1556057000</Product></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='91326' Path="/Values/AssetPool/AssetList/Item[Asset='2077']"><Item><Asset>1556057000</Asset></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='130659' Path="/Values/AssetPool/AssetList/Item[Asset='2077']"><Item><Asset>1556057000</Asset></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID="3174">
+    <Asset>
+      <Template>Production Field</Template>
+      <Values>
+        <Standard>
+          <GUID>1556057010</GUID>
+          <Name>Production Roman Quince Orchard</Name>
+          <IconFilename>data/khayi/ui/rl/raw_quinces_b.png</IconFilename>
+          <InfoDescription>1556057011</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>-6908408657842733452</BuildingCategoryName>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <AssociatedRegions>Roman</AssociatedRegions>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item><Ingredient>1010017</Ingredient></Item>
+            <Item><Ingredient>2174</Ingredient><Amount>2</Amount></Item>
+            <Item><Ingredient>2176</Ingredient><Amount>3</Amount></Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations><Item><Filename>data/khayi/graphics/buildings/quince_orchard/quince_orchard.cfg</Filename></Item></Variations>
+        </Object>
+        <Mesh />
+        <Text><OasisId>1556057012</OasisId></Text>
+        <Constructable />
+        <Locked />
+        <FeedbackController />
+        <Infolayer />
+        <Factory7 />
+        <FactoryBase>
+          <FactoryInputs>
+          </FactoryInputs>
+          <FactoryOutputs>
+            <Item><Product>1556057000</Product><Amount>1</Amount><StorageAmount>4</StorageAmount></Item>
+          </FactoryOutputs>
+          <CycleTime>45</CycleTime>
+          <IsMainFactory>1</IsMainFactory>
+          <MaxTransporterRange>45</MaxTransporterRange>
+        </FactoryBase>
+        <LogisticNode />
+        <ModuleOwner>
+          <ModuleLimits><Main><Limit>100</Limit></Main></ModuleLimits>
+          <ConstructionOptions><Item><ModuleGUID>1556057050</ModuleGUID></Item></ConstructionOptions>
+          <FarmType>PlantFarm</FarmType>
+        </ModuleOwner>
+        <AmbientMoodProvider><Murmur>Workshop</Murmur></AmbientMoodProvider>
+        <Maintenance>
+          <Maintenances>
+            <Item><Product>1010017</Product><Amount>10</Amount></Item>
+            <Item><Product>2181</Product><Amount>4</Amount></Item>
+          </Maintenances>
+          <ConsumerPriority>5</ConsumerPriority>
+        </Maintenance>
+        <Health>
+          <BaseHealth>600</BaseHealth>
+          <SelfHealPerHealTick>1</SelfHealPerHealTick>
+          <PassiveRuinRepairTime>1500000</PassiveRuinRepairTime>
+          <DestructionWarScore>60</DestructionWarScore>
+        </Health>
+        <Pausable />
+        <AqueductConsumer>
+          <AqueductConsumptionType>Optional</AqueductConsumptionType>
+          <AqueductConsumedWaterSupply>5</AqueductConsumedWaterSupply>
+          <AqueductConsumptionBuffEffect>
+            <Item>
+              <ProductivityBuff>28480</ProductivityBuff>
+            </Item>
+          </AqueductConsumptionBuffEffect>
+          <UnlockToActivateConsumption>38551</UnlockToActivateConsumption>
+        </AqueductConsumer>
+        <IncidentInfectable><DestructionScore>100</DestructionScore></IncidentInfectable>
+        <Buffable />
+        <EffectSource />
+        <Threatable />
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID='31973' Path="/Values/AssetPool/AssetList/Item[Asset='3174']"><Item><Asset>1556057010</Asset></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='38370' Path="/Values/AssetPool/AssetList/Item[Asset='3174']"><Item><Asset>1556057010</Asset></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='108868' Path="/Values/AssetPool/AssetList/Item[Asset='3174']"><Item><Asset>1556057010</Asset></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='29186' Path="/Values/FeedbackBuildingGroup/Buildings/Item[Building='3186']"><Item><Building>1556057010</Building></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID="37744">
+    <Asset>
+      <Template>TriggerIntermediateLevel</Template>
+      <Values>
+        <Standard>
+          <GUID>1556057040</GUID>
+          <Name>Trigger Quinces Unlock</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>1497</Context>
+                <CounterAmount>500</CounterAmount>
+              </ConditionPlayerCounter>
+              <ConditionLocationProps />
+              <ConditionCounterProps />
+              <ConditionPropsComparable />
+              <ConditionPropsExaminableObjects />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item><Asset>1556057000</Asset></Item>
+                      <Item><Asset>1556057010</Asset></Item>
+                      <Item><Asset>1556057050</Asset></Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup>
+          <AutoRegisterTrigger>1</AutoRegisterTrigger>
+          <AutoSelfUnlock>1</AutoSelfUnlock>
+          <UsedByFirstParties>1</UsedByFirstParties>
+          <UsedBySecondParties>1</UsedBySecondParties>
+          <UsedByThirdParties>0</UsedByThirdParties>
+        </TriggerSetup>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="2743">
+    <Asset>
+      <Template>ModulePolygonField</Template>
+      <Values>
+        <Standard>
+          <GUID>1556057050</GUID>
+          <Name>Module Field Roman Quinces</Name>
+          <IconFilename>data/khayi/ui/rl/raw_quinces.png</IconFilename>
+        </Standard>
+        <Building>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <AssociatedRegions>Roman</AssociatedRegions>
+          <VariationControl>ByPlayer</VariationControl>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item><Ingredient>1010017</Ingredient><Amount>4</Amount></Item>
+            <Item><Ingredient>2174</Ingredient></Item>
+          </Costs>
+        </Cost>
+        <Text><OasisId>1556057051</OasisId></Text>
+        <Constructable />
+        <Locked />
+        <BuildingModule><PlazaSize>20</PlazaSize></BuildingModule>
+        <AmbientMoodProvider><Murmur>Farms</Murmur></AmbientMoodProvider>
+        <Polygon>
+          <Path>data/khayi/graphics/buildings/quince_orchard/modules/</Path>
+          <FencePath>data/base/graphics/library/props/fences/polygon_field_fence/</FencePath>
+          <Category>Field</Category>
+        </Polygon>
+        <ModuleIrrigation />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="2001096" Path="/Values/FeedbackSessionDescription/FarmFieldConfig/FarmFieldBuildings/Item[Building='2699']">
+    <Item>
+      <Building>1556057010</Building>
+      <PersonSpawners>
+        <Item><UnitClass>159811</UnitClass><Amount_Default>5</Amount_Default></Item>
+        <Item><UnitClass>179715</UnitClass><Amount_Default>5</Amount_Default></Item>
+      </PersonSpawners>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID='43602' Path="/Values/AssetPool/AssetList">
+    <Item><Asset>1556057010</Asset></Item>
+  </ModOp>
+
+  <!-- BEGIN khayi-pools: generated by .CLAUDE/tools/romanlife/pool_register.py -->
+  <ModOp Type="add" GUID='51905' Path="/Values/AssetPool/AssetList"><Item><Asset>1556057010</Asset></Item></ModOp>
+  <ModOp Add="@1400300642/AssetPool/AssetList" Condition="@1400300642/AssetPool/AssetList[not(Item/Asset = '1556057010')]"><Item><Asset>1556057010</Asset></Item></ModOp>
+  <!-- END khayi-pools -->
+
+  <ModOp Type="addNextSibling" GUID="3174">
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>1556057300</GUID>
+          <Name>Skin Quince Orchard Syrah</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/ornaments/skins/icon_3d_skin_syrah.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>1556057301</SkinName>
+          <SkinDescription>1556057302</SkinDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data/khayi/graphics/buildings/quince_orchard/quince_orchard_dark.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinSetIcon>data/ui/fhd/base/icon_content/ornaments/skins/icon_3d_skin_syrah.png</SkinSetIcon>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text />
+        <ShipRenderConfiguration />
+        <LandUnitSkin />
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="merge" GUID="1556057010" Path="/Values/Object">
+    <Skins><SkinList /></Skins>
+  </ModOp>
+  <ModOp Type="add" GUID="1556057010" Path="/Values/Object/Skins/SkinList">
+    <Item><SkinAssetGuid>1556057300</SkinAssetGuid></Item>
+  </ModOp>
+</ModOps>

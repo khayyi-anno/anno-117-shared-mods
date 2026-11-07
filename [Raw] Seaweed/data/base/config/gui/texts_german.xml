@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556061001</LineId><Text>Seetang</Text></Text>
+    <Text><LineId>1556061011</LineId><Text>Recht nach jeder Flut Seetang vom Strand. Das Meer wirft ihn hinaus, der Sammler holt ihn herein.</Text></Text>
+    <Text><LineId>1556061012</LineId><Text>Seetangsammler</Text></Text>
+  </ModOp>
+
+</ModOps>

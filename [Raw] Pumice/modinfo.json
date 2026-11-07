@@ -1,0 +1,32 @@
+{
+  "Version": "0.1",
+  "Anno": 8,
+  "ModID": "rl-raw-pumice-khayi",
+  "Difficulty": "unchanged",
+  "GameSetup": {
+    "RequiresNewGame": false,
+    "SafeToRemove": true,
+    "Multiplayer": true,
+    "Campaign": true
+  },
+  "Dependencies": {
+    "Require": [],
+    "Optional": [],
+    "LoadAfter": [],
+    "Deprecate": []
+  },
+  "Category": {
+    "English": "Content"
+  },
+  "ModName": {
+    "English": "Pumice"
+  },
+  "Description": {
+    "English": "Adds Pumice as an extra output of every mine. Used by Depilatory and Pumice and Tooth Powder."
+  },
+  "KnownIssues": [],
+  "DLCDependencies": [],
+  "CreatorName": "Khayi",
+  "CreatorContact": "",
+  "Image": null
+}

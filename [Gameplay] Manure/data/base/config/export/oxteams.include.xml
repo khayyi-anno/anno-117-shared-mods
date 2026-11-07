@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 1556209000 Manure, 010 Ox Stable, 016 Celtic Ox Stable (013 effect, 014 buff; 017 Celtic unlock), 020 Manure Heap Latium, 025 Manure Heap Albion (023 radius effect, 024 buff), 072/073 Agricultural Products build-menu sections (text 074),
+     030 ox stable farms pool, 031 manure heap farms pool, 040/041 ox stable unlock (Liberti/Waders), 050/051 Latium manure effect/buff,
+     052/053 Albion, 054/055 Egypt manure effect/buff (in the region includes), 060/061 Epona unlock/relock, 064 one-shot pasture effect restart -->
+<!-- Placeholder look: Liberti house until the models are built. -->
+<ModOps>
+
+  <ModOp Type="addNextSibling" GUID="2102">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1556209000</GUID>
+          <Name>Good Manure</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/production_goods/icon_3d_mud_goods.png</IconFilename>
+        </Standard>
+        <Text><OasisId>1556209001</OasisId></Text>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>-6904287318739488511</ProductCategory>
+          <BasePrice>6</BasePrice>
+          <AssociatedRegion>Roman;Celtic;Egyptian</AssociatedRegion>
+          <ProductionRegions>
+            <Item><RegionType>Roman</RegionType></Item>
+            <Item><RegionType>Celtic</RegionType></Item>
+            <Item><RegionType>Egyptian</RegionType></Item>
+          </ProductionRegions>
+        </Product>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="add" GUID='28750' Path="/Values/ProductList/List"><Item><Product>1556209000</Product></Item></ModOp>
+  <ModOp Type="add" GUID='3409' Path="/Values/ProductList/List"><Item><Product>1556209000</Product></Item></ModOp>
+  <ModOp Type="add" GUID='29303' Path="/Values/ProductList/List"><Item><Product>1556209000</Product></Item></ModOp>
+  <ModOp Type="add" GUID='37673' Path="/Values/ProductList/List"><Item><Product>1556209000</Product></Item></ModOp>
+  <ModOp Type="add" GUID='91326' Path="/Values/AssetPool/AssetList"><Item><Asset>1556209000</Asset></Item></ModOp>
+  <ModOp Type="add" GUID='130659' Path="/Values/AssetPool/AssetList"><Item><Asset>1556209000</Asset></Item></ModOp>
+
+
+
+
+  <!-- Manure Heap (Latium): eats Manure, +100% productivity on farms and plantations in its radius -->
+  <ModOp Type="addNextSibling" GUID="3174">
+    <Asset>
+      <Template>ProductionModuleSilo</Template>
+      <Values>
+        <Standard>
+          <GUID>1556209020</GUID>
+          <Name>Production Manure Heap Roman</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/production_goods/icon_3d_mud_goods.png</IconFilename>
+          <InfoDescription>1556209021</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>-6913619028388886843</BuildingCategoryName>
+          <AssociatedRegions>Roman</AssociatedRegions>
+          <FunctionalEffects><Item><FunctionalEffect>1556209023</FunctionalEffect></Item></FunctionalEffects>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item><Ingredient>1010017</Ingredient><Amount>500</Amount></Item>
+            <Item><Ingredient>2174</Ingredient><Amount>5</Amount></Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item><Filename>data/khayi/graphics/buildings/manure_heap_latium/manure_heap_latium.cfg</Filename></Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Text><OasisId>1556209022</OasisId></Text>
+        <Constructable />
+        <FeedbackController />
+        <Infolayer />
+        <Factory7 />
+        <FactoryBase>
+          <FactoryInputs>
+            <Item><Product>1556209000</Product><Amount>1</Amount><StorageAmount>5</StorageAmount></Item>
+          </FactoryInputs>
+          <CycleTime>60</CycleTime>
+          <MaxTransporterRange>30</MaxTransporterRange>
+        </FactoryBase>
+        <LogisticNode />
+        <AmbientMoodProvider>
+          <Murmur>Farms</Murmur>
+          <DynamicEnvironmentType>BuildingIndustry</DynamicEnvironmentType>
+        </AmbientMoodProvider>
+        <Maintenance>
+          <Maintenances>
+            <Item><Product>1010017</Product><Amount>10</Amount></Item>
+            <Item><Product>2181</Product><Amount>2</Amount></Item>
+          </Maintenances>
+          <ConsumerPriority>5</ConsumerPriority>
+        </Maintenance>
+        <Selection>
+          <GUIType>Production</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values><ActionList /></Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>27081</ParticipantMessageArcheType>
+        </Selection>
+        <Locked />
+        <SoundEmitter />
+        <Health />
+        <Pausable><CanPauseManually>1</CanPauseManually></Pausable>
+        <Buffable />
+        <EffectSource>
+          <RadiusDistance>20</RadiusDistance>
+          <StreetDistance>24</StreetDistance>
+        </EffectSource>
+        <Threatable />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="81009">
+    <Asset>
+      <Template>ConstructionCategory</Template>
+      <Values>
+        <Standard>
+          <GUID>1556209072</GUID>
+          <Name>Roman Agricultural Products</Name>
+          <IconFilename>data/khayi/ui/oxteams/agricultural_products.png</IconFilename>
+        </Standard>
+        <ConstructionCategory>
+          <BuildingList><Item><Building>1556209020</Building></Item></BuildingList>
+        </ConstructionCategory>
+        <Text><OasisId>1556209074</OasisId></Text>
+        <Locked />
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addPrevSibling" GUID='41252' Path="/Values/ConstructionCategory/BuildingList/Item[Building='42434']"><Item><Building>1556209072</Building></Item></ModOp>
+
+
+
+  <ModOp Type="addNextSibling" GUID="77962">
+    <Asset>
+      <Template>Effect</Template>
+      <Values>
+        <Standard>
+          <GUID>1556209023</GUID>
+          <Name>Effect Manure Heap</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/production_goods/icon_3d_mud_goods.png</IconFilename>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Adjacency</SourceCategory>
+          <Buffs><Item><GUID>1556209024</GUID></Item></Buffs>
+          <Targets><Item><GUID>1556209031</GUID></Item></Targets>
+        </Effect>
+        <Text><OasisId>1556209026</OasisId></Text>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="77960">
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1556209024</GUID>
+          <Name>BuildingBuff Manure Heap</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/production_goods/icon_3d_mud_goods.png</IconFilename>
+        </Standard>
+        <Text><OasisId>1556209026</OasisId></Text>
+        <HealthUpgrade />
+        <BuildingUpgrade />
+        <DistributionUpgrade />
+        <Buff><SourceCategory>Generic</SourceCategory></Buff>
+        <ResidenceUpgrade />
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>100</Value>
+            <Percental>0</Percental>
+          </ProductivityUpgrade>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade />
+        <MaintenanceUpgrade />
+        <CityInstitutionUpgrade />
+        <IncidentInfectableUpgrade />
+        <RecruitmentUpgrade />
+        <AqueductUpgrade />
+        <WarehouseUpgrade />
+        <IrrigationUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+
+
+  <ModOp Type="addNextSibling" GUID="77964">
+    <Asset>
+      <Template>AssetPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1556209031</GUID>
+          <Name>Manure Heap Farms</Name>
+        </Standard>
+        <AssetPool>
+          <AssetList>
+            <Item><Asset>2693</Asset></Item>
+            <Item><Asset>2200</Asset></Item>
+            <Item><Asset>2669</Asset></Item>
+            <Item><Asset>31750</Asset></Item>
+            <Item><Asset>2694</Asset></Item>
+            <Item><Asset>2698</Asset></Item>
+            <Item><Asset>2699</Asset></Item>
+            <Item><Asset>8579</Asset></Item>
+            <Item><Asset>5972</Asset></Item>
+            <Item><Asset>5971</Asset></Item>
+            <Item><Asset>31762</Asset></Item>
+            <Item><Asset>23723</Asset></Item>
+            <Item><Asset>31764</Asset></Item>
+          </AssetList>
+        </AssetPool>
+      </Values>
+    </Asset>
+  </ModOp>
+
+
+
+
+  <!-- Latium animal farms make Manure (1 per 3 cycles) while Epona's devotion holds -->
+  <ModOp Type="addNextSibling" GUID="77962">
+    <Asset>
+      <Template>Effect</Template>
+      <Values>
+        <Standard>
+          <GUID>1556209050</GUID>
+          <Name>Effect Manure Latium Pastures</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/production_goods/icon_3d_mud_goods.png</IconFilename>
+        </Standard>
+        <Effect>
+          <EffectScope>ObjectsInMeta</EffectScope>
+          <SourceCategory>Generic</SourceCategory>
+          <Buffs><Item><GUID>1556209051</GUID></Item></Buffs>
+          <Targets>
+            <Item><GUID>2786</GUID></Item>
+            <Item><GUID>2793</GUID></Item>
+            <Item><GUID>2794</GUID></Item>
+          </Targets>
+          <HideInGovernorsBar>1</HideInGovernorsBar>
+        </Effect>
+        <Text><OasisId>1556209001</OasisId></Text>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="77960">
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1556209051</GUID>
+          <Name>BuildingBuff Manure</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/production_goods/icon_3d_mud_goods.png</IconFilename>
+        </Standard>
+        <Text><OasisId>1556209001</OasisId></Text>
+        <HealthUpgrade />
+        <BuildingUpgrade />
+        <DistributionUpgrade />
+        <Buff><SourceCategory>Generic</SourceCategory></Buff>
+        <ResidenceUpgrade />
+        <FactoryUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>1556209000</Product>
+              <AdditionalOutputCycle>3</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade />
+        <MaintenanceUpgrade />
+        <CityInstitutionUpgrade />
+        <IncidentInfectableUpgrade />
+        <RecruitmentUpgrade />
+        <AqueductUpgrade />
+        <WarehouseUpgrade />
+        <IrrigationUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Epona 4,000 reward text: Silos plus Manure (also replaces CIO's Fertiliser text) -->
+  <ModOp Type="merge" GUID="80861" Path="/Values/Patron">
+    <WonderDescription>1556209075</WonderDescription>
+    <WonderIcon>77954</WonderIcon>
+  </ModOp>
+
+  <!-- Epona devotion 4,000: Manure, heaps, their build-menu sections and the pasture by-product start; below 3,500 Manure and heaps lock and the by-product stops (CIO's thresholds); sections never relock. -->
+  <ModOp Type="addNextSibling" GUID="37744">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1556209060</GUID>
+          <Name>Trigger Manure Unlock</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PatronDevotion</PlayerCounter>
+                <Context>80861</Context>
+                <ComparisonOp>MoreThan</ComparisonOp>
+                <CounterAmount>3999</CounterAmount>
+              </ConditionPlayerCounter>
+              <ConditionLocationProps />
+              <ConditionCounterProps />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item><Asset>1556209000</Asset></Item>
+                      <Item><Asset>1556209020</Asset></Item>
+                      <Item><Asset>1556209025</Asset></Item>
+                      <Item><Asset>1556209072</Asset></Item>
+                      <Item><Asset>1556209073</Asset></Item>
+                      <Item><Asset>1556209027</Asset></Item>
+                      <Item><Asset>1556209076</Asset></Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionEffect</Template>
+                <Values>
+                  <Action />
+                  <ActionEffect>
+                    <EffectAsset>1556209050</EffectAsset>
+                    <StartEffect>1</StartEffect>
+                  </ActionEffect>
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionEffect</Template>
+                <Values>
+                  <Action />
+                  <ActionEffect>
+                    <EffectAsset>1556209052</EffectAsset>
+                    <StartEffect>1</StartEffect>
+                  </ActionEffect>
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionEffect</Template>
+                <Values>
+                  <Action />
+                  <ActionEffect>
+                    <EffectAsset>1556209054</EffectAsset>
+                    <StartEffect>1</StartEffect>
+                  </ActionEffect>
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionRegisterTrigger</Template>
+                <Values>
+                  <Action />
+                  <ActionRegisterTrigger><TriggerAsset>1556209061</TriggerAsset></ActionRegisterTrigger>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup>
+          <AutoRegisterTrigger>1</AutoRegisterTrigger>
+          <UsedByFirstParties>1</UsedByFirstParties>
+        </TriggerSetup>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="37744">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1556209061</GUID>
+          <Name>Trigger Manure Relock</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PatronDevotion</PlayerCounter>
+                <Context>80861</Context>
+                <ComparisonOp>LessThan</ComparisonOp>
+                <CounterAmount>3500</CounterAmount>
+              </ConditionPlayerCounter>
+              <ConditionLocationProps />
+              <ConditionCounterProps />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionLockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionLockAsset>
+                    <LockAssets>
+                      <Item><Asset>1556209000</Asset></Item>
+                      <Item><Asset>1556209020</Asset></Item>
+                      <Item><Asset>1556209025</Asset></Item>
+                      <Item><Asset>1556209027</Asset></Item>
+                    </LockAssets>
+                  </ActionLockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionEffect</Template>
+                <Values>
+                  <Action />
+                  <ActionEffect>
+                    <EffectAsset>1556209050</EffectAsset>
+                    <StartEffect>0</StartEffect>
+                  </ActionEffect>
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionEffect</Template>
+                <Values>
+                  <Action />
+                  <ActionEffect>
+                    <EffectAsset>1556209052</EffectAsset>
+                    <StartEffect>0</StartEffect>
+                  </ActionEffect>
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionEffect</Template>
+                <Values>
+                  <Action />
+                  <ActionEffect>
+                    <EffectAsset>1556209054</EffectAsset>
+                    <StartEffect>0</StartEffect>
+                  </ActionEffect>
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionRegisterTrigger</Template>
+                <Values>
+                  <Action />
+                  <ActionRegisterTrigger><TriggerAsset>1556209060</TriggerAsset></ActionRegisterTrigger>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup>
+          <AutoRegisterTrigger>0</AutoRegisterTrigger>
+          <UsedByFirstParties>1</UsedByFirstParties>
+        </TriggerSetup>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- One-shot copy of the heap unlock for saves where 1556209060 fired before the heaps became buildings -->
+  <ModOp Type="addNextSibling" GUID="37744">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1556209062</GUID>
+          <Name>Trigger Manure Heap Building Unlock</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PatronDevotion</PlayerCounter>
+                <Context>80861</Context>
+                <ComparisonOp>MoreThan</ComparisonOp>
+                <CounterAmount>3999</CounterAmount>
+              </ConditionPlayerCounter>
+              <ConditionLocationProps />
+              <ConditionCounterProps />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item><Asset>1556209020</Asset></Item>
+                      <Item><Asset>1556209025</Asset></Item>
+                      <Item><Asset>1556209072</Asset></Item>
+                      <Item><Asset>1556209073</Asset></Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup>
+          <AutoRegisterTrigger>1</AutoRegisterTrigger>
+          <UsedByFirstParties>1</UsedByFirstParties>
+        </TriggerSetup>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- One-shot copy for saves where 1556209060/062 fired before the Agricultural Products sections existed -->
+  <ModOp Type="addNextSibling" GUID="37744">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1556209063</GUID>
+          <Name>Trigger Manure Heap Section Unlock</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PatronDevotion</PlayerCounter>
+                <Context>80861</Context>
+                <ComparisonOp>MoreThan</ComparisonOp>
+                <CounterAmount>3999</CounterAmount>
+              </ConditionPlayerCounter>
+              <ConditionLocationProps />
+              <ConditionCounterProps />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item><Asset>1556209020</Asset></Item>
+                      <Item><Asset>1556209025</Asset></Item>
+                      <Item><Asset>1556209072</Asset></Item>
+                      <Item><Asset>1556209073</Asset></Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup>
+          <AutoRegisterTrigger>1</AutoRegisterTrigger>
+          <UsedByFirstParties>1</UsedByFirstParties>
+        </TriggerSetup>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- One-shot restart of the pasture Manure effects, so older saves pick up farms added to their targets -->
+  <ModOp Type="addNextSibling" GUID="37744">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1556209064</GUID>
+          <Name>Trigger Manure Pastures Restart</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PatronDevotion</PlayerCounter>
+                <Context>80861</Context>
+                <ComparisonOp>MoreThan</ComparisonOp>
+                <CounterAmount>3999</CounterAmount>
+              </ConditionPlayerCounter>
+              <ConditionLocationProps />
+              <ConditionCounterProps />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionEffect</Template>
+                <Values>
+                  <Action />
+                  <ActionEffect>
+                    <EffectAsset>1556209050</EffectAsset>
+                    <StartEffect>0</StartEffect>
+                  </ActionEffect>
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionEffect</Template>
+                <Values>
+                  <Action />
+                  <ActionEffect>
+                    <EffectAsset>1556209052</EffectAsset>
+                    <StartEffect>0</StartEffect>
+                  </ActionEffect>
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionEffect</Template>
+                <Values>
+                  <Action />
+                  <ActionEffect>
+                    <EffectAsset>1556209050</EffectAsset>
+                    <StartEffect>1</StartEffect>
+                  </ActionEffect>
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionEffect</Template>
+                <Values>
+                  <Action />
+                  <ActionEffect>
+                    <EffectAsset>1556209052</EffectAsset>
+                    <StartEffect>1</StartEffect>
+                  </ActionEffect>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup>
+          <AutoRegisterTrigger>1</AutoRegisterTrigger>
+          <UsedByFirstParties>1</UsedByFirstParties>
+        </TriggerSetup>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- One-shot restart of the Latium Manure effect, so test saves get the Sheep Farm back (10-19 Sheep Cheese test dropped it) -->
+  <ModOp Type="addNextSibling" GUID="37744">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1556209066</GUID>
+          <Name>Trigger Manure Latium Pastures Restart</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PatronDevotion</PlayerCounter>
+                <Context>80861</Context>
+                <ComparisonOp>MoreThan</ComparisonOp>
+                <CounterAmount>3999</CounterAmount>
+              </ConditionPlayerCounter>
+              <ConditionLocationProps />
+              <ConditionCounterProps />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionEffect</Template>
+                <Values>
+                  <Action />
+                  <ActionEffect>
+                    <EffectAsset>1556209050</EffectAsset>
+                    <StartEffect>0</StartEffect>
+                  </ActionEffect>
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionEffect</Template>
+                <Values>
+                  <Action />
+                  <ActionEffect>
+                    <EffectAsset>1556209050</EffectAsset>
+                    <StartEffect>1</StartEffect>
+                  </ActionEffect>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup>
+          <AutoRegisterTrigger>1</AutoRegisterTrigger>
+          <UsedByFirstParties>1</UsedByFirstParties>
+        </TriggerSetup>
+      </Values>
+    </Asset>
+  </ModOp>
+
+</ModOps>

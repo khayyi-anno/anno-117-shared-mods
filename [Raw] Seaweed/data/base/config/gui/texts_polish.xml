@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556061001</LineId><Text>Wodorosty</Text></Text>
+    <Text><LineId>1556061011</LineId><Text>Produces Seaweed.</Text></Text>
+    <Text><LineId>1556061012</LineId><Text>Zbieracz wodorostów</Text></Text>
+  </ModOp>
+
+</ModOps>

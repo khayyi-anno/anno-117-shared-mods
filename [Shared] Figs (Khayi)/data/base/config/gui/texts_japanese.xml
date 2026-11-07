@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts" Condition="!#driedfigs-khayi">
+    <Text><LineId>1556006051</LineId><Text>イチジク</Text></Text>
+    <Text><LineId>1556006053</LineId><Text>イチジクの木</Text></Text>
+    <Text><LineId>1556006055</LineId><Text>イチジクを栽培する。ラツィオ地方のどの土地にも建設可能。土壌の条件は問わない。</Text></Text>
+    <Text><LineId>1556006056</LineId><Text>イチジク園</Text></Text>
+    <Text><LineId>1556006311</LineId><Text>イチジク園（シラー）</Text></Text>
+    <Text><LineId>1556006312</LineId><Text>熟れすぎたイチジクの色に染まった格子垣。</Text></Text>
+  </ModOp>
+</ModOps>

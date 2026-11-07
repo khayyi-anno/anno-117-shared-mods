@@ -1,0 +1,53 @@
+{
+  "Version": "1.3",
+  "Anno": 8,
+  "AssetsPath": "data/base/config/export/assets.xml",
+  "ModID": "oxteamsandmanure-khayi",
+  "Difficulty": "unchanged",
+  "GameSetup": {
+    "RequiresNewGame": false,
+    "SafeToRemove": false,
+    "Multiplayer": true,
+    "Campaign": true
+  },
+  "Dependencies": {
+    "Require": [],
+    "Optional": [
+      "celtic-independence-overhaul-jtmzac",
+      "rl-latium-khayi",
+      "rl-albion-khayi",
+      "driedfigs-khayi",
+      "romanherbs-khayi",
+      "applecider-khayi",
+      "cabbageleekpottage-khayi",
+      "bogbutter-khayi",
+      "rl-aegyptus-khayi"
+    ],
+    "LoadAfter": [
+      "celtic-independence-overhaul-jtmzac",
+      "rl-latium-khayi",
+      "rl-albion-khayi",
+      "driedfigs-khayi",
+      "romanherbs-khayi",
+      "applecider-khayi",
+      "cabbageleekpottage-khayi",
+      "bogbutter-khayi",
+      "rl-aegyptus-khayi"
+    ],
+    "Deprecate": []
+  },
+  "Category": {
+    "English": "Gameplay"
+  },
+  "ModName": {
+    "English": "Manure"
+  },
+  "Description": {
+    "English": "All animal farms make Manure on the side, and the Manure Heap makes nearby farms and plantations work twice as fast. Both unlock once Epona's devotion reaches 4,000; below 3,500 they stop. With Celtic Independence Overhaul, its Fertiliser is switched off and Albion uses Manure."
+  },
+  "KnownIssues": [],
+  "DLCDependencies": [],
+  "CreatorName": "Khayi",
+  "CreatorContact": "",
+  "Image": null
+}

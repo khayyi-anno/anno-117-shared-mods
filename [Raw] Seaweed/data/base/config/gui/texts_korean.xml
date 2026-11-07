@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556061001</LineId><Text>해초</Text></Text>
+    <Text><LineId>1556061011</LineId><Text>물이 빠질 때마다 해변에서 해초를 긁어모은다. 바다가 내버린 것을 채집꾼이 거둬들인다.</Text></Text>
+    <Text><LineId>1556061012</LineId><Text>해초 채집꾼</Text></Text>
+  </ModOp>
+
+</ModOps>

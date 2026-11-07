@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556061001</LineId><Text>海藻</Text></Text>
+    <Text><LineId>1556061011</LineId><Text>每次退潮后都到岸边耙海藻。大海把它扔上岸，采集人把它收回家。</Text></Text>
+    <Text><LineId>1556061012</LineId><Text>海藻采集点</Text></Text>
+  </ModOp>
+
+</ModOps>

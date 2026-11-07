@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556060001</LineId><Text>Saumon</Text></Text>
+    <Text><LineId>1556060011</LineId><Text>Barre la rivière d'une pêcherie et attrape les saumons qui remontent le courant.</Text></Text>
+    <Text><LineId>1556060012</LineId><Text>Pêcherie de saumon</Text></Text>
+  </ModOp>
+
+</ModOps>

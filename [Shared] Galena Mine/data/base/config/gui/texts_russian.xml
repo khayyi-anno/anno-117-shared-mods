@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1780117010</LineId><Text>Галенитовая руда</Text></Text>
+    <Text><LineId>1780117021</LineId><Text>Галенитовый рудник</Text></Text>
+    <Text><LineId>1780117022</LineId><Text>Добывает галенит</Text></Text>
+    <Text><LineId>1780117024</LineId><Text>Кельтский вариант галенитового рудника: построен из плетня и глины, без акведука и, как другие кельтские рудники, обслуживается Трапезной. Время от времени жила даёт ещё и немного золота. Подойдёт любое место в горах, особое месторождение не нужно.</Text></Text>
+    <Text><LineId>1780117065</LineId><Text>Побочный продукт: золотая руда</Text></Text>
+  </ModOp>
+
+</ModOps>

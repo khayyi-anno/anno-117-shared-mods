@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556061001</LineId><Text>海藻</Text></Text>
+    <Text><LineId>1556061011</LineId><Text>潮が引くたびに浜から海藻をかき集める。海が放り出し、採集人が拾い集める。</Text></Text>
+    <Text><LineId>1556061012</LineId><Text>海藻採集者</Text></Text>
+  </ModOp>
+
+</ModOps>

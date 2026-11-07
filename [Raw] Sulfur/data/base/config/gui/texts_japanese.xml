@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556064001</LineId><Text>硫黄</Text></Text>
+    <Text><LineId>1556064011</LineId><Text>火山の噴気孔から硫黄を掘り出す。腐った卵のにおいがするが、稼ぎは黄色く輝く。</Text></Text>
+    <Text><LineId>1556064012</LineId><Text>硫気孔の採掘場</Text></Text>
+    <Text><LineId>1556064071</LineId><Text>硫黄の鉱床</Text></Text>
+    <Text><LineId>1556064901</LineId><Text>フレグレイ平野のフモスス、硫黄鼻</Text></Text>
+    <Text><LineId>1556064902</LineId><Text>彼は鼻を頼りに硫黄へたどり着く。彼についていく者は、どこにもいない。</Text></Text>
+  </ModOp>
+
+</ModOps>

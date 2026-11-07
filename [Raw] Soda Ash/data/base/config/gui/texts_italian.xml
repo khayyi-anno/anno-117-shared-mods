@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556063001</LineId><Text>Cenere di soda</Text></Text>
+    <Text><LineId>1556063011</LineId><Text>Brucia le alghe per ricavarne cenere di soda per vetro e sapone. Il fumo fa parte della ricetta.</Text></Text>
+    <Text><LineId>1556063012</LineId><Text>Fornace della cenere</Text></Text>
+  </ModOp>
+
+</ModOps>

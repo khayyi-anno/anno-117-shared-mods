@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556054001</LineId><Text>Gruszki</Text></Text>
+    <Text><LineId>1556054011</LineId><Text>Uprawia gruszki do patin i przetworów, a także do jedzenia prosto z drzewa.</Text></Text>
+    <Text><LineId>1556054012</LineId><Text>Sad gruszowy</Text></Text>
+    <Text><LineId>1556054051</LineId><Text>Rząd grusz</Text></Text>
+    <Text><LineId>1556054301</LineId><Text>Sad gruszowy (Syrah)</Text></Text>
+    <Text><LineId>1556054302</LineId><Text>Ciemne dachówki nad gruszkami, które dojrzewają, kiedy im się podoba.</Text></Text>
+  </ModOp>
+
+</ModOps>

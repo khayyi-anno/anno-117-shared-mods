@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556065001</LineId><Text>野菜</Text></Text>
+    <Text><LineId>1556065011</LineId><Text>整った畝で野菜を育てる。とう立ちした株から採れる種子はおまけだ。</Text></Text>
+    <Text><LineId>1556065012</LineId><Text>菜園</Text></Text>
+    <Text><LineId>1556065051</LineId><Text>菜園の畝</Text></Text>
+  </ModOp>
+
+</ModOps>

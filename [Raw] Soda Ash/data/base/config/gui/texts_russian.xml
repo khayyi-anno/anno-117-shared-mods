@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556063001</LineId><Text>Содовая зола</Text></Text>
+    <Text><LineId>1556063011</LineId><Text>Сжигает водоросли в содовую золу для стекла и мыла. Дым входит в рецепт.</Text></Text>
+    <Text><LineId>1556063012</LineId><Text>Зольня</Text></Text>
+  </ModOp>
+
+</ModOps>

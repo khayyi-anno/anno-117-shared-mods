@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556226001</LineId><Text>Lã de Ovelha</Text></Text>
+    <Text><LineId>1556226003</LineId><Text>Cordeiro e Carneiro</Text></Text>
+    <Text><LineId>1556226012</LineId><Text>Galpão de Tosquia</Text></Text>
+    <Text><LineId>1556226011</LineId><Text>Tosquia as ovelhas dos pastos. O velo vai para tecelões, alfaiates e veleiros como Lã de Ovelha; onde uma cozinha prepara cordeiro, cada ovelha também rende Cordeiro e Carneiro.</Text></Text>
+  </ModOp>
+
+</ModOps>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556044001</LineId><Text>Defrutum</Text></Text>
+    <Text><LineId>1556044011</LineId><Text>Fait réduire le moût de raisin en defrutum, un sirop épais qui adoucit tout ce qu'il touche.</Text></Text>
+    <Text><LineId>1556044012</LineId><Text>Fourneau à moût</Text></Text>
+    <Text><LineId>1556044301</LineId><Text>Fourneau à moût (Syrah)</Text></Text>
+    <Text><LineId>1556044302</LineId><Text>Des tuiles réduites aussi sombres que le moût.</Text></Text>
+  </ModOp>
+
+</ModOps>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+  <Include File="vinegar.include.xml" Condition="!#poscaoxymel-khayi" />
+</ModOps>

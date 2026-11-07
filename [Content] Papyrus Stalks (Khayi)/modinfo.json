@@ -1,0 +1,33 @@
+{
+  "Version": "1.0",
+  "Anno": 8,
+  "AssetsPath": "data/base/config/export/assets.xml",
+  "ModID": "papyrus-stalks-khayi",
+  "Difficulty": "unchanged",
+  "GameSetup": {
+    "RequiresNewGame": false,
+    "SafeToRemove": true,
+    "Multiplayer": true,
+    "Campaign": true
+  },
+  "Dependencies": {
+    "Require": [],
+    "Optional": [],
+    "LoadAfter": [],
+    "Deprecate": []
+  },
+  "Category": {
+    "English": "Gameplay"
+  },
+  "ModName": {
+    "English": "Papyrus Stalks"
+  },
+  "Description": {
+    "English": "Aegyptus: the riverbank gatherer harvests Papyrus Stalks instead of Reeds. Mud Bricks, Papyrus and Nile boats use Papyrus Stalks. Needs the Aegyptus DLC."
+  },
+  "KnownIssues": [],
+  "DLCDependencies": [],
+  "CreatorName": "Khayi",
+  "CreatorContact": "",
+  "Image": null
+}

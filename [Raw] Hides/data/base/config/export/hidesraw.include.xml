@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="addNextSibling" GUID="2070">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1556049000</GUID>
+          <Name>Good Hides</Name>
+          <IconFilename>data/khayi/ui/rl/raw_hides.png</IconFilename>
+        </Standard>
+        <Text><OasisId>1556049001</OasisId></Text>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>-6904287318739488511</ProductCategory>
+          <BasePrice>5</BasePrice>
+          <AssociatedRegion>Celtic</AssociatedRegion>
+          <ProductionRegions><Item><RegionType>Celtic</RegionType></Item></ProductionRegions>
+          <TransportGoodsType>Raw</TransportGoodsType>
+        </Product>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID='8497' Path="/Values/ProductList/List/Item[Product='2137']"><Item><Product>1556049000</Product></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='28750' Path="/Values/ProductList/List/Item[Product='2137']"><Item><Product>1556049000</Product></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='29330' Path="/Values/ProductList/List/Item[Product='2132']"><Item><Product>1556049000</Product></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='37674' Path="/Values/ProductList/List/Item[Product='2132']"><Item><Product>1556049000</Product></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='91326' Path="/Values/AssetPool/AssetList/Item[Asset='2077']"><Item><Asset>1556049000</Asset></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='130659' Path="/Values/AssetPool/AssetList/Item[Asset='2077']"><Item><Asset>1556049000</Asset></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID="37744">
+    <Asset>
+      <Template>TriggerIntermediateLevel</Template>
+      <Values>
+        <Standard>
+          <GUID>1556049040</GUID>
+          <Name>Trigger Hides Unlock</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>1501</Context>
+                <CounterAmount>75</CounterAmount>
+              </ConditionPlayerCounter>
+              <ConditionLocationProps />
+              <ConditionCounterProps />
+              <ConditionPropsComparable />
+              <ConditionPropsExaminableObjects />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item><Asset>1556049000</Asset></Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup>
+          <AutoRegisterTrigger>1</AutoRegisterTrigger>
+          <AutoSelfUnlock>1</AutoSelfUnlock>
+          <UsedByFirstParties>1</UsedByFirstParties>
+          <UsedBySecondParties>1</UsedBySecondParties>
+          <UsedByThirdParties>0</UsedByThirdParties>
+        </TriggerSetup>
+      </Values>
+    </Asset>
+  </ModOp>
+
+
+  <ModOp Type="add" GUID="1556016304" Path="/Values/FactoryUpgrade/AdditionalOutput"><Item><Product>1556049000</Product><AdditionalOutputCycle>1</AdditionalOutputCycle><Amount>2</Amount></Item></ModOp>
+
+</ModOps>

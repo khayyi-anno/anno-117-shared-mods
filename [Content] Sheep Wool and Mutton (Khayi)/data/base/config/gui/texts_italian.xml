@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556226001</LineId><Text>Lana di pecora</Text></Text>
+    <Text><LineId>1556226003</LineId><Text>Agnello e montone</Text></Text>
+    <Text><LineId>1556226012</LineId><Text>Capanno di tosatura</Text></Text>
+    <Text><LineId>1556226011</LineId><Text>Tosa le pecore dei pascoli. Il vello va a tessitori, sarti e velai come Lana di pecora; dove una cucina cucina l'agnello, ogni pecora dà anche Agnello e montone.</Text></Text>
+  </ModOp>
+
+</ModOps>

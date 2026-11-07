@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts" Condition="!#driedfigs-khayi">
+    <Text><LineId>1556006051</LineId><Text>Figues</Text></Text>
+    <Text><LineId>1556006053</LineId><Text>Figuiers</Text></Text>
+    <Text><LineId>1556006055</LineId><Text>Produit des figues. Peut être construite sur n’importe quel terrain du Latium — aucune exigence particulière concernant le sol.</Text></Text>
+    <Text><LineId>1556006056</LineId><Text>Verger de figuiers</Text></Text>
+    <Text><LineId>1556006311</LineId><Text>Verger de figuiers (Syrah)</Text></Text>
+    <Text><LineId>1556006312</LineId><Text>Des treillages couleur de figue trop mûre.</Text></Text>
+  </ModOp>
+</ModOps>

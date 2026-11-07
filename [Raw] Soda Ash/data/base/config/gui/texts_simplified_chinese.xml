@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556063001</LineId><Text>苏打灰</Text></Text>
+    <Text><LineId>1556063011</LineId><Text>焚烧海藻制成苏打灰，用来做玻璃和肥皂。浓烟也是配方的一部分。</Text></Text>
+    <Text><LineId>1556063012</LineId><Text>烧灰场</Text></Text>
+  </ModOp>
+
+</ModOps>

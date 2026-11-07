@@ -1,0 +1,107 @@
+{
+ "data/cdlc02/graphics/library/props/vegetation/trees/flowery_tree/flowery_tree_02_a_soft.cfg": {
+  "key": "pear_fruit_flowery_tree_02_a_soft",
+  "amin": [
+   -0.5862292647361755,
+   1.1838386058807373,
+   -0.7192946076393127
+  ],
+  "amax": [
+   0.44606226682662964,
+   2.7578656673431396,
+   0.6027816534042358
+  ],
+  "height": 2.9754648208618164,
+  "fruits": 45
+ },
+ "data/cdlc02/graphics/library/props/vegetation/trees/flowery_tree/flowery_tree_02_b_soft.cfg": {
+  "key": "pear_fruit_flowery_tree_02_b_soft",
+  "amin": [
+   -0.6668148040771484,
+   1.1566640138626099,
+   -0.5683813691139221
+  ],
+  "amax": [
+   0.8560404777526855,
+   2.7052884101867676,
+   0.4833121597766876
+  ],
+  "height": 2.90625,
+  "fruits": 45
+ },
+ "data/khayi/graphics/props/vegetation/trees/apple_fig/apple_fig_01.cfg": {
+  "key": "pear_fruit_apple_fig_01",
+  "amin": [
+   -0.5735052227973938,
+   0.7223023772239685,
+   -0.3175879716873169
+  ],
+  "amax": [
+   0.5932492613792419,
+   1.5914629697799683,
+   0.6447004079818726
+  ],
+  "height": 1.904541015625,
+  "fruits": 22
+ },
+ "data/khayi/graphics/props/vegetation/trees/apple_fig/apple_fig_02.cfg": {
+  "key": "pear_fruit_apple_fig_02",
+  "amin": [
+   -0.5951075553894043,
+   0.5889757871627808,
+   -0.37879714369773865
+  ],
+  "amax": [
+   0.691254734992981,
+   1.2835088968276978,
+   0.6781520843505859
+  ],
+  "height": 1.53570556640625,
+  "fruits": 22
+ },
+ "data/khayi/graphics/props/vegetation/trees/apple_fig/apple_fig_03.cfg": {
+  "key": "pear_fruit_apple_fig_03",
+  "amin": [
+   -0.6620129346847534,
+   0.7734524607658386,
+   -0.3707568943500519
+  ],
+  "amax": [
+   0.4252518117427826,
+   1.750608205795288,
+   0.9551023244857788
+  ],
+  "height": 2.0384417921304703,
+  "fruits": 22
+ },
+ "data/khayi/graphics/props/vegetation/trees/apple_fig/apple_fig_04.cfg": {
+  "key": "pear_fruit_apple_fig_04",
+  "amin": [
+   -0.7282820343971252,
+   0.8155639171600342,
+   -0.6296382546424866
+  ],
+  "amax": [
+   1.073328971862793,
+   1.7792094945907593,
+   0.6258138418197632
+  ],
+  "height": 2.04888916015625,
+  "fruits": 22
+ },
+ "data/khayi/graphics/props/vegetation/trees/apple_fig/apple_fig_05.cfg": {
+  "key": "pear_fruit_apple_fig_05",
+  "amin": [
+   -1.017553687095642,
+   0.6987552642822266,
+   -1.0369179248809814
+  ],
+  "amax": [
+   0.6635958552360535,
+   1.3795686960220337,
+   0.5903712511062622
+  ],
+  "height": 1.81927490234375,
+  "fruits": 22
+ }
+}

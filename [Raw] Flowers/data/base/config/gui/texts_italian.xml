@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556046001</LineId><Text>Fiori</Text></Text>
+    <Text><LineId>1556046011</LineId><Text>Coltiva rose, viole e iris per ghirlande, profumi e scuse.</Text></Text>
+    <Text><LineId>1556046012</LineId><Text>Giardino fiorito</Text></Text>
+    <Text><LineId>1556046051</LineId><Text>Aiuola</Text></Text>
+    <Text><LineId>1556046301</LineId><Text>Giardino fiorito (Syrah)</Text></Text>
+    <Text><LineId>1556046302</LineId><Text>Un tetto scuro perché niente rubi la scena ai fiori.</Text></Text>
+  </ModOp>
+
+</ModOps>

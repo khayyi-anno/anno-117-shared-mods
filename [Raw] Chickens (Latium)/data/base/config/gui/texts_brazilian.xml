@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556043001</LineId><Text>Galinhas</Text></Text>
+    <Text><LineId>1556043011</LineId><Text>Cria galinhas para a panela, com os ovos de bônus das que ainda não foram parar nela.</Text></Text>
+    <Text><LineId>1556043012</LineId><Text>Granja de galinhas</Text></Text>
+    <Text><LineId>1556043051</LineId><Text>Cercado de galinhas</Text></Text>
+    <Text><LineId>1556043301</LineId><Text>Granja de galinhas (Syrah)</Text></Text>
+    <Text><LineId>1556043302</LineId><Text>Telhas escuras em que todas as galinhas do quintal já pisaram.</Text></Text>
+  </ModOp>
+
+</ModOps>

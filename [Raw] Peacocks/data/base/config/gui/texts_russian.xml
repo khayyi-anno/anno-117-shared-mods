@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556053001</LineId><Text>Павлины</Text></Text>
+    <Text><LineId>1556053011</LineId><Text>Разводит павлинов, самых громких и самых гордых птиц, каких только может завести вилла.</Text></Text>
+    <Text><LineId>1556053012</LineId><Text>Павлиний сад</Text></Text>
+    <Text><LineId>1556053051</LineId><Text>Вольер павлинов</Text></Text>
+    <Text><LineId>1556053301</LineId><Text>Павлиний сад (Сира)</Text></Text>
+    <Text><LineId>1556053302</LineId><Text>Скромная тёмная крыша. Красуются здесь павлины.</Text></Text>
+  </ModOp>
+
+</ModOps>

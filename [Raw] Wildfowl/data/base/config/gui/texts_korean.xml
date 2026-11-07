@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556066001</LineId><Text>물새</Text></Text>
+    <Text><LineId>1556066011</LineId><Text>새벽녘, 새들이 아직 졸린 틈을 타 습지에서 오리와 물새를 그물로 잡는다.</Text></Text>
+    <Text><LineId>1556066012</LineId><Text>습지 새잡이</Text></Text>
+  </ModOp>
+
+</ModOps>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556053001</LineId><Text>Pavões</Text></Text>
+    <Text><LineId>1556053011</LineId><Text>Cria pavões, as aves mais barulhentas e orgulhosas que uma vila pode ter.</Text></Text>
+    <Text><LineId>1556053012</LineId><Text>Jardim de pavões</Text></Text>
+    <Text><LineId>1556053051</LineId><Text>Viveiro de pavões</Text></Text>
+    <Text><LineId>1556053301</LineId><Text>Jardim de pavões (Syrah)</Text></Text>
+    <Text><LineId>1556053302</LineId><Text>Um telhado escuro e modesto. Os pavões se exibem por ele.</Text></Text>
+  </ModOp>
+
+</ModOps>

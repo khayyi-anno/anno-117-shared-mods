@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556057001</LineId><Text>Pigwy</Text></Text>
+    <Text><LineId>1556057011</LineId><Text>Uprawia pigwy, zbyt twarde, by jeść je na surowo, i zbyt wonne, by je zignorować.</Text></Text>
+    <Text><LineId>1556057012</LineId><Text>Sad pigwowy</Text></Text>
+    <Text><LineId>1556057051</LineId><Text>Rząd pigw</Text></Text>
+    <Text><LineId>1556057301</LineId><Text>Sad pigwowy (Syrah)</Text></Text>
+    <Text><LineId>1556057302</LineId><Text>Dachówki w kolorze pigwy zapomnianej na parapecie.</Text></Text>
+  </ModOp>
+
+</ModOps>

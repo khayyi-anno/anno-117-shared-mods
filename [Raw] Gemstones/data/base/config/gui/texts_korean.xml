@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556047001</LineId><Text>보석</Text></Text>
+    <Text><LineId>1556047011</LineId><Text>원석에서 보석을 깎아 낸다. 돌은 대부분 그냥 돌이고, 나머지가 횡재다.</Text></Text>
+    <Text><LineId>1556047012</LineId><Text>광물 추출소</Text></Text>
+    <Text><LineId>1556047301</LineId><Text>광물 추출소 (시라)</Text></Text>
+    <Text><LineId>1556047302</LineId><Text>반짝이는 돌로 가득한 구덩이 위로 어두운 기와.</Text></Text>
+  </ModOp>
+
+</ModOps>

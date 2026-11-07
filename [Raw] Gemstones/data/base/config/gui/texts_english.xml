@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556047001</LineId><Text>Gemstones</Text></Text>
+    <Text><LineId>1556047011</LineId><Text>Cuts gemstones out of raw minerals. Most of the rock is rock; the rest is fortune.</Text></Text>
+    <Text><LineId>1556047012</LineId><Text>Mineral Extractor</Text></Text>
+    <Text><LineId>1556047301</LineId><Text>Mineral Extractor (Syrah)</Text></Text>
+    <Text><LineId>1556047302</LineId><Text>Dark tiles over a pit full of stones that sparkle.</Text></Text>
+  </ModOp>
+
+</ModOps>

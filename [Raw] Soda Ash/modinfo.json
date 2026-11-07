@@ -1,0 +1,36 @@
+{
+  "Version": "1.0",
+  "Anno": 8,
+  "ModID": "rl-raw-sodaash-khayi",
+  "Difficulty": "unchanged",
+  "GameSetup": {
+    "RequiresNewGame": false,
+    "SafeToRemove": true,
+    "Multiplayer": true,
+    "Campaign": true
+  },
+  "Dependencies": {
+    "Require": [
+      "rl-raw-seaweed-khayi"
+    ],
+    "Optional": [],
+    "LoadAfter": [
+      "rl-raw-seaweed-khayi"
+    ],
+    "Deprecate": []
+  },
+  "Category": {
+    "English": "Content"
+  },
+  "ModName": {
+    "English": "Soda Ash"
+  },
+  "Description": {
+    "English": "Adds the Ash Works, which burns Seaweed into Soda Ash for glass and soap."
+  },
+  "KnownIssues": [],
+  "DLCDependencies": [],
+  "CreatorName": "Khayi",
+  "CreatorContact": "",
+  "Image": null
+}

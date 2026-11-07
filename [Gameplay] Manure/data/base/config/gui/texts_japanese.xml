@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556209001</LineId><Text>厩肥</Text></Text>
+    <Text><LineId>1556209021</LineId><Text>牧草地の糞をここで熟成させてから畑へ運ぶ。堆肥場に厩肥がある間、近くの農場と農園の作業速度が2倍になる。</Text></Text>
+    <Text><LineId>1556209022</LineId><Text>堆肥場</Text></Text>
+    <Text><LineId>1556209026</LineId><Text>施肥された畑</Text></Text>
+    <Text><LineId>1556209074</LineId><Text>農産物</Text></Text>
+    <Text><LineId>1556209075</LineId><Text>サイロ、厩肥、堆肥場を解除する。家畜の放牧地が副産物として厩肥を生産する。</Text></Text>
+  </ModOp>
+
+</ModOps>

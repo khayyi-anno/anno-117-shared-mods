@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1780117010</LineId><Text>方铅矿石</Text></Text>
+    <Text><LineId>1780117021</LineId><Text>方铅矿场</Text></Text>
+    <Text><LineId>1780117022</LineId><Text>开采方铅矿</Text></Text>
+    <Text><LineId>1780117024</LineId><Text>凯尔特风格的方铅矿场：以枝条抹泥墙搭建，无需引水渠，并和其他凯尔特矿场一样由膳食屋供应。矿脉偶尔还会顺带挖出一点黄金。任何山地矿位均可建造，无需特定矿藏。</Text></Text>
+    <Text><LineId>1780117065</LineId><Text>金矿石副产品</Text></Text>
+  </ModOp>
+
+</ModOps>

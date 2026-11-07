@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556044001</LineId><Text>Defrutum</Text></Text>
+    <Text><LineId>1556044011</LineId><Text>Kocht Traubenmost zu Defrutum ein, einem dicken Sirup, der alles versüßt, was er berührt.</Text></Text>
+    <Text><LineId>1556044012</LineId><Text>Mostsiederei</Text></Text>
+    <Text><LineId>1556044301</LineId><Text>Mostsiederei (Syrah)</Text></Text>
+    <Text><LineId>1556044302</LineId><Text>Ziegel, so dunkel eingekocht wie der Most.</Text></Text>
+  </ModOp>
+
+</ModOps>

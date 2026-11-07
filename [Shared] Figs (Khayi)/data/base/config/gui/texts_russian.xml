@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts" Condition="!#driedfigs-khayi">
+    <Text><LineId>1556006051</LineId><Text>Инжир</Text></Text>
+    <Text><LineId>1556006053</LineId><Text>Инжирные деревья</Text></Text>
+    <Text><LineId>1556006055</LineId><Text>Выращивает инжир. Можно выращивать на любой почве в Лацио — особых требований к почве нет.</Text></Text>
+    <Text><LineId>1556006056</LineId><Text>Инжирный сад</Text></Text>
+    <Text><LineId>1556006311</LineId><Text>Инжирный сад (Сира)</Text></Text>
+    <Text><LineId>1556006312</LineId><Text>Шпалеры цвета перезрелого инжира.</Text></Text>
+  </ModOp>
+</ModOps>

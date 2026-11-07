@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556054001</LineId><Text>Pears</Text></Text>
+    <Text><LineId>1556054011</LineId><Text>Grows pears for patinas and preserves, and for eating straight off the tree.</Text></Text>
+    <Text><LineId>1556054012</LineId><Text>Pear Orchard</Text></Text>
+    <Text><LineId>1556054051</LineId><Text>Pear Orchard Field</Text></Text>
+    <Text><LineId>1556054301</LineId><Text>Pear Orchard (Syrah)</Text></Text>
+    <Text><LineId>1556054302</LineId><Text>Dark tiles over pears that ripen on their own schedule.</Text></Text>
+  </ModOp>
+
+</ModOps>

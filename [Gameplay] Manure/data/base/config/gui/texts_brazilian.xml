@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556209001</LineId><Text>Esterco</Text></Text>
+    <Text><LineId>1556209021</LineId><Text>O esterco dos pastos curte aqui antes de ser levado aos campos. Enquanto a esterqueira tiver Esterco, as fazendas e plantações próximas trabalham duas vezes mais rápido.</Text></Text>
+    <Text><LineId>1556209022</LineId><Text>Esterqueira</Text></Text>
+    <Text><LineId>1556209026</LineId><Text>Campos adubados</Text></Text>
+    <Text><LineId>1556209074</LineId><Text>Produtos agrícolas</Text></Text>
+    <Text><LineId>1556209075</LineId><Text>Desbloqueia silos, Esterco e a Esterqueira. Os pastos de animais também produzem Esterco.</Text></Text>
+  </ModOp>
+
+</ModOps>

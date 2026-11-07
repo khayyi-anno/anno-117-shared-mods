@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556209001</LineId><Text>거름</Text></Text>
+    <Text><LineId>1556209021</LineId><Text>목초지의 똥을 이곳에서 썩힌 뒤 밭으로 실어 나릅니다. 거름 더미에 거름이 있는 동안 주변 농장과 농원의 작업 속도가 두 배가 됩니다.</Text></Text>
+    <Text><LineId>1556209022</LineId><Text>거름 더미</Text></Text>
+    <Text><LineId>1556209026</LineId><Text>거름 준 밭</Text></Text>
+    <Text><LineId>1556209074</LineId><Text>농산물</Text></Text>
+    <Text><LineId>1556209075</LineId><Text>사일로, 거름, 거름 더미를 잠금 해제합니다. 가축 목초지에서 부산물로 거름이 나옵니다.</Text></Text>
+  </ModOp>
+
+</ModOps>

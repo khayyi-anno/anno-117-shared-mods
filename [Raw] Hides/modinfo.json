@@ -1,0 +1,36 @@
+{
+  "Version": "1.0",
+  "Anno": 8,
+  "ModID": "rl-raw-hides-khayi",
+  "Difficulty": "unchanged",
+  "GameSetup": {
+    "RequiresNewGame": false,
+    "SafeToRemove": true,
+    "Multiplayer": true,
+    "Campaign": true
+  },
+  "Dependencies": {
+    "Require": [],
+    "Optional": [
+      "aurochsslaughterhouse-khayi"
+    ],
+    "LoadAfter": [
+      "aurochsslaughterhouse-khayi"
+    ],
+    "Deprecate": []
+  },
+  "Category": {
+    "English": "Content"
+  },
+  "ModName": {
+    "English": "Hides"
+  },
+  "Description": {
+    "English": "Adds Hides as an extra output of the Roast Beef building and the Aurochs Slaughterhouse. Used by Frame Drums and Hide Belts and Pouches."
+  },
+  "KnownIssues": [],
+  "DLCDependencies": [],
+  "CreatorName": "Khayi",
+  "CreatorContact": "",
+  "Image": null
+}

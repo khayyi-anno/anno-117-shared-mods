@@ -1,0 +1,10 @@
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556231001</LineId><Text>Talos de Papiro</Text></Text>
+    <Text><LineId>1556231011</LineId><Text>Coletor de Papiro</Text></Text>
+    <Text><LineId>1556231012</LineId><Text>Colhe talos de papiro</Text></Text>
+    <Text><LineId>1556231013</LineId><Text>Canteiro de Papiro</Text></Text>
+  </ModOp>
+
+</ModOps>

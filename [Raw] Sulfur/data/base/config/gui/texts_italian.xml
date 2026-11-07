@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556064001</LineId><Text>Zolfo</Text></Text>
+    <Text><LineId>1556064011</LineId><Text>Estrae lo zolfo dalle fumarole vulcaniche. Puzza di uova marce; paga in giallo.</Text></Text>
+    <Text><LineId>1556064012</LineId><Text>Cava della solfatara</Text></Text>
+    <Text><LineId>1556064071</LineId><Text>Giacimento di zolfo</Text></Text>
+    <Text><LineId>1556064901</LineId><Text>Fumosus dei Campi Flegrei, il Naso di Zolfo</Text></Text>
+    <Text><LineId>1556064902</LineId><Text>Segue il proprio naso fino allo zolfo. Lui, invece, non lo segue nessuno.</Text></Text>
+  </ModOp>
+
+</ModOps>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556226001</LineId><Text>Lana de oveja</Text></Text>
+    <Text><LineId>1556226003</LineId><Text>Cordero y carnero</Text></Text>
+    <Text><LineId>1556226012</LineId><Text>Cobertizo de esquileo</Text></Text>
+    <Text><LineId>1556226011</LineId><Text>Esquila las ovejas de los pastos. El vellón va a tejedores, sastres y veleros como lana de oveja; donde una cocina prepara cordero, cada oveja da también cordero y carnero.</Text></Text>
+  </ModOp>
+
+</ModOps>

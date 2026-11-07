@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556046001</LineId><Text>花朵</Text></Text>
+    <Text><LineId>1556046011</LineId><Text>種植玫瑰、紫羅蘭和鳶尾，用來編花環、製香水，以及賠不是。</Text></Text>
+    <Text><LineId>1556046012</LineId><Text>花園</Text></Text>
+    <Text><LineId>1556046051</LineId><Text>花床</Text></Text>
+    <Text><LineId>1556046301</LineId><Text>花園（西拉）</Text></Text>
+    <Text><LineId>1556046302</LineId><Text>屋頂低調地暗下來，絕不搶花的風頭。</Text></Text>
+  </ModOp>
+
+</ModOps>

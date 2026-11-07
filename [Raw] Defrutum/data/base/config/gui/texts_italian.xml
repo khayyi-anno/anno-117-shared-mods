@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556044001</LineId><Text>Defrutum</Text></Text>
+    <Text><LineId>1556044011</LineId><Text>Fa ridurre il mosto d'uva in defrutum, uno sciroppo denso che addolcisce tutto ciò che tocca.</Text></Text>
+    <Text><LineId>1556044012</LineId><Text>Caldaia del mosto</Text></Text>
+    <Text><LineId>1556044301</LineId><Text>Caldaia del mosto (Syrah)</Text></Text>
+    <Text><LineId>1556044302</LineId><Text>Tegole ridotte scure come il mosto cotto.</Text></Text>
+  </ModOp>
+
+</ModOps>

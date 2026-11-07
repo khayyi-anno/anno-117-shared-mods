@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556057001</LineId><Text>마르멜로</Text></Text>
+    <Text><LineId>1556057011</LineId><Text>마르멜로를 기른다. 날로 먹기엔 너무 단단하고, 모른 척하기엔 향이 너무 좋다.</Text></Text>
+    <Text><LineId>1556057012</LineId><Text>마르멜로 과수원</Text></Text>
+    <Text><LineId>1556057051</LineId><Text>마르멜로나무</Text></Text>
+    <Text><LineId>1556057301</LineId><Text>마르멜로 과수원 (시라)</Text></Text>
+    <Text><LineId>1556057302</LineId><Text>창틀에 잊어버린 모과 빛깔로 바랜 기와.</Text></Text>
+  </ModOp>
+
+</ModOps>

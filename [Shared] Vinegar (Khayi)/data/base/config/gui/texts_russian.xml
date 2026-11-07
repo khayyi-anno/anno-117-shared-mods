@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts" Condition="!#poscaoxymel-khayi">
+    <Text><LineId>1556008101</LineId><Text>Уксус</Text></Text>
+    <Text><LineId>1556008103</LineId><Text>Превращает вино в кислый уксус.</Text></Text>
+    <Text><LineId>1556008104</LineId><Text>Acetaria</Text></Text>
+    <Text><LineId>1556008301</LineId><Text>Acetaria (Сира)</Text></Text>
+    <Text><LineId>1556008302</LineId><Text>Тёмная черепица для вина, которое и так уже скисло.</Text></Text>
+  </ModOp>
+</ModOps>

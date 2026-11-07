@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts" Condition="!#driedfigs-khayi">
+    <Text><LineId>1556006051</LineId><Text>無花果</Text></Text>
+    <Text><LineId>1556006053</LineId><Text>無花果樹</Text></Text>
+    <Text><LineId>1556006055</LineId><Text>種植無花果。可在拉丁姆的任何土地上建造——無需特定土壤條件。</Text></Text>
+    <Text><LineId>1556006056</LineId><Text>無花果園</Text></Text>
+    <Text><LineId>1556006311</LineId><Text>無花果園（西拉）</Text></Text>
+    <Text><LineId>1556006312</LineId><Text>藤架染成了熟過頭的無花果的顏色。</Text></Text>
+  </ModOp>
+</ModOps>

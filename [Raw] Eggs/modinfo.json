@@ -1,0 +1,36 @@
+{
+  "Version": "0.1",
+  "Anno": 8,
+  "ModID": "rl-raw-eggs-khayi",
+  "Difficulty": "unchanged",
+  "GameSetup": {
+    "RequiresNewGame": false,
+    "SafeToRemove": true,
+    "Multiplayer": true,
+    "Campaign": true
+  },
+  "Dependencies": {
+    "Require": [
+      "rl-raw-chickens-khayi"
+    ],
+    "Optional": [],
+    "LoadAfter": [
+      "rl-raw-chickens-khayi"
+    ],
+    "Deprecate": []
+  },
+  "Category": {
+    "English": "Content"
+  },
+  "ModName": {
+    "English": "Eggs"
+  },
+  "Description": {
+    "English": "The Roman Chicken Yard lays Eggs, with Chickens as a by-product. Used by Eggs in Garum, Ova Spongia, Pear Patina, Tyropatina, Libum and Barley Face Packs."
+  },
+  "KnownIssues": [],
+  "DLCDependencies": [],
+  "CreatorName": "Khayi",
+  "CreatorContact": "",
+  "Image": null
+}

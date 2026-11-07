@@ -1,0 +1,61 @@
+{
+  "Version": "1.1",
+  "Anno": 8,
+  "AssetsPath": "data/base/config/export/assets.xml",
+  "ModID": "sheepwoolandmutton-khayi",
+  "Difficulty": "unchanged",
+  "GameSetup": {
+    "RequiresNewGame": false,
+    "SafeToRemove": false,
+    "Multiplayer": true,
+    "Campaign": true
+  },
+  "Dependencies": {
+    "Require": [],
+    "Optional": [
+      "rushsleepingmats-khayi",
+      "woolenblankets-khayi",
+      "rl-albion-khayi",
+      "rl-latium-khayi",
+      "rl-rushsleepingmats-khayi",
+      "rl-woolenblankets-khayi",
+      "rl-a202cawl-khayi",
+      "rl-a216sheepskinjerkins-khayi",
+      "rl-a217tabletwovenbraid-khayi",
+      "rl-a418clanbanners-khayi",
+      "rl-l206roastlamb-khayi",
+      "rl-l348lapdogs-khayi",
+      "exotictradepier-khayi"
+    ],
+    "LoadAfter": [
+      "rushsleepingmats-khayi",
+      "woolenblankets-khayi",
+      "rl-albion-khayi",
+      "rl-latium-khayi",
+      "rl-rushsleepingmats-khayi",
+      "rl-woolenblankets-khayi",
+      "rl-a202cawl-khayi",
+      "rl-a216sheepskinjerkins-khayi",
+      "rl-a217tabletwovenbraid-khayi",
+      "rl-a418clanbanners-khayi",
+      "rl-l206roastlamb-khayi",
+      "rl-l348lapdogs-khayi",
+      "exotictradepier-khayi"
+    ],
+    "Deprecate": []
+  },
+  "Category": {
+    "English": "Gameplay"
+  },
+  "ModName": {
+    "English": "Sheep Wool and Mutton"
+  },
+  "Description": {
+    "English": "Adds a Shearing Shed in Latium and Albion that turns Sheep into Sheep Wool. Hats, Cloaks, Trousers and Sails take Sheep Wool instead of Sheep, as do the Roman Life weavers and tailors. With Roman Life, each sheep also gives Lamb and Mutton for the Lamb Roaster, the Cawl Cauldron and the Lapdog Kennel."
+  },
+  "KnownIssues": [],
+  "DLCDependencies": [],
+  "CreatorName": "Khayi",
+  "CreatorContact": "",
+  "Image": null
+}

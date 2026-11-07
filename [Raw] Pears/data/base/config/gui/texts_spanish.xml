@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556054001</LineId><Text>Peras</Text></Text>
+    <Text><LineId>1556054011</LineId><Text>Cultiva peras para patinas y conservas, y para comerlas directamente del árbol.</Text></Text>
+    <Text><LineId>1556054012</LineId><Text>Huerto de perales</Text></Text>
+    <Text><LineId>1556054051</LineId><Text>Campo de perales</Text></Text>
+    <Text><LineId>1556054301</LineId><Text>Huerto de perales (Syrah)</Text></Text>
+    <Text><LineId>1556054302</LineId><Text>Tejas oscuras sobre peras que maduran a su propio ritmo.</Text></Text>
+  </ModOp>
+
+</ModOps>

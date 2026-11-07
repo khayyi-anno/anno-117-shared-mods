@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556051001</LineId><Text>콩류</Text></Text>
+    <Text><LineId>1556051011</LineId><Text>병아리콩, 렌틸콩, 잠두를 기른다. 소박한 작물이지만 제국의 절반을 먹여 살린다.</Text></Text>
+    <Text><LineId>1556051012</LineId><Text>콩 농장</Text></Text>
+    <Text><LineId>1556051051</LineId><Text>콩밭</Text></Text>
+  </ModOp>
+
+</ModOps>

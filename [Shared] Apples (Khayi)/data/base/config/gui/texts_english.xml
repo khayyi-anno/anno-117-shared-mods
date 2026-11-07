@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts" Condition="!#applecider-khayi">
+    <Text><LineId>1556023051</LineId><Text>Apples</Text></Text>
+    <Text><LineId>1556023053</LineId><Text>Apple Orchard Field</Text></Text>
+    <Text><LineId>1556023055</LineId><Text>Plant apple trees for pressing into cider</Text></Text>
+    <Text><LineId>1556023056</LineId><Text>Orchard</Text></Text>
+  </ModOp>
+</ModOps>

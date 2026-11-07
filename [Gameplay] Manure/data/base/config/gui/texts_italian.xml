@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556209001</LineId><Text>Letame</Text></Text>
+    <Text><LineId>1556209021</LineId><Text>Qui il letame dei pascoli matura prima di essere portato sui campi. Finché il letamaio ha Letame, fattorie e piantagioni vicine lavorano al doppio della velocità.</Text></Text>
+    <Text><LineId>1556209022</LineId><Text>Letamaio</Text></Text>
+    <Text><LineId>1556209026</LineId><Text>Campi concimati</Text></Text>
+    <Text><LineId>1556209074</LineId><Text>Prodotti agricoli</Text></Text>
+    <Text><LineId>1556209075</LineId><Text>Sblocca silos, Letame e il Letamaio. I pascoli producono anche Letame.</Text></Text>
+  </ModOp>
+
+</ModOps>

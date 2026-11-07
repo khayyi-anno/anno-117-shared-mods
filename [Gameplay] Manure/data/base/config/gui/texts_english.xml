@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556209001</LineId><Text>Manure</Text></Text>
+    <Text><LineId>1556209021</LineId><Text>Dung from the pastures rots here before it is carted out to the fields. While the heap has Manure, nearby farms and plantations work twice as fast.</Text></Text>
+    <Text><LineId>1556209022</LineId><Text>Manure Heap</Text></Text>
+    <Text><LineId>1556209026</LineId><Text>Manured Fields</Text></Text>
+    <Text><LineId>1556209074</LineId><Text>Agricultural Products</Text></Text>
+    <Text><LineId>1556209075</LineId><Text>Unlocks Silos, Manure and the Manure Heap. Animal pastures make Manure on the side.</Text></Text>
+  </ModOp>
+
+</ModOps>

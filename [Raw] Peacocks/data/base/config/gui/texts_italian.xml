@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556053001</LineId><Text>Pavoni</Text></Text>
+    <Text><LineId>1556053011</LineId><Text>Alleva pavoni, gli uccelli più chiassosi e più fieri che una villa possa avere.</Text></Text>
+    <Text><LineId>1556053012</LineId><Text>Giardino dei pavoni</Text></Text>
+    <Text><LineId>1556053051</LineId><Text>Recinto dei pavoni</Text></Text>
+    <Text><LineId>1556053301</LineId><Text>Giardino dei pavoni (Syrah)</Text></Text>
+    <Text><LineId>1556053302</LineId><Text>Un modesto tetto scuro. A pavoneggiarsi ci pensano i pavoni.</Text></Text>
+  </ModOp>
+
+</ModOps>

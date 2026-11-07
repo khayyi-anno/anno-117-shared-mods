@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556043001</LineId><Text>Galline</Text></Text>
+    <Text><LineId>1556043011</LineId><Text>Alleva galline per la pentola, con le uova in omaggio da quelle che non ci sono ancora finite.</Text></Text>
+    <Text><LineId>1556043012</LineId><Text>Pollaio</Text></Text>
+    <Text><LineId>1556043051</LineId><Text>Recinto delle galline</Text></Text>
+    <Text><LineId>1556043301</LineId><Text>Pollaio (Syrah)</Text></Text>
+    <Text><LineId>1556043302</LineId><Text>Tegole scure su cui è salita ogni gallina del cortile.</Text></Text>
+  </ModOp>
+
+</ModOps>

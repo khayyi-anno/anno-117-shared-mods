@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556064001</LineId><Text>Azufre</Text></Text>
+    <Text><LineId>1556064011</LineId><Text>Extrae azufre de las fumarolas volcánicas. Huele a huevo podrido; paga en amarillo.</Text></Text>
+    <Text><LineId>1556064012</LineId><Text>Terrero de solfatara</Text></Text>
+    <Text><LineId>1556064071</LineId><Text>Yacimiento de azufre</Text></Text>
+    <Text><LineId>1556064901</LineId><Text>Fumosus de los Campos Flégreos, la Nariz de Azufre</Text></Text>
+    <Text><LineId>1556064902</LineId><Text>Él sigue a su nariz hasta el azufre. A él no lo sigue nadie a ninguna parte.</Text></Text>
+  </ModOp>
+
+</ModOps>

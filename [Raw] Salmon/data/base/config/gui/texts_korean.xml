@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556060001</LineId><Text>연어</Text></Text>
+    <Text><LineId>1556060011</LineId><Text>강을 가로질러 어살을 놓고 거슬러 오르는 연어를 잡는다.</Text></Text>
+    <Text><LineId>1556060012</LineId><Text>연어 어살</Text></Text>
+  </ModOp>
+
+</ModOps>

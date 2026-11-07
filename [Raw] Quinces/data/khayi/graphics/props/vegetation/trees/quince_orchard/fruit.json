@@ -1,0 +1,107 @@
+{
+ "data/base/graphics/roman/environment/props/vegetation/trees/tree_strawberry_01_a/tree_strawberry_01_a.cfg": {
+  "key": "quince_fruit_tree_strawberry_01_a",
+  "amin": [
+   -0.5668896436691284,
+   0.6542673707008362,
+   -0.4621734917163849
+  ],
+  "amax": [
+   0.3438100218772888,
+   1.3160579204559326,
+   0.34786543250083923
+  ],
+  "height": 1.4678869247436523,
+  "fruits": 45
+ },
+ "data/base/graphics/roman/environment/props/vegetation/trees/tree_strawberry_01_b/tree_strawberry_01_b.cfg": {
+  "key": "quince_fruit_tree_strawberry_01_b",
+  "amin": [
+   -0.23894405364990234,
+   0.6661088466644287,
+   -0.3851591646671295
+  ],
+  "amax": [
+   0.35508018732070923,
+   1.424446940422058,
+   0.28554022312164307
+  ],
+  "height": 1.58380126953125,
+  "fruits": 45
+ },
+ "data/khayi/graphics/props/vegetation/trees/apple_fig/apple_fig_01.cfg": {
+  "key": "quince_fruit_apple_fig_01",
+  "amin": [
+   -0.6024091243743896,
+   0.7265342473983765,
+   -0.41888999938964844
+  ],
+  "amax": [
+   0.695740282535553,
+   1.609153151512146,
+   0.7831844091415405
+  ],
+  "height": 1.904541015625,
+  "fruits": 22
+ },
+ "data/khayi/graphics/props/vegetation/trees/apple_fig/apple_fig_02.cfg": {
+  "key": "quince_fruit_apple_fig_02",
+  "amin": [
+   -0.6827183365821838,
+   0.5862447023391724,
+   -0.3638118803501129
+  ],
+  "amax": [
+   0.7269898056983948,
+   1.1520129442214966,
+   0.7775198221206665
+  ],
+  "height": 1.53570556640625,
+  "fruits": 22
+ },
+ "data/khayi/graphics/props/vegetation/trees/apple_fig/apple_fig_03.cfg": {
+  "key": "quince_fruit_apple_fig_03",
+  "amin": [
+   -0.5487556457519531,
+   0.7855870723724365,
+   -0.4109351933002472
+  ],
+  "amax": [
+   0.6270753741264343,
+   1.716940999031067,
+   1.0367640256881714
+  ],
+  "height": 2.0384417921304703,
+  "fruits": 22
+ },
+ "data/khayi/graphics/props/vegetation/trees/apple_fig/apple_fig_04.cfg": {
+  "key": "quince_fruit_apple_fig_04",
+  "amin": [
+   -0.7269164323806763,
+   0.7872655391693115,
+   -0.8740699887275696
+  ],
+  "amax": [
+   0.9097261428833008,
+   1.685281753540039,
+   0.4868830740451813
+  ],
+  "height": 2.04888916015625,
+  "fruits": 22
+ },
+ "data/khayi/graphics/props/vegetation/trees/apple_fig/apple_fig_05.cfg": {
+  "key": "quince_fruit_apple_fig_05",
+  "amin": [
+   -1.0351393222808838,
+   0.6986282467842102,
+   -0.8909140825271606
+  ],
+  "amax": [
+   0.7568825483322144,
+   1.452489972114563,
+   0.5394692420959473
+  ],
+  "height": 1.81927490234375,
+  "fruits": 22
+ }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556054001</LineId><Text>Birnen</Text></Text>
+    <Text><LineId>1556054011</LineId><Text>Baut Birnen für Patinas und Eingemachtes an, und zum Essen direkt vom Baum.</Text></Text>
+    <Text><LineId>1556054012</LineId><Text>Birnenhain</Text></Text>
+    <Text><LineId>1556054051</LineId><Text>Birnbaumreihe</Text></Text>
+    <Text><LineId>1556054301</LineId><Text>Birnenhain (Syrah)</Text></Text>
+    <Text><LineId>1556054302</LineId><Text>Dunkle Ziegel über Birnen, die reifen, wann es ihnen passt.</Text></Text>
+  </ModOp>
+
+</ModOps>

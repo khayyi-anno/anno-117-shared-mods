@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1780117010</LineId><Text>Minerale di galena</Text></Text>
+    <Text><LineId>1780117021</LineId><Text>Miniera di galena</Text></Text>
+    <Text><LineId>1780117022</LineId><Text>Estrae galena</Text></Text>
+    <Text><LineId>1780117024</LineId><Text>La versione celtica della miniera di galena: costruita con graticcio e argilla, senza acquedotto, e servita dalla Sala dei pasti come le altre miniere celtiche. Ogni tanto una vena restituisce anche un po' d'oro. Va bene qualsiasi postazione montana, nessun giacimento fertile richiesto.</Text></Text>
+    <Text><LineId>1780117065</LineId><Text>Sottoprodotto: minerale d'oro</Text></Text>
+  </ModOp>
+
+</ModOps>

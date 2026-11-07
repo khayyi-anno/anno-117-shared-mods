@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556063001</LineId><Text>Cinza de algas</Text></Text>
+    <Text><LineId>1556063011</LineId><Text>Queima algas até virarem cinza, usada em vidro e sabão. A fumaça faz parte da receita.</Text></Text>
+    <Text><LineId>1556063012</LineId><Text>Forno de cinzas</Text></Text>
+  </ModOp>
+
+</ModOps>

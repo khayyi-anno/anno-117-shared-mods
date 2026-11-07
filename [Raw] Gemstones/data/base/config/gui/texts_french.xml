@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556047001</LineId><Text>Pierres précieuses</Text></Text>
+    <Text><LineId>1556047011</LineId><Text>Taille des pierres précieuses dans les minéraux bruts. L'essentiel du caillou n'est que caillou ; le reste est une fortune.</Text></Text>
+    <Text><LineId>1556047012</LineId><Text>Site d'extraction de minéraux</Text></Text>
+    <Text><LineId>1556047301</LineId><Text>Site d'extraction de minéraux (Syrah)</Text></Text>
+    <Text><LineId>1556047302</LineId><Text>Des tuiles sombres sur une fosse pleine de pierres qui scintillent.</Text></Text>
+  </ModOp>
+
+</ModOps>

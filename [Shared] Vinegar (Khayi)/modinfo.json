@@ -1,0 +1,32 @@
+{
+  "Version": "1.0",
+  "Anno": 8,
+  "ModID": "vinegar-khayi",
+  "Difficulty": "unchanged",
+  "GameSetup": {
+    "RequiresNewGame": false,
+    "SafeToRemove": true,
+    "Multiplayer": true,
+    "Campaign": true
+  },
+  "Dependencies": {
+    "Require": [],
+    "Optional": [],
+    "LoadAfter": [],
+    "Deprecate": []
+  },
+  "Category": {
+    "English": "Content"
+  },
+  "ModName": {
+    "English": "Vinegar"
+  },
+  "Description": {
+    "English": "Adds the Acetaria, which ages Wine into Vinegar for other Roman Life chains such as Mustard and Hair Dye. Shared resource."
+  },
+  "KnownIssues": [],
+  "DLCDependencies": [],
+  "CreatorName": "Khayi",
+  "CreatorContact": "",
+  "Image": null
+}

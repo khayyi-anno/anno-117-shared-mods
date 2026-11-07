@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+  <!-- Albion copy of the Latium [Raw] Chickens: Chickens + Celtic Chicken Yard; skipped while the Latium copy is on -->
+  <Include File="chickensraw.include.xml" Condition="!#rl-raw-chickens-khayi" />
+</ModOps>

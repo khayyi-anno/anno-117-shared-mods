@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556053001</LineId><Text>Pfauen</Text></Text>
+    <Text><LineId>1556053011</LineId><Text>Züchtet Pfauen, die lautesten und stolzesten Vögel, die sich eine Villa halten kann.</Text></Text>
+    <Text><LineId>1556053012</LineId><Text>Pfauengarten</Text></Text>
+    <Text><LineId>1556053051</LineId><Text>Pfauengehege</Text></Text>
+    <Text><LineId>1556053301</LineId><Text>Pfauengarten (Syrah)</Text></Text>
+    <Text><LineId>1556053302</LineId><Text>Ein bescheidenes dunkles Dach. Das Angeben übernehmen die Pfauen.</Text></Text>
+  </ModOp>
+
+</ModOps>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556043001</LineId><Text>Hühner</Text></Text>
+    <Text><LineId>1556043011</LineId><Text>Zieht Hühner für den Kochtopf auf, mit Eiern als Bonus von den Vögeln, die noch nicht drin gelandet sind.</Text></Text>
+    <Text><LineId>1556043012</LineId><Text>Hühnerhof</Text></Text>
+    <Text><LineId>1556043051</LineId><Text>Hühnerauslauf</Text></Text>
+    <Text><LineId>1556043301</LineId><Text>Hühnerhof (Syrah)</Text></Text>
+    <Text><LineId>1556043302</LineId><Text>Dunkle Ziegel, auf denen jedes Huhn im Hof schon gestanden hat.</Text></Text>
+  </ModOp>
+
+</ModOps>

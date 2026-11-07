@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts" Condition="!#applecider-khayi">
+    <Text><LineId>1556023051</LineId><Text>Maçãs</Text></Text>
+    <Text><LineId>1556023053</LineId><Text>Fileira de macieiras</Text></Text>
+    <Text><LineId>1556023055</LineId><Text>Plante macieiras para a produção de sidra</Text></Text>
+    <Text><LineId>1556023056</LineId><Text>Pomar</Text></Text>
+  </ModOp>
+</ModOps>

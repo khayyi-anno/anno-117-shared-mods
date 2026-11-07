@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556043001</LineId><Text>ニワトリ</Text></Text>
+    <Text><LineId>1556043011</LineId><Text>鍋に入れるためにニワトリを育てる。まだ鍋行きになっていない鳥からは、おまけに卵も取れる。</Text></Text>
+    <Text><LineId>1556043012</LineId><Text>養鶏場</Text></Text>
+    <Text><LineId>1556043051</LineId><Text>鶏の運動場</Text></Text>
+    <Text><LineId>1556043301</LineId><Text>養鶏場（シラー）</Text></Text>
+    <Text><LineId>1556043302</LineId><Text>庭のめんどりが一羽残らず乗ったことのある、暗い瓦。</Text></Text>
+  </ModOp>
+
+</ModOps>

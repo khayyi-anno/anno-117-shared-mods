@@ -1,0 +1,32 @@
+{
+  "Version": "1.0",
+  "Anno": 8,
+  "ModID": "apples-khayi",
+  "Difficulty": "unchanged",
+  "GameSetup": {
+    "RequiresNewGame": false,
+    "SafeToRemove": true,
+    "Multiplayer": true,
+    "Campaign": true
+  },
+  "Dependencies": {
+    "Require": [],
+    "Optional": [],
+    "LoadAfter": [],
+    "Deprecate": []
+  },
+  "Category": {
+    "English": "Content"
+  },
+  "ModName": {
+    "English": "Apples"
+  },
+  "Description": {
+    "English": "Adds the Apple Orchard, which grows Apples for other Roman Life chains such as Apple Cider. Shared resource."
+  },
+  "KnownIssues": [],
+  "DLCDependencies": [],
+  "CreatorName": "Khayi",
+  "CreatorContact": "",
+  "Image": null
+}

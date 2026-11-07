@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556045001</LineId><Text>Jaja</Text></Text>
+    <Text><LineId>1556045011</LineId><Text>Hoduje kury nioski na jaja. Kura, która przestaje się nieść, trafia do garnka.</Text></Text>
+  </ModOp>
+
+</ModOps>

@@ -1,0 +1,10 @@
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556231001</LineId><Text>紙莎草莖</Text></Text>
+    <Text><LineId>1556231011</LineId><Text>紙莎草採集場</Text></Text>
+    <Text><LineId>1556231012</LineId><Text>收割紙莎草莖</Text></Text>
+    <Text><LineId>1556231013</LineId><Text>紙莎草地</Text></Text>
+  </ModOp>
+
+</ModOps>

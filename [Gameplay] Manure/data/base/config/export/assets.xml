@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+  <Include File="oxteams.include.xml" />
+  <Include File="manure_albion.include.xml" />
+  <Include File="manure_egypt.include.xml" />
+  <Include File="cio_fertiliser_off.include.xml" Condition="#celtic-independence-overhaul-jtmzac" />
+  <Include File="rl_farms.include.xml" />
+</ModOps>

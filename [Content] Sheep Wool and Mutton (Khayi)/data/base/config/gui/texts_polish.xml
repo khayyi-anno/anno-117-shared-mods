@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556226001</LineId><Text>Wełna owcza</Text></Text>
+    <Text><LineId>1556226003</LineId><Text>Jagnięcina i baranina</Text></Text>
+    <Text><LineId>1556226012</LineId><Text>Strzyżalnia</Text></Text>
+    <Text><LineId>1556226011</LineId><Text>Strzyże owce z pastwisk. Runo trafia do tkaczy, krawców i żaglomistrzów jako wełna owcza; tam, gdzie kuchnia przyrządza jagnięcinę, każda owca daje też jagnięcinę i baraninę.</Text></Text>
+  </ModOp>
+
+</ModOps>

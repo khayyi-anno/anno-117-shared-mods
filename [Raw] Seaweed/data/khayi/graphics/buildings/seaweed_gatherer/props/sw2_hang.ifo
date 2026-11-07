@@ -1,0 +1,16 @@
+<Info>
+  <BoundingBox>
+    <Name>BoundingBox</Name>
+    <Position><xf>-0.002706</xf><yf>-0.222737</yf><zf>0.000000</zf></Position>
+    <Rotation><xf>0</xf><yf>0</yf><zf>0</zf><wf>1</wf></Rotation>
+    <Extents><xf>0.064605</xf><yf>0.241737</yf><zf>1.100032</zf></Extents>
+  </BoundingBox>
+  <MeshBoundingBox>
+    <Name>MeshBoundingBox</Name>
+    <Position><xf>-0.002706</xf><yf>-0.222737</yf><zf>0.000000</zf></Position>
+    <Rotation><xf>0</xf><yf>0</yf><zf>0</zf><wf>1</wf></Rotation>
+    <Extents><xf>0.064605</xf><yf>0.241737</yf><zf>1.100032</zf></Extents>
+  </MeshBoundingBox>
+  <DisableFeedbackArea>0</DisableFeedbackArea>
+  <UsedVisibleFlags>0</UsedVisibleFlags>
+</Info>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556064001</LineId><Text>유황</Text></Text>
+    <Text><LineId>1556064011</LineId><Text>화산 분기공에서 유황을 캐낸다. 썩은 달걀 냄새가 나지만, 벌이는 노랗게 빛난다.</Text></Text>
+    <Text><LineId>1556064012</LineId><Text>솔파타라 채취장</Text></Text>
+    <Text><LineId>1556064071</LineId><Text>유황 매장지</Text></Text>
+    <Text><LineId>1556064901</LineId><Text>플레그라이 평원의 푸모수스, 유황 코</Text></Text>
+    <Text><LineId>1556064902</LineId><Text>그는 코를 따라 유황을 찾아간다. 그를 따라가는 사람은 어디에도 없다.</Text></Text>
+  </ModOp>
+
+</ModOps>

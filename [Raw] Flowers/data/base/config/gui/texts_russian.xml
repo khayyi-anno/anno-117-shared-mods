@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556046001</LineId><Text>Цветы</Text></Text>
+    <Text><LineId>1556046011</LineId><Text>Выращивает розы, фиалки и ирисы для гирлянд, духов и извинений.</Text></Text>
+    <Text><LineId>1556046012</LineId><Text>Цветочный сад</Text></Text>
+    <Text><LineId>1556046051</LineId><Text>Клумба</Text></Text>
+    <Text><LineId>1556046301</LineId><Text>Цветочный сад (Сира)</Text></Text>
+    <Text><LineId>1556046302</LineId><Text>Тёмная крыша, чтобы ничто не затмило цветы.</Text></Text>
+  </ModOp>
+
+</ModOps>

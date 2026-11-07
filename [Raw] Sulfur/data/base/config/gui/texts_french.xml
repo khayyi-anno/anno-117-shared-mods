@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556064001</LineId><Text>Soufre</Text></Text>
+    <Text><LineId>1556064011</LineId><Text>Extrait le soufre des fumerolles volcaniques. Ça sent l'œuf pourri, mais ça paie en jaune.</Text></Text>
+    <Text><LineId>1556064012</LineId><Text>Fosse de solfatare</Text></Text>
+    <Text><LineId>1556064071</LineId><Text>Gisement de soufre</Text></Text>
+    <Text><LineId>1556064901</LineId><Text>Fumosus des Champs Phlégréens, le Nez à Soufre</Text></Text>
+    <Text><LineId>1556064902</LineId><Text>Il suit son nez jusqu'au soufre. Lui, personne ne le suit nulle part.</Text></Text>
+  </ModOp>
+
+</ModOps>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556226001</LineId><Text>Schafwolle</Text></Text>
+    <Text><LineId>1556226003</LineId><Text>Lamm- und Hammelfleisch</Text></Text>
+    <Text><LineId>1556226012</LineId><Text>Scherschuppen</Text></Text>
+    <Text><LineId>1556226011</LineId><Text>Schert die Schafe von den Weiden. Das Vlies geht als Schafwolle an Weber, Schneider und Segelmacher; wo eine Küche Lamm kocht, gibt jedes Schaf auch Lamm- und Hammelfleisch.</Text></Text>
+  </ModOp>
+
+</ModOps>

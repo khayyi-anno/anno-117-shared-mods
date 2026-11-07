@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts" Condition="!#applecider-khayi">
+    <Text><LineId>1556023051</LineId><Text>蘋果</Text></Text>
+    <Text><LineId>1556023053</LineId><Text>蘋果樹</Text></Text>
+    <Text><LineId>1556023055</LineId><Text>種植蘋果樹，用於榨製蘋果酒</Text></Text>
+    <Text><LineId>1556023056</LineId><Text>果園</Text></Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts" Condition="!#applecider-khayi">
+    <Text><LineId>1556023051</LineId><Text>リンゴ</Text></Text>
+    <Text><LineId>1556023053</LineId><Text>リンゴの木</Text></Text>
+    <Text><LineId>1556023055</LineId><Text>リンゴ酒用にリンゴの木を植える</Text></Text>
+    <Text><LineId>1556023056</LineId><Text>果樹園</Text></Text>
+  </ModOp>
+</ModOps>

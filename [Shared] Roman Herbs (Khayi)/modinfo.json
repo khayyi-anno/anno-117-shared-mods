@@ -1,0 +1,32 @@
+{
+  "Version": "1.0",
+  "Anno": 8,
+  "ModID": "romanherbs-khayi",
+  "Difficulty": "unchanged",
+  "GameSetup": {
+    "RequiresNewGame": false,
+    "SafeToRemove": true,
+    "Multiplayer": true,
+    "Campaign": true
+  },
+  "Dependencies": {
+    "Require": [],
+    "Optional": [],
+    "LoadAfter": [],
+    "Deprecate": []
+  },
+  "Category": {
+    "English": "Gameplay"
+  },
+  "ModName": {
+    "English": "Roman Herbs"
+  },
+  "Description": {
+    "English": "Adds the Roman Herb Garden, which grows Roman Herbs used by many Roman Life food and cosmetic chains. Includes two specialists with area bonuses. Shared resource."
+  },
+  "KnownIssues": [],
+  "DLCDependencies": [],
+  "CreatorName": "Khayi",
+  "CreatorContact": "",
+  "Image": null
+}

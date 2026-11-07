@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556065001</LineId><Text>Verduras</Text></Text>
+    <Text><LineId>1556065011</LineId><Text>Cultiva verduras en bancales ordenados. Las semillas de las plantas espigadas son un extra.</Text></Text>
+    <Text><LineId>1556065012</LineId><Text>Huerto</Text></Text>
+    <Text><LineId>1556065051</LineId><Text>Bancal de huerto</Text></Text>
+  </ModOp>
+
+</ModOps>

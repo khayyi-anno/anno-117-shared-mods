@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556060001</LineId><Text>Łosoś</Text></Text>
+    <Text><LineId>1556060011</LineId><Text>Stawia jaz w poprzek rzeki i łowi łososie płynące w górę nurtu.</Text></Text>
+    <Text><LineId>1556060012</LineId><Text>Jaz łososiowy</Text></Text>
+  </ModOp>
+
+</ModOps>

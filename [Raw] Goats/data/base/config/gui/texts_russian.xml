@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556048001</LineId><Text>Козы</Text></Text>
+    <Text><LineId>1556048101</LineId><Text>Козье молоко</Text></Text>
+    <Text><LineId>1556048011</LineId><Text>Содержит коз ради молока и мяса. Ещё они едят забор, так что забор часто меняют.</Text></Text>
+    <Text><LineId>1556048012</LineId><Text>Козье пастбище</Text></Text>
+    <Text><LineId>1556048051</LineId><Text>Козий загон</Text></Text>
+  </ModOp>
+
+</ModOps>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556063001</LineId><Text>소다회</Text></Text>
+    <Text><LineId>1556063011</LineId><Text>해초를 태워 유리와 비누에 쓸 소다회를 만든다. 연기도 제조법의 일부다.</Text></Text>
+    <Text><LineId>1556063012</LineId><Text>소다회 공방</Text></Text>
+  </ModOp>
+
+</ModOps>

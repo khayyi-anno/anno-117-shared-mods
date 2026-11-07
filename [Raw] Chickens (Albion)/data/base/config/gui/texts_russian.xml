@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556043001</LineId><Text>Куры</Text></Text>
+    <Text><LineId>1556043011</LineId><Text>Разводит кур для котла, а яйца в придачу несут те, кто туда ещё не попал.</Text></Text>
+    <Text><LineId>1556043012</LineId><Text>Птичий двор</Text></Text>
+    <Text><LineId>1556043051</LineId><Text>Куриный выгул</Text></Text>
+    <Text><LineId>1556043301</LineId><Text>Птичий двор (Сира)</Text></Text>
+    <Text><LineId>1556043302</LineId><Text>Тёмная черепица, на которой постояла каждая курица во дворе.</Text></Text>
+  </ModOp>
+
+</ModOps>

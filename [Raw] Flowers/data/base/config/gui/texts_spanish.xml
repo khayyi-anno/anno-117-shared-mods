@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556046001</LineId><Text>Flores</Text></Text>
+    <Text><LineId>1556046011</LineId><Text>Cultiva rosas, violetas y lirios para guirnaldas, perfumes y disculpas.</Text></Text>
+    <Text><LineId>1556046012</LineId><Text>Jardín de flores</Text></Text>
+    <Text><LineId>1556046051</LineId><Text>Lecho de flores</Text></Text>
+    <Text><LineId>1556046301</LineId><Text>Jardín de flores (Syrah)</Text></Text>
+    <Text><LineId>1556046302</LineId><Text>Un tejado oscuro para que nada le robe protagonismo a las flores.</Text></Text>
+  </ModOp>
+
+</ModOps>

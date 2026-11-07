@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556051001</LineId><Text>Legumbres</Text></Text>
+    <Text><LineId>1556051011</LineId><Text>Cultiva garbanzos, lentejas y habas. Cultivos humildes que alimentan a medio imperio.</Text></Text>
+    <Text><LineId>1556051012</LineId><Text>Granja de legumbres</Text></Text>
+    <Text><LineId>1556051051</LineId><Text>Campo de legumbres</Text></Text>
+  </ModOp>
+
+</ModOps>

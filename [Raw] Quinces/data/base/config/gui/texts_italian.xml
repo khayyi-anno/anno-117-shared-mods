@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556057001</LineId><Text>Mele cotogne</Text></Text>
+    <Text><LineId>1556057011</LineId><Text>Coltiva mele cotogne, troppo dure da mangiare crude e troppo profumate per ignorarle.</Text></Text>
+    <Text><LineId>1556057012</LineId><Text>Frutteto di cotogni</Text></Text>
+    <Text><LineId>1556057051</LineId><Text>Filare di cotogni</Text></Text>
+    <Text><LineId>1556057301</LineId><Text>Frutteto di cotogni (Syrah)</Text></Text>
+    <Text><LineId>1556057302</LineId><Text>Tegole stinte del colore di una mela cotogna dimenticata sul davanzale.</Text></Text>
+  </ModOp>
+
+</ModOps>

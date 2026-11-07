@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556056001</LineId><Text>부석</Text></Text>
+  </ModOp>
+
+</ModOps>

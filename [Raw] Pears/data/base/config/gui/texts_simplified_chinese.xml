@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556054001</LineId><Text>梨子</Text></Text>
+    <Text><LineId>1556054011</LineId><Text>种植梨子，用来做蛋奶糕和蜜饯，也能直接从树上摘下来吃。</Text></Text>
+    <Text><LineId>1556054012</LineId><Text>梨树园</Text></Text>
+    <Text><LineId>1556054051</LineId><Text>梨树</Text></Text>
+    <Text><LineId>1556054301</LineId><Text>梨树园（西拉）</Text></Text>
+    <Text><LineId>1556054302</LineId><Text>黑瓦下的梨子，熟不熟全看心情。</Text></Text>
+  </ModOp>
+
+</ModOps>

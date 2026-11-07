@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556051001</LineId><Text>Hülsenfrüchte</Text></Text>
+    <Text><LineId>1556051011</LineId><Text>Baut Kichererbsen, Linsen und Bohnen an. Bescheidene Feldfrüchte, die das halbe Reich ernähren.</Text></Text>
+    <Text><LineId>1556051012</LineId><Text>Hülsenfruchthof</Text></Text>
+    <Text><LineId>1556051051</LineId><Text>Hülsenfruchtfeld</Text></Text>
+  </ModOp>
+
+</ModOps>

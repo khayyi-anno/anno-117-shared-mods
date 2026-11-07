@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Extracted from [Content] Dried Figs (Khayi), same GUIDs. Skipped when driedfigs-khayi is active.
+     No unlock trigger: a consuming mod unlocks 1556006050, 1556006052, 1556006054 and lists the building in its chain Tier1. -->
+<ModOps>
+
+  <ModOp Type="addNextSibling" GUID="2070">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1556006050</GUID>
+          <Name>Good Figs</Name>
+          <IconFilename>data/base/ui/icons/figs.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1556006051</OasisId>
+        </Text>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>-6904287318739488511</ProductCategory>
+          <BasePrice>8</BasePrice>
+          <AssociatedRegion>Roman</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Roman</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="28750" Path="/Values/ProductList/List/Item[Product='2070']">
+    <Item>
+      <Product>1556006050</Product>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="37673" Path="/Values/ProductList/List/Item[Product='2070']">
+    <Item>
+      <Product>1556006050</Product>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="3409" Path="/Values/ProductList/List/Item[Product='2070']">
+    <Item>
+      <Product>1556006050</Product>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="29303" Path="/Values/ProductList/List/Item[Product='2070']">
+    <Item>
+      <Product>1556006050</Product>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="91326" Path="/Values/AssetPool/AssetList/Item[Asset='2070']">
+    <Item>
+      <Asset>1556006050</Asset>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="130659" Path="/Values/AssetPool/AssetList/Item[Asset='2070']">
+    <Item>
+      <Asset>1556006050</Asset>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="2743">
+    <Asset>
+      <Template>ModulePolygonField</Template>
+      <Values>
+        <Standard>
+          <GUID>1556006052</GUID>
+          <Name>Module Field Roman Figs</Name>
+          <IconFilename>data/base/ui/icons/figs.png</IconFilename>
+        </Standard>
+        <Building>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <AssociatedRegions>Roman</AssociatedRegions>
+          <VariationControl>ByPlayer</VariationControl>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>4</Amount>
+            </Item>
+            <Item>
+              <Ingredient>2174</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Text>
+          <OasisId>1556006053</OasisId>
+        </Text>
+        <Constructable />
+        <Locked />
+        <BuildingModule>
+          <PlazaSize>20</PlazaSize>
+        </BuildingModule>
+        <AmbientMoodProvider>
+          <Murmur>Farms</Murmur>
+        </AmbientMoodProvider>
+        <Polygon>
+          <Path>data/base/modgraphics/roman/buildings/production/field/figs/modules/</Path>
+          <FencePath>data/base/graphics/library/props/fences/polygon_field_fence/</FencePath>
+          <Category>Field</Category>
+        </Polygon>
+        <ModuleIrrigation />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="2699">
+    <Asset>
+      <Template>Production Field</Template>
+      <Values>
+        <Standard>
+          <GUID>1556006054</GUID>
+          <Name>Production Field Roman Figs</Name>
+          <IconFilename>data/base/ui/icons/figs.png</IconFilename>
+          <InfoDescription>1556006055</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>-6908408657842733452</BuildingCategoryName>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <AssociatedRegions>Roman</AssociatedRegions>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item><Ingredient>1010017</Ingredient></Item>
+            <Item><Ingredient>2174</Ingredient><Amount>2</Amount></Item>
+            <Item><Ingredient>2176</Ingredient><Amount>2</Amount></Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/khayi/graphics/buildings/fig_orchard/fig_orchard.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <SkinList />
+          </Skins>
+        </Object>
+        <Mesh />
+        <Text>
+          <OasisId>1556006056</OasisId>
+        </Text>
+        <Constructable />
+        <Locked />
+        <FeedbackController />
+        <Infolayer />
+        <Factory7 />
+        <FactoryBase>
+          <FactoryOutputs>
+            <Item>
+              <Product>1556006050</Product>
+              <Amount>2</Amount>
+              <StorageAmount>6</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>60</CycleTime>
+          <IsMainFactory>1</IsMainFactory>
+          <MaxTransporterRange>45</MaxTransporterRange>
+        </FactoryBase>
+        <LogisticNode />
+        <ModuleOwner>
+          <ModuleLimits>
+            <Main>
+              <Limit>100</Limit>
+            </Main>
+          </ModuleLimits>
+          <ConstructionOptions>
+            <Item>
+              <ModuleGUID>1556006052</ModuleGUID>
+            </Item>
+          </ConstructionOptions>
+          <FarmType>PlantFarm</FarmType>
+        </ModuleOwner>
+        <AmbientMoodProvider>
+          <Murmur>Farms</Murmur>
+          <DynamicEnvironmentType>BuildingIndustry</DynamicEnvironmentType>
+        </AmbientMoodProvider>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>8</Amount>
+            </Item>
+            <Item>
+              <Product>2181</Product>
+              <Amount>4</Amount>
+            </Item>
+          </Maintenances>
+          <ConsumerPriority>5</ConsumerPriority>
+        </Maintenance>
+        <Health>
+          <BaseHealth>520</BaseHealth>
+          <SelfHealPerHealTick>1</SelfHealPerHealTick>
+          <PassiveRuinRepairTime>900000</PassiveRuinRepairTime>
+          <DestructionWarScore>50</DestructionWarScore>
+        </Health>
+        <Pausable />
+        <AqueductConsumer>
+          <AqueductConsumptionType>Optional</AqueductConsumptionType>
+          <AqueductConsumedWaterSupply>5</AqueductConsumedWaterSupply>
+          <AqueductConsumptionBuffEffect>
+            <Item>
+              <ProductivityBuff>28480</ProductivityBuff>
+            </Item>
+          </AqueductConsumptionBuffEffect>
+          <UnlockToActivateConsumption>38551</UnlockToActivateConsumption>
+        </AqueductConsumer>
+        <IncidentInfectable>
+          <DestructionScore>100</DestructionScore>
+        </IncidentInfectable>
+        <Buffable />
+        <EffectSource />
+        <Threatable />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="31973" Path="/Values/AssetPool/AssetList/Item[Asset='2699']">
+    <Item>
+      <Asset>1556006054</Asset>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="38370" Path="/Values/AssetPool/AssetList/Item[Asset='2699']">
+    <Item>
+      <Asset>1556006054</Asset>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="107521" Path="/Values/AssetPool/AssetList/Item[Asset='2699']">
+    <Item>
+      <Asset>1556006054</Asset>
+    </Item>
+  </ModOp>
+
+
+  <ModOp Type="addNextSibling" GUID="3174">
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>1556006310</GUID>
+          <Name>Skin Fig Orchard Syrah</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/ornaments/skins/icon_3d_skin_syrah.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>1556006311</SkinName>
+          <SkinDescription>1556006312</SkinDescription>
+          <SkinVariations>
+            <Item>
+              <FileName>data/khayi/graphics/buildings/fig_orchard/fig_orchard_dark.cfg</FileName>
+            </Item>
+          </SkinVariations>
+          <SkinSetIcon>data/ui/fhd/base/icon_content/ornaments/skins/icon_3d_skin_syrah.png</SkinSetIcon>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text />
+        <ShipRenderConfiguration />
+        <LandUnitSkin />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="add" GUID="1556006054" Path="/Values/Object/Skins/SkinList">
+    <Item>
+      <SkinAssetGuid>1556006310</SkinAssetGuid>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="2001096" Path="/Values/FeedbackSessionDescription/FarmFieldConfig/FarmFieldBuildings/Item[Building='2699']">
+    <Item>
+      <Building>1556006054</Building>
+      <PersonSpawners>
+        <Item><UnitClass>159811</UnitClass><Amount_Default>5</Amount_Default></Item>
+        <Item><UnitClass>179715</UnitClass><Amount_Default>5</Amount_Default></Item>
+      </PersonSpawners>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID='43602' Path="/Values/AssetPool/AssetList">
+    <Item><Asset>1556006054</Asset></Item>
+  </ModOp>
+
+  <!-- BEGIN khayi-pools: generated by .CLAUDE/tools/romanlife/pool_register.py -->
+  <ModOp Type="add" GUID='51905' Path="/Values/AssetPool/AssetList"><Item><Asset>1556006054</Asset></Item></ModOp>
+  <ModOp Add="@1400300642/AssetPool/AssetList" Condition="@1400300642/AssetPool/AssetList[not(Item/Asset = '1556006054')]"><Item><Asset>1556006054</Asset></Item></ModOp>
+  <!-- END khayi-pools -->
+</ModOps>

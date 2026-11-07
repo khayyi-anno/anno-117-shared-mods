@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="addNextSibling" GUID="2070">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1556226000</GUID>
+          <Name>Good Sheep Wool</Name>
+          <IconFilename>data/khayi/sheepwool/icons/wool.png</IconFilename>
+        </Standard>
+        <Text><OasisId>1556226001</OasisId></Text>
+        <Locked />
+        <Product><StorageLevel>Building</StorageLevel><ProductCategory>-6914151428389020222</ProductCategory><BasePrice>4</BasePrice><AssociatedRegion>Roman;Celtic</AssociatedRegion><ProductionRegions><Item><RegionType>Roman</RegionType></Item><Item><RegionType>Celtic</RegionType></Item></ProductionRegions><TransportGoodsType>Intermediate</TransportGoodsType></Product>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="add" GUID='28750' Path="/Values/ProductList/List"><Item><Product>1556226000</Product></Item></ModOp>
+  <ModOp Type="add" GUID='3409' Path="/Values/ProductList/List"><Item><Product>1556226000</Product></Item></ModOp>
+  <ModOp Type="add" GUID='8497' Path="/Values/ProductList/List"><Item><Product>1556226000</Product></Item></ModOp>
+  <ModOp Type="add" GUID='29304' Path="/Values/ProductList/List"><Item><Product>1556226000</Product></Item></ModOp>
+  <ModOp Type="add" GUID='29330' Path="/Values/ProductList/List"><Item><Product>1556226000</Product></Item></ModOp>
+  <ModOp Type="add" GUID='37674' Path="/Values/ProductList/List"><Item><Product>1556226000</Product></Item></ModOp>
+  <ModOp Type="add" GUID='91326' Path="/Values/AssetPool/AssetList"><Item><Asset>1556226000</Asset></Item></ModOp>
+  <ModOp Type="add" GUID='130659' Path="/Values/AssetPool/AssetList"><Item><Asset>1556226000</Asset></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID="2070">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1556226002</GUID>
+          <Name>Good Lamb and Mutton</Name>
+          <IconFilename>data/khayi/sheepwool/icons/mutton.png</IconFilename>
+        </Standard>
+        <Text><OasisId>1556226003</OasisId></Text>
+        <Locked />
+        <Product><StorageLevel>Building</StorageLevel><ProductCategory>-6914151428389020222</ProductCategory><BasePrice>4</BasePrice><AssociatedRegion>Roman;Celtic</AssociatedRegion><ProductionRegions><Item><RegionType>Roman</RegionType></Item><Item><RegionType>Celtic</RegionType></Item></ProductionRegions><TransportGoodsType>Intermediate</TransportGoodsType></Product>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="add" GUID='28750' Path="/Values/ProductList/List"><Item><Product>1556226002</Product></Item></ModOp>
+  <ModOp Type="add" GUID='3409' Path="/Values/ProductList/List"><Item><Product>1556226002</Product></Item></ModOp>
+  <ModOp Type="add" GUID='8497' Path="/Values/ProductList/List"><Item><Product>1556226002</Product></Item></ModOp>
+  <ModOp Type="add" GUID='29304' Path="/Values/ProductList/List"><Item><Product>1556226002</Product></Item></ModOp>
+  <ModOp Type="add" GUID='29330' Path="/Values/ProductList/List"><Item><Product>1556226002</Product></Item></ModOp>
+  <ModOp Type="add" GUID='37674' Path="/Values/ProductList/List"><Item><Product>1556226002</Product></Item></ModOp>
+  <ModOp Type="add" GUID='91326' Path="/Values/AssetPool/AssetList"><Item><Asset>1556226002</Asset></Item></ModOp>
+  <ModOp Type="add" GUID='130659' Path="/Values/AssetPool/AssetList"><Item><Asset>1556226002</Asset></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID="3174">
+    <Asset>
+      <Template>Production</Template>
+      <Values>
+        <Standard>
+          <GUID>1556226010</GUID>
+          <Name>Production Roman Shearing Shed</Name>
+          <IconFilename>data/khayi/sheepwool/icons/wool.png</IconFilename>
+          <InfoDescription>1556226011</InfoDescription>
+        </Standard>
+        <Building><BuildingCategoryName>-6915076175880663883</BuildingCategoryName><BuildModeRandomRotation>180</BuildModeRandomRotation><AssociatedRegions>Roman</AssociatedRegions><FunctionalEffects><Item><FunctionalEffect>1556226033</FunctionalEffect></Item></FunctionalEffects></Building>
+        <Blocking />
+        <Cost><Costs><Item><Ingredient>1010017</Ingredient></Item><Item><Ingredient>2174</Ingredient><Amount>2</Amount></Item><Item><Ingredient>2176</Ingredient><Amount>1</Amount></Item></Costs></Cost>
+        <Object><Variations><Item><Filename>data/khayi/graphics/buildings/shearing_shed_latium/shearing_shed_latium.cfg</Filename></Item></Variations></Object>
+        <Mesh />
+        <Text><OasisId>1556226012</OasisId></Text>
+        <Constructable />
+        <Locked />
+        <FeedbackController />
+        <Infolayer />
+        <Factory7 />
+        <FactoryBase><FactoryInputs><Item><Product>2073</Product><Amount>1</Amount><StorageAmount>4</StorageAmount></Item></FactoryInputs><FactoryOutputs><Item><Product>1556226000</Product><Amount>1</Amount><StorageAmount>4</StorageAmount></Item></FactoryOutputs><CycleTime>20</CycleTime><IsMainFactory>1</IsMainFactory><MaxTransporterRange>30</MaxTransporterRange></FactoryBase>
+        <LogisticNode />
+        <AmbientMoodProvider><Murmur>Workshop</Murmur></AmbientMoodProvider>
+        <Maintenance><Maintenances><Item><Product>1010017</Product><Amount>6</Amount></Item><Item><Product>2181</Product><Amount>3</Amount></Item></Maintenances><ConsumerPriority>3</ConsumerPriority></Maintenance>
+        <Health><BaseHealth>450</BaseHealth><SelfHealPerHealTick>1</SelfHealPerHealTick><PassiveRuinRepairTime>900000</PassiveRuinRepairTime><DestructionWarScore>35</DestructionWarScore></Health>
+        <Pausable />
+        <IncidentInfectable><DestructionScore>100</DestructionScore></IncidentInfectable>
+        <Buffable />
+        <AttributeProvider><Population>1499</Population></AttributeProvider>
+        <EffectSource />
+        <Threatable />
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID='31973' Path="/Values/AssetPool/AssetList/Item[Asset='2786']"><Item><Asset>1556226010</Asset></Item></ModOp>
+  <ModOp Type="add" GUID='38370' Path="/Values/AssetPool/AssetList"><Item><Asset>1556226010</Asset></Item></ModOp>
+  <ModOp Type="add" GUID='108868' Path="/Values/AssetPool/AssetList"><Item><Asset>1556226010</Asset></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='28184' Path="/Values/FeedbackBuildingGroup/Buildings/Item[Building='2786']"><Item><Building>1556226010</Building></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID="3263">
+    <Asset>
+      <Template>ProductionChain</Template>
+      <Values>
+        <Standard>
+          <GUID>1556226020</GUID>
+          <Name>Production Chain Roman Shearing Shed</Name>
+          <IconFilename>data/khayi/sheepwool/icons/wool.png</IconFilename>
+        </Standard>
+        <ProductionChain><Building>1556226010</Building><Tier1><Item><Building>2786</Building></Item></Tier1></ProductionChain>
+        <Locked />
+        <Text><OasisId>1556226012</OasisId></Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="3174">
+    <Asset>
+      <Template>Production</Template>
+      <Values>
+        <Standard>
+          <GUID>1556226015</GUID>
+          <Name>Production Celtic Shearing Shed</Name>
+          <IconFilename>data/khayi/sheepwool/icons/wool.png</IconFilename>
+          <InfoDescription>1556226011</InfoDescription>
+        </Standard>
+        <Building><BuildingCategoryName>-6915076175880663883</BuildingCategoryName><BuildModeRandomRotation>180</BuildModeRandomRotation><AssociatedRegions>Celtic</AssociatedRegions><FunctionalEffects><Item><FunctionalEffect>1556226033</FunctionalEffect></Item></FunctionalEffects></Building>
+        <Blocking />
+        <Cost><Costs><Item><Ingredient>1010017</Ingredient></Item><Item><Ingredient>2174</Ingredient><Amount>2</Amount></Item><Item><Ingredient>2169</Ingredient><Amount>1</Amount></Item></Costs></Cost>
+        <Object><Variations><Item><Filename>data/khayi/graphics/buildings/shearing_shed_albion/shearing_shed_albion.cfg</Filename></Item></Variations></Object>
+        <Mesh />
+        <Text><OasisId>1556226012</OasisId></Text>
+        <Constructable />
+        <Locked />
+        <FeedbackController />
+        <Infolayer />
+        <Factory7 />
+        <FactoryBase><FactoryInputs><Item><Product>2073</Product><Amount>1</Amount><StorageAmount>4</StorageAmount></Item></FactoryInputs><FactoryOutputs><Item><Product>1556226000</Product><Amount>1</Amount><StorageAmount>4</StorageAmount></Item></FactoryOutputs><CycleTime>20</CycleTime><IsMainFactory>1</IsMainFactory><MaxTransporterRange>30</MaxTransporterRange></FactoryBase>
+        <LogisticNode />
+        <AmbientMoodProvider><Murmur>Workshop</Murmur></AmbientMoodProvider>
+        <Maintenance><Maintenances><Item><Product>1010017</Product><Amount>6</Amount></Item><Item><Product>2192</Product><Amount>3</Amount></Item></Maintenances><ConsumerPriority>3</ConsumerPriority></Maintenance>
+        <Health><BaseHealth>450</BaseHealth><SelfHealPerHealTick>1</SelfHealPerHealTick><PassiveRuinRepairTime>900000</PassiveRuinRepairTime><DestructionWarScore>35</DestructionWarScore></Health>
+        <Pausable />
+        <IncidentInfectable><DestructionScore>100</DestructionScore></IncidentInfectable>
+        <Buffable />
+        <AttributeProvider><Population>1500</Population></AttributeProvider>
+        <EffectSource />
+        <Threatable />
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID='64413' Path="/Values/AssetPool/AssetList/Item[Asset='5973']"><Item><Asset>1556226015</Asset></Item></ModOp>
+  <ModOp Type="add" GUID='38370' Path="/Values/AssetPool/AssetList"><Item><Asset>1556226015</Asset></Item></ModOp>
+  <ModOp Type="add" GUID='108868' Path="/Values/AssetPool/AssetList"><Item><Asset>1556226015</Asset></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID='28185' Path="/Values/FeedbackBuildingGroup/Buildings/Item[Building='5973']"><Item><Building>1556226015</Building></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID="3263">
+    <Asset>
+      <Template>ProductionChain</Template>
+      <Values>
+        <Standard>
+          <GUID>1556226021</GUID>
+          <Name>Production Chain Celtic Shearing Shed</Name>
+          <IconFilename>data/khayi/sheepwool/icons/wool.png</IconFilename>
+        </Standard>
+        <ProductionChain><Building>1556226015</Building><Tier1><Item><Building>5973</Building></Item></Tier1></ProductionChain>
+        <Locked />
+        <Text><OasisId>1556226012</OasisId></Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="77962">
+    <Asset>
+      <Template>Effect</Template>
+      <Values>
+        <Standard>
+          <GUID>1556226033</GUID>
+          <Name>AreaEffect Shearing Shed</Name>
+          <IconFilename>data/khayi/sheepwool/icons/wool.png</IconFilename>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Adjacency</SourceCategory>
+          <Buffs><Item><GUID>1556226034</GUID></Item></Buffs>
+          <Targets><Item><GUID>43097</GUID></Item></Targets>
+          <ExcludeEffectSourceGUID>1</ExcludeEffectSourceGUID>
+          <HideInGovernorsBar>1</HideInGovernorsBar>
+          <HideInStatisticScreen>1</HideInStatisticScreen>
+        </Effect>
+        <Text><OasisId>1556226012</OasisId></Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="77960">
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1556226034</GUID>
+          <Name>AreaEffect Shearing Shed Buff</Name>
+          <IconFilename>data/khayi/sheepwool/icons/wool.png</IconFilename>
+        </Standard>
+        <Text><OasisId>1556226012</OasisId></Text>
+        <HealthUpgrade />
+        <BuildingUpgrade><AdditionalAttributes><Money><AmountOrPercent><Value>1</Value><Percental>0</Percental></AmountOrPercent></Money><Happiness><AmountOrPercent><Value>-1</Value><Percental>0</Percental></AmountOrPercent></Happiness></AdditionalAttributes></BuildingUpgrade>
+        <DistributionUpgrade />
+        <Buff><SourceCategory>Adjacency</SourceCategory></Buff>
+        <ResidenceUpgrade />
+        <FactoryUpgrade />
+        <ModuleOwnerUpgrade />
+        <MaintenanceUpgrade />
+        <CityInstitutionUpgrade />
+        <IncidentInfectableUpgrade />
+        <RecruitmentUpgrade />
+        <AqueductUpgrade />
+        <WarehouseUpgrade />
+        <IrrigationUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="77962">
+    <Asset>
+      <Template>Effect</Template>
+      <Values>
+        <Standard>
+          <GUID>1556226030</GUID>
+          <Name>Effect Shearing Shed Lamb and Mutton</Name>
+          <IconFilename>data/khayi/sheepwool/icons/mutton.png</IconFilename>
+        </Standard>
+        <Effect>
+          <EffectScope>ObjectsInMeta</EffectScope>
+          <SourceCategory>Adjacency</SourceCategory>
+          <Buffs><Item><GUID>1556226031</GUID></Item></Buffs>
+          <Targets><Item><GUID>1556226010</GUID></Item></Targets>
+          <EffectIconCategory>Positive</EffectIconCategory>
+          <HideInGovernorsBar>1</HideInGovernorsBar>
+        </Effect>
+        <Text><OasisId>1556226003</OasisId></Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="77962">
+    <Asset>
+      <Template>Effect</Template>
+      <Values>
+        <Standard>
+          <GUID>1556226032</GUID>
+          <Name>Effect Shearing Shed Lamb and Mutton</Name>
+          <IconFilename>data/khayi/sheepwool/icons/mutton.png</IconFilename>
+        </Standard>
+        <Effect>
+          <EffectScope>ObjectsInMeta</EffectScope>
+          <SourceCategory>Adjacency</SourceCategory>
+          <Buffs><Item><GUID>1556226031</GUID></Item></Buffs>
+          <Targets><Item><GUID>1556226015</GUID></Item></Targets>
+          <EffectIconCategory>Positive</EffectIconCategory>
+          <HideInGovernorsBar>1</HideInGovernorsBar>
+        </Effect>
+        <Text><OasisId>1556226003</OasisId></Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="77960">
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1556226031</GUID>
+          <Name>Buff Shearing Shed Lamb and Mutton</Name>
+          <IconFilename>data/khayi/sheepwool/icons/mutton.png</IconFilename>
+        </Standard>
+        <Text><OasisId>1556226003</OasisId></Text>
+        <HealthUpgrade />
+        <BuildingUpgrade />
+        <DistributionUpgrade />
+        <Buff><SourceCategory>Adjacency</SourceCategory></Buff>
+        <ResidenceUpgrade />
+        <FactoryUpgrade><AdditionalOutput><Item><Product>1556226002</Product><AdditionalOutputCycle>1</AdditionalOutputCycle><Amount>1</Amount></Item></AdditionalOutput></FactoryUpgrade>
+        <ModuleOwnerUpgrade />
+        <MaintenanceUpgrade />
+        <CityInstitutionUpgrade />
+        <IncidentInfectableUpgrade />
+        <RecruitmentUpgrade />
+        <AqueductUpgrade />
+        <WarehouseUpgrade />
+        <IrrigationUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+  <Group Condition="$rl-albion-khayi.rl_cawl">
+  <ModOp Condition="#rl-a202cawl-khayi" Type="add" GUID='1556226015' Path="/Values/Building/FunctionalEffects"><Item><FunctionalEffect>1556226032</FunctionalEffect></Item></ModOp>
+  <ModOp Condition="#rl-a202cawl-khayi" Type="replace" GUID='1556226015' Path="/Values/Standard/IconFilename"><IconFilename>data/khayi/sheepwool/icons/shearing_shed.png</IconFilename></ModOp>
+  <ModOp Condition="#rl-a202cawl-khayi" Type="replace" GUID='1556226021' Path="/Values/Standard/IconFilename"><IconFilename>data/khayi/sheepwool/icons/shearing_shed.png</IconFilename></ModOp>
+  </Group>
+  <Group Condition="$rl-latium-khayi.rl_roastlamb">
+  <ModOp Condition="#rl-l206roastlamb-khayi" Type="add" GUID='1556226010' Path="/Values/Building/FunctionalEffects"><Item><FunctionalEffect>1556226030</FunctionalEffect></Item></ModOp>
+  <ModOp Condition="#rl-l206roastlamb-khayi" Type="replace" GUID='1556226010' Path="/Values/Standard/IconFilename"><IconFilename>data/khayi/sheepwool/icons/shearing_shed.png</IconFilename></ModOp>
+  <ModOp Condition="#rl-l206roastlamb-khayi" Type="replace" GUID='1556226020' Path="/Values/Standard/IconFilename"><IconFilename>data/khayi/sheepwool/icons/shearing_shed.png</IconFilename></ModOp>
+  </Group>
+  <Group Condition="$rl-latium-khayi.rl_lapdogs">
+  <ModOp Condition="#rl-l348lapdogs-khayi" Type="remove" GUID='1556226010' Path="/Values/Building/FunctionalEffects/Item[FunctionalEffect='1556226030']" />
+  <ModOp Condition="#rl-l348lapdogs-khayi" Type="add" GUID='1556226010' Path="/Values/Building/FunctionalEffects"><Item><FunctionalEffect>1556226030</FunctionalEffect></Item></ModOp>
+  <ModOp Condition="#rl-l348lapdogs-khayi" Type="replace" GUID='1556226010' Path="/Values/Standard/IconFilename"><IconFilename>data/khayi/sheepwool/icons/shearing_shed.png</IconFilename></ModOp>
+  <ModOp Condition="#rl-l348lapdogs-khayi" Type="replace" GUID='1556226020' Path="/Values/Standard/IconFilename"><IconFilename>data/khayi/sheepwool/icons/shearing_shed.png</IconFilename></ModOp>
+  </Group>
+  <ModOp Type="Replace" GUID='3188' Path="/Values/FactoryBase/FactoryInputs/Item[Product='2073']/Product"><Product>1556226000</Product></ModOp>
+  <ModOp Type="remove" GUID='3286' Path="/Values/ProductionChain/Tier1/Item[Building='2786']" />
+  <ModOp Type="add" GUID='3286' Path="/Values/ProductionChain/Tier1"><Item><Building>1556226010</Building><Tier2><Item><Building>2786</Building></Item></Tier2></Item></ModOp>
+  <ModOp Type="Replace" GUID='3169' Path="/Values/FactoryBase/FactoryInputs/Item[Product='2073']/Product"><Product>1556226000</Product></ModOp>
+  <ModOp Type="remove" GUID='13863' Path="/Values/ProductionChain/Tier1/Item[Building='2786']" />
+  <ModOp Type="add" GUID='13863' Path="/Values/ProductionChain/Tier1"><Item><Building>1556226010</Building><Tier2><Item><Building>2786</Building></Item></Tier2></Item></ModOp>
+  <ModOp Type="Replace" GUID='5955' Path="/Values/FactoryBase/FactoryInputs/Item[Product='2073']/Product"><Product>1556226000</Product></ModOp>
+  <ModOp Type="remove" GUID='13887' Path="/Values/ProductionChain/Tier1/Item[Building='5973']" />
+  <ModOp Type="add" GUID='13887' Path="/Values/ProductionChain/Tier1"><Item><Building>1556226015</Building><Tier2><Item><Building>5973</Building></Item></Tier2></Item></ModOp>
+  <ModOp Type="Replace" GUID='5614' Path="/Values/FactoryBase/FactoryInputs/Item[Product='2073']/Product"><Product>1556226000</Product></ModOp>
+  <ModOp Type="remove" GUID='6665' Path="/Values/ProductionChain/Tier1/Item[Building='5973']" />
+  <ModOp Type="add" GUID='6665' Path="/Values/ProductionChain/Tier1"><Item><Building>1556226015</Building><Tier2><Item><Building>5973</Building></Item></Tier2></Item></ModOp>
+  <ModOp Type="Replace" GUID='5608' Path="/Values/FactoryBase/FactoryInputs/Item[Product='2073']/Product"><Product>1556226000</Product></ModOp>
+  <ModOp Type="remove" GUID='6661' Path="/Values/ProductionChain/Tier1/Item[Building='5973']" />
+  <ModOp Type="add" GUID='6661' Path="/Values/ProductionChain/Tier1"><Item><Building>1556226015</Building><Tier2><Item><Building>5973</Building></Item></Tier2></Item></ModOp>
+  <ModOp Condition="#rushsleepingmats-khayi" Type="Replace" GUID='1556019002' Path="/Values/FactoryBase/FactoryInputs/Item[Product='2073']/Product"><Product>1556226000</Product></ModOp>
+  <ModOp Condition="#rushsleepingmats-khayi" Type="remove" GUID='1556019006' Path="/Values/ProductionChain/Tier1/Item[Building='5973']" />
+  <ModOp Condition="#rushsleepingmats-khayi" Type="add" GUID='1556019006' Path="/Values/ProductionChain/Tier1"><Item><Building>1556226015</Building><Tier2><Item><Building>5973</Building></Item></Tier2></Item></ModOp>
+  <Group Condition="$rl-albion-khayi.rl_rushsleepingmats">
+  <ModOp Condition="!#rushsleepingmats-khayi" Type="Replace" GUID='1556019002' Path="/Values/FactoryBase/FactoryInputs/Item[Product='2073']/Product"><Product>1556226000</Product></ModOp>
+  </Group>
+  <Group Condition="$rl-albion-khayi.rl_rushsleepingmats">
+  <ModOp Condition="!#rushsleepingmats-khayi" Type="remove" GUID='1556019006' Path="/Values/ProductionChain/Tier1/Item[Building='5973']" />
+  <ModOp Condition="!#rushsleepingmats-khayi" Type="add" GUID='1556019006' Path="/Values/ProductionChain/Tier1"><Item><Building>1556226015</Building><Tier2><Item><Building>5973</Building></Item></Tier2></Item></ModOp>
+  </Group>
+  <ModOp Condition="#woolenblankets-khayi" Type="Replace" GUID='1556012002' Path="/Values/FactoryBase/FactoryInputs/Item[Product='2073']/Product"><Product>1556226000</Product></ModOp>
+  <ModOp Condition="#woolenblankets-khayi" Type="remove" GUID='1556012006' Path="/Values/ProductionChain/Tier1/Item[Building='5973']" />
+  <ModOp Condition="#woolenblankets-khayi" Type="add" GUID='1556012006' Path="/Values/ProductionChain/Tier1"><Item><Building>1556226015</Building><Tier2><Item><Building>5973</Building></Item></Tier2></Item></ModOp>
+  <Group Condition="$rl-albion-khayi.rl_woolenblankets">
+  <ModOp Condition="!#woolenblankets-khayi" Type="Replace" GUID='1556012002' Path="/Values/FactoryBase/FactoryInputs/Item[Product='2073']/Product"><Product>1556226000</Product></ModOp>
+  </Group>
+  <Group Condition="$rl-albion-khayi.rl_woolenblankets">
+  <ModOp Condition="!#woolenblankets-khayi" Type="remove" GUID='1556012006' Path="/Values/ProductionChain/Tier1/Item[Building='5973']" />
+  <ModOp Condition="!#woolenblankets-khayi" Type="add" GUID='1556012006' Path="/Values/ProductionChain/Tier1"><Item><Building>1556226015</Building><Tier2><Item><Building>5973</Building></Item></Tier2></Item></ModOp>
+  </Group>
+  <Group Condition="$rl-albion-khayi.rl_clanbanners">
+  <ModOp Condition="#rl-a418clanbanners-khayi" Type="Replace" GUID='1556195010' Path="/Values/FactoryBase/FactoryInputs/Item[Product='2073']/Product"><Product>1556226000</Product></ModOp>
+  </Group>
+  <Group Condition="$rl-albion-khayi.rl_clanbanners">
+  <ModOp Condition="#rl-a418clanbanners-khayi" Type="remove" GUID='1556195020' Path="/Values/ProductionChain/Tier1/Item[Building='5973']" />
+  <ModOp Condition="#rl-a418clanbanners-khayi" Type="add" GUID='1556195020' Path="/Values/ProductionChain/Tier1"><Item><Building>1556226015</Building><Tier2><Item><Building>5973</Building></Item></Tier2></Item></ModOp>
+  </Group>
+  <Group Condition="$rl-albion-khayi.rl_sheepskinjerkins">
+  <ModOp Condition="#rl-a216sheepskinjerkins-khayi" Type="Replace" GUID='1556174010' Path="/Values/FactoryBase/FactoryInputs/Item[Product='2073']/Product"><Product>1556226000</Product></ModOp>
+  </Group>
+  <Group Condition="$rl-albion-khayi.rl_sheepskinjerkins">
+  <ModOp Condition="#rl-a216sheepskinjerkins-khayi" Type="remove" GUID='1556174020' Path="/Values/ProductionChain/Tier1/Item[Building='5973']" />
+  <ModOp Condition="#rl-a216sheepskinjerkins-khayi" Type="add" GUID='1556174020' Path="/Values/ProductionChain/Tier1"><Item><Building>1556226015</Building><Tier2><Item><Building>5973</Building></Item></Tier2></Item></ModOp>
+  </Group>
+  <Group Condition="$rl-albion-khayi.rl_tabletwovenbraid">
+  <ModOp Condition="#rl-a217tabletwovenbraid-khayi" Type="Replace" GUID='1556175010' Path="/Values/FactoryBase/FactoryInputs/Item[Product='2073']/Product"><Product>1556226000</Product></ModOp>
+  </Group>
+  <Group Condition="$rl-albion-khayi.rl_tabletwovenbraid">
+  <ModOp Condition="#rl-a217tabletwovenbraid-khayi" Type="remove" GUID='1556175020' Path="/Values/ProductionChain/Tier1/Item[Building='5973']" />
+  <ModOp Condition="#rl-a217tabletwovenbraid-khayi" Type="add" GUID='1556175020' Path="/Values/ProductionChain/Tier1"><Item><Building>1556226015</Building><Tier2><Item><Building>5973</Building></Item></Tier2></Item></ModOp>
+  </Group>
+  <Group Condition="$rl-albion-khayi.rl_cawl">
+  <ModOp Condition="#rl-a202cawl-khayi" Type="Replace" GUID='1556167010' Path="/Values/FactoryBase/FactoryInputs/Item[Product='2073']/Product"><Product>1556226002</Product></ModOp>
+  </Group>
+  <Group Condition="$rl-albion-khayi.rl_cawl">
+  <ModOp Condition="#rl-a202cawl-khayi" Type="remove" GUID='1556167020' Path="/Values/ProductionChain/Tier1/Item[Building='5973']" />
+  <ModOp Condition="#rl-a202cawl-khayi" Type="add" GUID='1556167020' Path="/Values/ProductionChain/Tier1"><Item><Building>1556226015</Building><Tier2><Item><Building>5973</Building></Item></Tier2></Item></ModOp>
+  </Group>
+  <Group Condition="$rl-latium-khayi.rl_roastlamb">
+  <ModOp Condition="#rl-l206roastlamb-khayi" Type="Replace" GUID='1556078010' Path="/Values/FactoryBase/FactoryInputs/Item[Product='2073']/Product"><Product>1556226002</Product></ModOp>
+  </Group>
+  <Group Condition="$rl-latium-khayi.rl_roastlamb">
+  <ModOp Condition="#rl-l206roastlamb-khayi" Type="remove" GUID='1556078020' Path="/Values/ProductionChain/Tier1/Item[Building='2786']" />
+  <ModOp Condition="#rl-l206roastlamb-khayi" Type="add" GUID='1556078020' Path="/Values/ProductionChain/Tier1"><Item><Building>1556226010</Building><Tier2><Item><Building>2786</Building></Item></Tier2></Item></ModOp>
+  </Group>
+  <Group Condition="$rl-latium-khayi.rl_lapdogs">
+  <ModOp Condition="#rl-l348lapdogs-khayi" Type="Replace" GUID='1556130010' Path="/Values/FactoryBase/FactoryInputs/Item[Product='2073']/Product"><Product>1556226002</Product></ModOp>
+  </Group>
+  <Group Condition="$rl-latium-khayi.rl_lapdogs">
+  <ModOp Condition="#rl-l348lapdogs-khayi" Type="remove" GUID='1556130020' Path="/Values/ProductionChain/Tier1/Item[Building='2786']" />
+  <ModOp Condition="#rl-l348lapdogs-khayi" Type="add" GUID='1556130020' Path="/Values/ProductionChain/Tier1"><Item><Building>1556226010</Building><Tier2><Item><Building>2786</Building></Item></Tier2></Item></ModOp>
+  </Group>
+  <Group Condition="$rl-latium-khayi.rl_roastlamb">
+  <ModOp Condition="#exotictradepier-khayi" Type="remove" GUID='1556225620' Path="/Values/ProductionChain/Tier1/Item[Building='2786']" />
+  <ModOp Condition="#exotictradepier-khayi" Type="add" GUID='1556225620' Path="/Values/ProductionChain/Tier1"><Item><Building>1556226010</Building><Tier2><Item><Building>2786</Building></Item></Tier2></Item></ModOp>
+  </Group>
+  <Group Condition="$rl-latium-khayi.rl_roastlamb">
+  <ModOp Condition="#exotictradepier-khayi" Type="replace" GUID='1556225621' Path="/Values/ProductionChain/Tier1/Item[Building='2786']"><Item><Building>1556226010</Building></Item></ModOp>
+  </Group>
+  <Group Condition="$rl-albion-khayi.rl_tabletwovenbraid">
+  <ModOp Condition="#exotictradepier-khayi" Type="remove" GUID='1556225760' Path="/Values/ProductionChain/Tier1/Item[Building='5973']" />
+  <ModOp Condition="#exotictradepier-khayi" Type="add" GUID='1556225760' Path="/Values/ProductionChain/Tier1"><Item><Building>1556226015</Building><Tier2><Item><Building>5973</Building></Item></Tier2></Item></ModOp>
+  </Group>
+  <Group Condition="$rl-albion-khayi.rl_tabletwovenbraid">
+  <ModOp Condition="#exotictradepier-khayi" Type="remove" GUID='1556225761' Path="/Values/ProductionChain/Tier1/Item[Building='5973']" />
+  <ModOp Condition="#exotictradepier-khayi" Type="add" GUID='1556225761' Path="/Values/ProductionChain/Tier1"><Item><Building>1556226015</Building><Tier2><Item><Building>5973</Building></Item></Tier2></Item></ModOp>
+  </Group>
+  <ModOp Type="remove" GUID='31808' Path="/Values/ProductionChain/Tier1/Item[Building='2786']" />
+  <ModOp Type="add" GUID='31808' Path="/Values/ProductionChain/Tier1"><Item><Building>1556226010</Building><Tier2><Item><Building>2786</Building></Item></Tier2></Item></ModOp>
+  <Group Condition="$rl-albion-khayi.rl_clanbanners">
+  <ModOp Condition="#rl-a418clanbanners-khayi" Type="add" GUID='1556195920' Path="/Values/Effect/Targets"><Item><GUID>1556226015</GUID></Item></ModOp>
+  </Group>
+  <ModOp Condition="#exotictradepier-khayi" Type="replace" GUID='1556217282' Path="/Values/ProductionChain/Tier1/Item/Tier2/Item[Building='5973']"><Item><Building>1556226015</Building></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID="50593">
+    <Asset>
+      <Template>AssetPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1556226005</GUID>
+          <Name>Asset Pool Sheep Wool Chain</Name>
+          <IconFilename>data/khayi/sheepwool/icons/wool.png</IconFilename>
+        </Standard>
+        <AssetPool>
+          <AssetList>
+            <Item><Asset>1556226010</Asset></Item>
+            <Item><Asset>1556226015</Asset></Item>
+          </AssetList>
+        </AssetPool>
+        <Text><OasisId>1556226001</OasisId></Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="add" GUID='30948' Path="/Values/AssetPool/AssetList"><Item><Asset>1556226005</Asset></Item></ModOp>
+  <ModOp Type="addNextSibling" GUID="37744">
+    <Asset>
+      <Template>TriggerIntermediateLevel</Template>
+      <Values>
+        <Standard>
+          <GUID>1556226040</GUID>
+          <Name>Trigger Shearing Shed Latium Unlock</Name>
+        </Standard>
+        <Trigger><TriggerCondition><Template>ConditionPlayerCounter</Template><Values><Condition /><ConditionPlayerCounter><PlayerCounter>PopulationByLevel</PlayerCounter><Context>1499</Context><CounterAmount>1</CounterAmount></ConditionPlayerCounter><ConditionLocationProps /><ConditionCounterProps /><ConditionPropsComparable /><ConditionPropsExaminableObjects /></Values></TriggerCondition><TriggerActions><Item><TriggerAction><Template>ActionUnlockAsset</Template><Values><Action /><ActionUnlockAsset><UnlockAssets><Item><Asset>1556226000</Asset></Item><Item><Asset>1556226002</Asset></Item><Item><Asset>1556226010</Asset></Item><Item><Asset>1556226020</Asset></Item></UnlockAssets></ActionUnlockAsset></Values></TriggerAction></Item></TriggerActions></Trigger>
+        <TriggerSetup><AutoRegisterTrigger>1</AutoRegisterTrigger><AutoSelfUnlock>1</AutoSelfUnlock><UsedByFirstParties>1</UsedByFirstParties><UsedBySecondParties>1</UsedBySecondParties><UsedByThirdParties>0</UsedByThirdParties></TriggerSetup>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="37744">
+    <Asset>
+      <Template>TriggerIntermediateLevel</Template>
+      <Values>
+        <Standard>
+          <GUID>1556226041</GUID>
+          <Name>Trigger Shearing Shed Albion Unlock</Name>
+        </Standard>
+        <Trigger><TriggerCondition><Template>ConditionPlayerCounter</Template><Values><Condition /><ConditionPlayerCounter><PlayerCounter>PopulationByLevel</PlayerCounter><Context>1500</Context><CounterAmount>1</CounterAmount></ConditionPlayerCounter><ConditionLocationProps /><ConditionCounterProps /><ConditionPropsComparable /><ConditionPropsExaminableObjects /></Values></TriggerCondition><TriggerActions><Item><TriggerAction><Template>ActionUnlockAsset</Template><Values><Action /><ActionUnlockAsset><UnlockAssets><Item><Asset>1556226000</Asset></Item><Item><Asset>1556226002</Asset></Item><Item><Asset>1556226015</Asset></Item><Item><Asset>1556226021</Asset></Item></UnlockAssets></ActionUnlockAsset></Values></TriggerAction></Item></TriggerActions></Trigger>
+        <TriggerSetup><AutoRegisterTrigger>1</AutoRegisterTrigger><AutoSelfUnlock>1</AutoSelfUnlock><UsedByFirstParties>1</UsedByFirstParties><UsedBySecondParties>1</UsedBySecondParties><UsedByThirdParties>0</UsedByThirdParties></TriggerSetup>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- BEGIN khayi-pools: generated by .CLAUDE/tools/romanlife/pool_register.py -->
+  <ModOp Type="add" GUID='51929' Path="/Values/AssetPool/AssetList"><Item><Asset>1556226010</Asset></Item></ModOp>
+  <ModOp Type="add" GUID='51929' Path="/Values/AssetPool/AssetList"><Item><Asset>1556226015</Asset></Item></ModOp>
+  <!-- END khayi-pools -->
+
+</ModOps>

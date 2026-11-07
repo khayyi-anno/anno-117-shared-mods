@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556061001</LineId><Text>Seaweed</Text></Text>
+    <Text><LineId>1556061011</LineId><Text>Rakes seaweed from the shore after every tide. The sea throws it out; the gatherer takes it in.</Text></Text>
+    <Text><LineId>1556061012</LineId><Text>Seaweed Gatherer</Text></Text>
+  </ModOp>
+
+</ModOps>

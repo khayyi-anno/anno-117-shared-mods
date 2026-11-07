@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556043001</LineId><Text>鸡</Text></Text>
+    <Text><LineId>1556043011</LineId><Text>养鸡是为了下锅，还没下锅的那些顺便贡献鸡蛋。</Text></Text>
+    <Text><LineId>1556043012</LineId><Text>养鸡场</Text></Text>
+    <Text><LineId>1556043051</LineId><Text>养鸡围栏</Text></Text>
+    <Text><LineId>1556043301</LineId><Text>养鸡场（西拉）</Text></Text>
+    <Text><LineId>1556043302</LineId><Text>院里每只母鸡都踩过的黑瓦。</Text></Text>
+  </ModOp>
+
+</ModOps>

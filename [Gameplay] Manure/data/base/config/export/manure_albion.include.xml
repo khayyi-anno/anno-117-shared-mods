@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Albion Manure Heap, pastures, Barley and Dye Plants (CIO Weld) Ox Stable; with CIO see cio_fertiliser_off.include.xml. -->
+<ModOps>
+
+  <!-- Manure Heap (Albion): radius effect and buff in oxteams.include.xml; own Agricultural Products build-menu section, before Materials -->
+  <ModOp Type="addNextSibling" GUID="3174">
+    <Asset>
+      <Template>ProductionModuleSilo</Template>
+      <Values>
+        <Standard>
+          <GUID>1556209025</GUID>
+          <Name>Production Manure Heap Celtic</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/production_goods/icon_3d_mud_goods.png</IconFilename>
+          <InfoDescription>1556209021</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>-6913619028388886843</BuildingCategoryName>
+          <AssociatedRegions>Celtic</AssociatedRegions>
+          <FunctionalEffects><Item><FunctionalEffect>1556209023</FunctionalEffect></Item></FunctionalEffects>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item><Ingredient>1010017</Ingredient><Amount>500</Amount></Item>
+            <Item><Ingredient>2174</Ingredient><Amount>5</Amount></Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item><Filename>data/khayi/graphics/buildings/manure_heap_albion/manure_heap_albion.cfg</Filename></Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Text><OasisId>1556209022</OasisId></Text>
+        <Constructable />
+        <FeedbackController />
+        <Infolayer />
+        <Factory7 />
+        <FactoryBase>
+          <FactoryInputs>
+            <Item><Product>1556209000</Product><Amount>1</Amount><StorageAmount>5</StorageAmount></Item>
+          </FactoryInputs>
+          <CycleTime>60</CycleTime>
+          <MaxTransporterRange>30</MaxTransporterRange>
+        </FactoryBase>
+        <LogisticNode />
+        <AmbientMoodProvider>
+          <Murmur>Farms</Murmur>
+          <DynamicEnvironmentType>BuildingIndustry</DynamicEnvironmentType>
+        </AmbientMoodProvider>
+        <Maintenance>
+          <Maintenances>
+            <Item><Product>1010017</Product><Amount>10</Amount></Item>
+            <Item><Product>2192</Product><Amount>2</Amount></Item>
+          </Maintenances>
+          <ConsumerPriority>5</ConsumerPriority>
+        </Maintenance>
+        <Selection>
+          <GUIType>Production</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values><ActionList /></Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>27085</ParticipantMessageArcheType>
+        </Selection>
+        <Locked />
+        <SoundEmitter />
+        <Health />
+        <Pausable><CanPauseManually>1</CanPauseManually></Pausable>
+        <Buffable />
+        <EffectSource>
+          <RadiusDistance>20</RadiusDistance>
+          <StreetDistance>24</StreetDistance>
+        </EffectSource>
+        <Threatable />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="81009">
+    <Asset>
+      <Template>ConstructionCategory</Template>
+      <Values>
+        <Standard>
+          <GUID>1556209073</GUID>
+          <Name>Celtic Agricultural Products</Name>
+          <IconFilename>data/khayi/ui/oxteams/agricultural_products.png</IconFilename>
+        </Standard>
+        <ConstructionCategory>
+          <BuildingList><Item><Building>1556209025</Building></Item></BuildingList>
+        </ConstructionCategory>
+        <Text><OasisId>1556209074</OasisId></Text>
+        <Locked />
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addPrevSibling" GUID='55978' Path="/Values/ConstructionCategory/BuildingList/Item[Building='42435']"><Item><Building>1556209073</Building></Item></ModOp>
+
+
+
+  <ModOp Type="addNextSibling" GUID="77962">
+    <Asset>
+      <Template>Effect</Template>
+      <Values>
+        <Standard>
+          <GUID>1556209052</GUID>
+          <Name>Effect Manure Albion Pastures</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/production_goods/icon_3d_mud_goods.png</IconFilename>
+        </Standard>
+        <Effect>
+          <EffectScope>ObjectsInMeta</EffectScope>
+          <SourceCategory>Generic</SourceCategory>
+          <Buffs><Item><GUID>1556209053</GUID></Item></Buffs>
+          <Targets>
+            <Item><GUID>5973</GUID></Item>
+            <Item><GUID>5974</GUID></Item>
+            <Item><GUID>15514</GUID></Item>
+            <Item><GUID>5847</GUID></Item>
+          </Targets>
+          <HideInGovernorsBar>1</HideInGovernorsBar>
+        </Effect>
+        <Text><OasisId>1556209001</OasisId></Text>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="77960">
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1556209053</GUID>
+          <Name>BuildingBuff Manure Albion</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/production_goods/icon_3d_mud_goods.png</IconFilename>
+        </Standard>
+        <Text><OasisId>1556209001</OasisId></Text>
+        <HealthUpgrade />
+        <BuildingUpgrade />
+        <DistributionUpgrade />
+        <Buff><SourceCategory>Generic</SourceCategory></Buff>
+        <ResidenceUpgrade />
+        <FactoryUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>1556209000</Product>
+              <AdditionalOutputCycle>3</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade />
+        <MaintenanceUpgrade />
+        <CityInstitutionUpgrade />
+        <IncidentInfectableUpgrade />
+        <RecruitmentUpgrade />
+        <AqueductUpgrade />
+        <WarehouseUpgrade />
+        <IrrigationUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="add" GUID='8497' Path="/Values/ProductList/List"><Item><Product>1556209000</Product></Item></ModOp>
+  <ModOp Type="add" GUID='29329' Path="/Values/ProductList/List"><Item><Product>1556209000</Product></Item></ModOp>
+
+  <ModOp Type="add" GUID='1556209031' Path="/Values/AssetPool/AssetList"><Item><Asset>2799</Asset></Item><Item><Asset>2800</Asset></Item></ModOp>
+
+</ModOps>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556044001</LineId><Text>葡萄浓浆</Text></Text>
+    <Text><LineId>1556044011</LineId><Text>把葡萄汁熬成葡萄浓浆，这种浓稠的糖浆碰到什么就甜到什么。</Text></Text>
+    <Text><LineId>1556044012</LineId><Text>葡萄汁熬煮坊</Text></Text>
+    <Text><LineId>1556044301</LineId><Text>葡萄汁熬煮坊（西拉）</Text></Text>
+    <Text><LineId>1556044302</LineId><Text>瓦片熬得跟葡萄汁一样黑。</Text></Text>
+  </ModOp>
+
+</ModOps>

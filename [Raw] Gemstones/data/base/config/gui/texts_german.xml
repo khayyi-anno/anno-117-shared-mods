@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556047001</LineId><Text>Edelsteine</Text></Text>
+    <Text><LineId>1556047011</LineId><Text>Schlägt Edelsteine aus rohem Gestein. Das meiste davon ist bloß Stein, der Rest ist ein Vermögen.</Text></Text>
+    <Text><LineId>1556047012</LineId><Text>Mineralextrahierer</Text></Text>
+    <Text><LineId>1556047301</LineId><Text>Mineralextrahierer (Syrah)</Text></Text>
+    <Text><LineId>1556047302</LineId><Text>Dunkle Ziegel über einer Grube voller funkelnder Steine.</Text></Text>
+  </ModOp>
+
+</ModOps>

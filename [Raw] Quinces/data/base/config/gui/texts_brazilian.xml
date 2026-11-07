@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556057001</LineId><Text>Marmelos</Text></Text>
+    <Text><LineId>1556057011</LineId><Text>Cultiva marmelos, duros demais para comer crus e perfumados demais para ignorar.</Text></Text>
+    <Text><LineId>1556057012</LineId><Text>Pomar de marmeleiros</Text></Text>
+    <Text><LineId>1556057051</LineId><Text>Fileira de marmeleiros</Text></Text>
+    <Text><LineId>1556057301</LineId><Text>Pomar de marmeleiros (Syrah)</Text></Text>
+    <Text><LineId>1556057302</LineId><Text>Telhas da cor de um marmelo esquecido na janela.</Text></Text>
+  </ModOp>
+
+</ModOps>

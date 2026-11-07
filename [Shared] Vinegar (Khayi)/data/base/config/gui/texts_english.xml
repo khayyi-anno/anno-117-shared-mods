@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts" Condition="!#poscaoxymel-khayi">
+    <Text><LineId>1556008101</LineId><Text>Vinegar</Text></Text>
+    <Text><LineId>1556008103</LineId><Text>Ages wine into sour vinegar.</Text></Text>
+    <Text><LineId>1556008104</LineId><Text>Acetaria</Text></Text>
+    <Text><LineId>1556008301</LineId><Text>Acetaria (Syrah)</Text></Text>
+    <Text><LineId>1556008302</LineId><Text>Dark tiles for wine that's already gone sour anyway.</Text></Text>
+  </ModOp>
+</ModOps>

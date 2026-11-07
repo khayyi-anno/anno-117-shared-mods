@@ -1,0 +1,34 @@
+{
+  "Version": "0.1",
+  "Anno": 8,
+  "ModID": "rl-raw-chickens-albion-khayi",
+  "Difficulty": "unchanged",
+  "GameSetup": {
+    "RequiresNewGame": false,
+    "SafeToRemove": true,
+    "Multiplayer": true,
+    "Campaign": true
+  },
+  "Dependencies": {
+    "Require": [],
+    "Optional": [],
+    "LoadAfter": [
+      "rl-raw-chickens-khayi"
+    ],
+    "Deprecate": []
+  },
+  "Category": {
+    "English": "Content"
+  },
+  "ModName": {
+    "English": "Chickens"
+  },
+  "Description": {
+    "English": "Adds the Chicken Yard, which raises Chickens for Roast Chicken."
+  },
+  "KnownIssues": [],
+  "DLCDependencies": [],
+  "CreatorName": "Khayi",
+  "CreatorContact": "",
+  "Image": null
+}

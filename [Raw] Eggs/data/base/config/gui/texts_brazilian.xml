@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556045001</LineId><Text>Ovos</Text></Text>
+    <Text><LineId>1556045011</LineId><Text>Cria galinhas poedeiras pelos ovos. Quando uma galinha para de botar, vai para a panela.</Text></Text>
+  </ModOp>
+
+</ModOps>

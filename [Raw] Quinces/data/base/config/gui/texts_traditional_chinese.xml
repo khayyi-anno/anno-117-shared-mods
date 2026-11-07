@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556057001</LineId><Text>榲桲</Text></Text>
+    <Text><LineId>1556057011</LineId><Text>種植榲桲。生吃太硬，香氣又濃得讓人無法忽視。</Text></Text>
+    <Text><LineId>1556057012</LineId><Text>榲桲園</Text></Text>
+    <Text><LineId>1556057051</LineId><Text>榲桲樹</Text></Text>
+    <Text><LineId>1556057301</LineId><Text>榲桲園（西拉）</Text></Text>
+    <Text><LineId>1556057302</LineId><Text>瓦片風化成窗台上放久了的榲桲色。</Text></Text>
+  </ModOp>
+
+</ModOps>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts" Condition="!#poscaoxymel-khayi">
+    <Text><LineId>1556008101</LineId><Text>醋</Text></Text>
+    <Text><LineId>1556008103</LineId><Text>使葡萄酒轉化為酸醋。</Text></Text>
+    <Text><LineId>1556008104</LineId><Text>醋坊</Text></Text>
+    <Text><LineId>1556008301</LineId><Text>醋坊（西拉）</Text></Text>
+    <Text><LineId>1556008302</LineId><Text>獻給反正早已變酸的葡萄酒的深色瓦片。</Text></Text>
+  </ModOp>
+</ModOps>

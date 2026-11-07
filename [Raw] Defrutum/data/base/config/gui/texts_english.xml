@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556044001</LineId><Text>Defrutum</Text></Text>
+    <Text><LineId>1556044011</LineId><Text>Boils grape must down into defrutum, a thick syrup that sweetens everything it touches.</Text></Text>
+    <Text><LineId>1556044012</LineId><Text>Must Boiler</Text></Text>
+    <Text><LineId>1556044301</LineId><Text>Must Boiler (Syrah)</Text></Text>
+    <Text><LineId>1556044302</LineId><Text>Tiles boiled down as dark as the must.</Text></Text>
+  </ModOp>
+
+</ModOps>

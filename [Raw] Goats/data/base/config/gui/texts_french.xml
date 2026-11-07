@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556048001</LineId><Text>Chèvres</Text></Text>
+    <Text><LineId>1556048101</LineId><Text>Lait de chèvre</Text></Text>
+    <Text><LineId>1556048011</LineId><Text>Élève des chèvres pour le lait et la viande. Elles mangent aussi la clôture, alors on la remplace souvent.</Text></Text>
+    <Text><LineId>1556048012</LineId><Text>Pâturage de chèvres</Text></Text>
+    <Text><LineId>1556048051</LineId><Text>Enclos à chèvres</Text></Text>
+  </ModOp>
+
+</ModOps>

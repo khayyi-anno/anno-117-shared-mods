@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556209001</LineId><Text>Estiércol</Text></Text>
+    <Text><LineId>1556209021</LineId><Text>Aquí se cura el estiércol de los pastos antes de llevarlo a los campos. Mientras el estercolero tenga Estiércol, las granjas y plantaciones cercanas trabajan el doble de rápido.</Text></Text>
+    <Text><LineId>1556209022</LineId><Text>Estercolero</Text></Text>
+    <Text><LineId>1556209026</LineId><Text>Campos abonados</Text></Text>
+    <Text><LineId>1556209074</LineId><Text>Productos agrícolas</Text></Text>
+    <Text><LineId>1556209075</LineId><Text>Desbloquea los silos, el Estiércol y el Estercolero. Los pastos también producen Estiércol.</Text></Text>
+  </ModOp>
+
+</ModOps>

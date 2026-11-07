@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text><LineId>1556065001</LineId><Text>Legumes</Text></Text>
+    <Text><LineId>1556065011</LineId><Text>Cultiva legumes em canteiros bem alinhados. As sementes das plantas que espigaram vêm de brinde.</Text></Text>
+    <Text><LineId>1556065012</LineId><Text>Horta</Text></Text>
+    <Text><LineId>1556065051</LineId><Text>Canteiro de horta</Text></Text>
+  </ModOp>
+
+</ModOps>
