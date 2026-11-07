@@ -1,0 +1,35 @@
+{
+  "Version": "1.14",
+  "Anno": 8,
+  "AssetsPath": "data/base/config/export/assets.xml",
+  "ModID": "huntingcabin-khayi",
+  "Difficulty": "unchanged",
+  "GameSetup": {
+    "RequiresNewGame": false,
+    "SafeToRemove": true,
+    "Multiplayer": true,
+    "Campaign": true
+  },
+  "Dependencies": {
+    "Require": [],
+    "Optional": [],
+    "LoadAfter": [
+      "celtic-independence-overhaul-jtmzac"
+    ],
+    "Deprecate": []
+  },
+  "Category": {
+    "English": "Gameplay"
+  },
+  "ModName": {
+    "English": "Venison"
+  },
+  "Description": {
+    "English": "Adds the Hunting Cabin, which gathers Venison from forest terrain with no inputs."
+  },
+  "KnownIssues": [],
+  "DLCDependencies": [],
+  "CreatorName": "Khayi",
+  "CreatorContact": "",
+  "Image": null
+}
