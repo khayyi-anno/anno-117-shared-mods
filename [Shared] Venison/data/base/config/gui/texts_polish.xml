@@ -3,7 +3,7 @@
 
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text><LineId>1556022001</LineId><Text>Dziczyzna</Text></Text>
-    <Text><LineId>1556022005</LineId><Text>Myśliwi przeczesują lasy w poszukiwaniu jeleni, przynosząc całe tusze do „Kuchni z dziczyzną” w celu ich przygotowania – a po opracowaniu odpowiedniej techniki zachowują poroże i kości jako produkt uboczny.</Text></Text>
+    <Text><LineId>1556022005</LineId><Text>Myśliwi przeczesują lasy w poszukiwaniu jeleni i przynoszą świeżą dziczyznę.</Text></Text>
     <Text><LineId>1556022006</LineId><Text>Domek myśliwski</Text></Text>
     <Text><LineId>1556022015</LineId><Text>Rodziny Rzemieślników chcą mieć na stole świeżą dziczyznę.</Text></Text>
     <Text><LineId>1556022016</LineId><Text>Dziczyzna</Text></Text>

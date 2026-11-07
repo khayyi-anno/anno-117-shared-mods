@@ -3,7 +3,7 @@
 
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text><LineId>1556022001</LineId><Text>Venison</Text></Text>
-    <Text><LineId>1556022005</LineId><Text>Hunters comb the woods for deer, bringing back whole carcasses for the Venison Kitchen to prepare, and saving the antlers and bones as a byproduct.</Text></Text>
+    <Text><LineId>1556022005</LineId><Text>Hunters comb the woods for deer and bring back fresh venison.</Text></Text>
     <Text><LineId>1556022006</LineId><Text>Hunting Cabin</Text></Text>
     <Text><LineId>1556022015</LineId><Text>Smiths households want fresh venison on the table.</Text></Text>
     <Text><LineId>1556022016</LineId><Text>Venison</Text></Text>

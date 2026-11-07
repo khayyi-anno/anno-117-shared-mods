@@ -3,7 +3,7 @@
 
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text><LineId>1556022001</LineId><Text>Viande de cerf</Text></Text>
-    <Text><LineId>1556022005</LineId><Text>Les chasseurs parcourent les bois à la recherche de cerfs, rapportent des carcasses entières que la Cuisine à gibier préparera, et conservent les bois et les os comme sous-produits.</Text></Text>
+    <Text><LineId>1556022005</LineId><Text>Les chasseurs parcourent les bois à la recherche de cerfs et rapportent de la venaison fraîche.</Text></Text>
     <Text><LineId>1556022006</LineId><Text>Pavillon de chasse</Text></Text>
     <Text><LineId>1556022015</LineId><Text>Les familles de Forgerons veulent de la viande de cerf fraîche sur leur table.</Text></Text>
     <Text><LineId>1556022016</LineId><Text>Viande de cerf</Text></Text>

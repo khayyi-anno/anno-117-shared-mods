@@ -3,7 +3,7 @@
 
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text><LineId>1556022001</LineId><Text>Wildfleisch</Text></Text>
-    <Text><LineId>1556022005</LineId><Text>Jäger durchkämmen die Wälder auf der Suche nach Hirschen, bringen ganze Tierkörper zur Zubereitung in die Wildküche zurück – und bewahren die Geweihe und Knochen als Nebenprodukt auf, sobald die entsprechende Technik erforscht ist.</Text></Text>
+    <Text><LineId>1556022005</LineId><Text>Jäger durchkämmen die Wälder nach Hirschen und bringen frisches Wildbret heim.</Text></Text>
     <Text><LineId>1556022006</LineId><Text>Jagdhütte</Text></Text>
     <Text><LineId>1556022015</LineId><Text>Die Smiths möchten frisches Wildfleisch auf dem Tisch haben.</Text></Text>
     <Text><LineId>1556022016</LineId><Text>Wildfleisch</Text></Text>

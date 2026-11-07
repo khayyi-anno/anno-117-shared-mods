@@ -3,7 +3,7 @@
 
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text><LineId>1556022001</LineId><Text>鹿肉</Text></Text>
-    <Text><LineId>1556022005</LineId><Text>獵人們在森林中四處搜尋鹿蹤，將整具鹿屍帶回「鹿肉廚房」進行烹調——而在相關技術研發完成後，他們便會將鹿角和骨頭作為副產品保留下來。</Text></Text>
+    <Text><LineId>1556022005</LineId><Text>獵人們在森林中四處搜尋鹿蹤，帶回新鮮的鹿肉。</Text></Text>
     <Text><LineId>1556022006</LineId><Text>狩獵小屋</Text></Text>
     <Text><LineId>1556022015</LineId><Text>鐵匠家庭希望餐桌上能有新鮮的鹿肉。</Text></Text>
     <Text><LineId>1556022016</LineId><Text>鹿肉</Text></Text>

@@ -3,7 +3,7 @@
 
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text><LineId>1556022001</LineId><Text>Carne de veado</Text></Text>
-    <Text><LineId>1556022005</LineId><Text>Os caçadores vasculham a floresta em busca de veados, trazendo carcaças inteiras para a Cozinha de Carne de Veado preparar — e guardando os chifres e os ossos como subprodutos, assim que a técnica for pesquisada.</Text></Text>
+    <Text><LineId>1556022005</LineId><Text>Os caçadores vasculham a floresta em busca de veados e trazem carne de veado fresca.</Text></Text>
     <Text><LineId>1556022006</LineId><Text>Cabana de caça</Text></Text>
     <Text><LineId>1556022015</LineId><Text>As famílias Smith querem carne de veado fresca na mesa.</Text></Text>
     <Text><LineId>1556022016</LineId><Text>Carne de veado</Text></Text>

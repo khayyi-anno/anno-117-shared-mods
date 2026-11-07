@@ -3,7 +3,7 @@
 
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text><LineId>1556022001</LineId><Text>Carne de ciervo</Text></Text>
-    <Text><LineId>1556022005</LineId><Text>Los cazadores recorren los bosques en busca de ciervos y traen cadáveres enteros para que la «Cocina de la Carne de Ciervo» los prepare; además, una vez investigada la técnica, conservan las astas y los huesos como subproductos.</Text></Text>
+    <Text><LineId>1556022005</LineId><Text>Los cazadores recorren los bosques en busca de ciervos y traen carne de venado fresca.</Text></Text>
     <Text><LineId>1556022006</LineId><Text>Cabaña de caza</Text></Text>
     <Text><LineId>1556022015</LineId><Text>A las familias Smith les gusta tener carne fresca de ciervo en la mesa.</Text></Text>
     <Text><LineId>1556022016</LineId><Text>Carne de ciervo</Text></Text>

@@ -3,7 +3,7 @@
 
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text><LineId>1556022001</LineId><Text>Carne di cervo</Text></Text>
-    <Text><LineId>1556022005</LineId><Text>I cacciatori setacciano i boschi alla ricerca di cervi, riportando carcasse intere alla “Cucina della carne di cervo” affinché vengano preparate, e conservando le corna e le ossa come sottoprodotti una volta studiata la tecnica.</Text></Text>
+    <Text><LineId>1556022005</LineId><Text>I cacciatori battono i boschi in cerca di cervi e tornano con carne di cervo fresca.</Text></Text>
     <Text><LineId>1556022006</LineId><Text>Capanno da caccia</Text></Text>
     <Text><LineId>1556022015</LineId><Text>Le famiglie dei fabbri vogliono carne fresca di cervo in tavola.</Text></Text>
     <Text><LineId>1556022016</LineId><Text>Carne di cervo</Text></Text>

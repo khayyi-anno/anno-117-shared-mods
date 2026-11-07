@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ModOps>
-  <Include File="includes/galena_goods.include.xml" />
-  <Include File="includes/galena_mines.include.xml" />
-</ModOps>

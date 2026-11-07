@@ -3,7 +3,7 @@
 
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text><LineId>1556022001</LineId><Text>鹿肉</Text></Text>
-    <Text><LineId>1556022005</LineId><Text>ハンターたちは森をくまなく探して鹿を狩り、丸ごとの死骸を「鹿肉調理場」に持ち帰って調理してもらい、副産物として角や骨も取っておく。</Text></Text>
+    <Text><LineId>1556022005</LineId><Text>ハンターたちは森をくまなく探して鹿を狩り、新鮮な鹿肉を持ち帰ります。</Text></Text>
     <Text><LineId>1556022006</LineId><Text>狩猟小屋</Text></Text>
     <Text><LineId>1556022015</LineId><Text>スミスの家庭は、食卓に新鮮な鹿肉を並べたいと思っている。</Text></Text>
     <Text><LineId>1556022016</LineId><Text>鹿肉</Text></Text>
